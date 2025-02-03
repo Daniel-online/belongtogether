@@ -1,18 +1,17 @@
-import Navbar from "./../components/local/Navigation/Navbar"
-import Sidebar from "./../components/local/SideBar/Sidebar"
-import RightBar from "./../components/local/RightBar/RightBar";
-import Footer from "../components/local/Footer/Footer";
+import Navbar from "../components/Navigation/Navbar"
+import Hero from "../components/Home/Hero"
+import Presentation from "../components/Home/Presentation";
+import Planos from "../components/Home/Planos";
+import Footer from "../components/Footer/Footer";
 
 const Home = () => {
     return (
 
             <div className="">
                 <Navbar />
-                <div className="py-8 h-96 place-content-around flex space-x-4">
-                    <Sidebar />
-
-                    <RightBar />
-                </div>
+                <Hero/>
+                <Presentation/>
+                <Planos/>
                 <Footer />
             </div>
             )

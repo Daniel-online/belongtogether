@@ -1,11 +1,9 @@
-import { CONCLUSION1, CONCLUSION2, HERO_CONTENT, HERO_CONTENT2 } from "../constants"
-// import Hello from "./Hello"
-import Developer from "./Threejs/Developer"
+// import Developer from "./Threejs/Developer"
 // import Typing from "./Typing"
 import { TypeAnimation } from 'react-type-animation';
 // import ZoopAnimation from "./ZoopAnimation";
 // import Cube from "./Threejs/Cube";
-import MultiObjects from "./Threejs/MultiObjects";
+// import MultiObjects from "./Threejs/MultiObjects";
 // import MotionFrameExplanation from "./MotionFrameExplanation";
 const Hero = () => {
 
@@ -32,14 +30,7 @@ const Hero = () => {
                         </span>
 
                         <p className="max-w-xl tracking-tight">
-                            {HERO_CONTENT}
-                            <ul className="ml-6 list-disc">
 
-                                <li>{CONCLUSION1}</li>
-
-                                <li>{CONCLUSION2}</li>
-                            </ul>
-                            {HERO_CONTENT2}
                         </p>
 
 
@@ -48,16 +39,13 @@ const Hero = () => {
                 </div>
 
                     <div className="style={{ width: '100%', height: '100%' }} mr-2 w-2/3 ">
-                        <MultiObjects ></MultiObjects>
                        
                     </div>
 
             </div>
 
         </div>
-        <div className="mr-2" >
-            <Developer />
-        </div>
+
     </>
     )
 }
