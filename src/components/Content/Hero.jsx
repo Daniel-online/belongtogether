@@ -2,7 +2,7 @@
 
 const Hero = () => {
   return (
-    <div>
+    <div className="bg-blue-500">
       
     </div>
   )
