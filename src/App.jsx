@@ -12,8 +12,10 @@ import AboutUs from "./pages/AboutUs.jsx"
 import Cookies from "./pages/Cookies.jsx"
 import Privacy from "./pages/Privacy.jsx"
 import Prohibited from "./pages/Prohibited.jsx"
-function App() {
+import Conflicts from "./pages/Conflicts.jsx";
 
+
+function App() {
 
   return (
     <Routes>

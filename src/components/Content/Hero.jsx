@@ -6,40 +6,53 @@ const Hero = (
     data,
     style,
     titleStyle,
+    subTitleStyle,
     textStyle,
+    hasButton,
+    spanStyle,
     bgImage }
 ) => {
+  const backgroundStyle = bgImage ? { backgroundImage: `url(${bgImage})`, backgroundSize: 'cover', backgroundPosition: 'center' } : {};
+  
   if (!data || data.length === 0) {
-    return <div>No data available</div>;
+    return (
+      <>
+        <div className={`${style}`} style={backgroundStyle}>
+          <h2 className={`${titleStyle}`}>{title}</h2>
+        </div>
+      </>
+    );
   }
-
-  // Dynamically set the background image using inline styles
-
-  return (
-    <div
-      className={`${style}`}
-      style={{
-        backgroundImage: `url(${bgImage})`,
-        backgroundSize: "cover",
-        backgroundPosition: "center",
-        height: "400px",
-        width: "100%",
-      }} >
-      {/* <h2>{title}</h2>
-        {data[0].text}
-        {data[0].subTitle} */}
-      <h2 className={`${titleStyle}`}>{title}</h2>
-
-      {data.map((item, index) => {
-        return <span key={index}>
-          <h4 className={`${titleStyle}`}>{item.subTitle}</h4>
-          <p className={`${textStyle}`}>{item.text}</p>
-        </span>
-      }
-      )}
-    </div>
-  )
-
+  else {
+    if (hasButton == true) {
+      return (
+        <div className={`${style}`}  style={backgroundStyle}>
+          <h2 className={`${titleStyle}`}>{title}</h2>
+          {data.map((item, index) => {
+            return <span className={spanStyle} key={index}>
+              <h4 className={`${subTitleStyle}`}>{item.subTitle}</h4>
+              <a href={item.link}>{item.button}</a>
+            </span>
+          }
+          )}
+        </div>
+      )
+    }
+    else {
+      return (
+        <div className={`${style}`}  style={backgroundStyle}>
+          <h2 className={`${titleStyle}`}>{title}</h2>
+          {data.map((item, index) => {
+            return <span className={spanStyle} key={index}>
+              <h4 className={`${subTitleStyle}`}>{item.subTitle}</h4>
+              <p className={`${textStyle}`}>{item.text}</p>
+            </span>
+          }
+          )}
+        </div>
+      )
+    }
+  }
 }
 
 Hero.propTypes = {
@@ -49,11 +62,16 @@ Hero.propTypes = {
     PropTypes.shape({
       subTitle: PropTypes.string,
       text: PropTypes.string,
-      imageUrl: PropTypes.string,
+      button: PropTypes.string,
+      link: PropTypes.string,
+      imageUrlUrl: PropTypes.string,
     }),
   ),
   textStyle: PropTypes.string,
+  hasButton: PropTypes.bool,
   bgImage: PropTypes.string,
+  spanStyle: PropTypes.string,
+  subTitleStyle: PropTypes.string,
   titleStyle: PropTypes.string // Marked as required to ensure it's always provided
 
 }

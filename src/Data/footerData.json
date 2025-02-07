@@ -9,7 +9,7 @@
       ],
       "links": [
          "/sobre-nos",
-         "/seja-um-afiliado",
+         "/seja-afiliado",
          "/suporte",
          "/trabalhe-conosco"
       ]
@@ -41,11 +41,11 @@
       ],
       "links": [
          "/termos-de-servico",
-         "/politica-de-privacidade",
-         "/politica-de-cookies",
-         "/politica-de-resolucao-de-conflitos",
-         "/politica-de-produtos-proibidos",
-         "/termos-e-condicoes-de-uso"
+         "/politica-privacidade",
+         "/politica-cookies",
+         "/politica-conflitos",
+         "/politica-proibicao",
+         "/condicoes-de-uso"
       ]
    }
 ]

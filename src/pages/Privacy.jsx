@@ -3,7 +3,8 @@ import Navbar from "../components/Navigation/Navbar"
 import footerData from "./../Data/footerData.json"
 import navbarData from "./../Data/navbarData.json"
 import Hero from "./../components/Content/Hero"
-const Policy = () => {
+
+const Privacy = () => {
   return (
     <>
       <Navbar
@@ -28,5 +29,4 @@ const Policy = () => {
   )
 }
 
-export default Policy
-
+export default Privacy
