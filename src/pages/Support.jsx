@@ -3,7 +3,7 @@ import Navbar from "../components/Navigation/Navbar"
 import footerData from "./../Data/footerData.json"
 import navbarData from "./../Data/navbarData.json"
 
-const Afiliate = () => {
+const Support= () => {
     return (
         <>
         <Navbar data={navbarData}></Navbar>
@@ -12,4 +12,4 @@ const Afiliate = () => {
     )
 }
 
-export default Afiliate
+export default Support

@@ -1,4 +1,4 @@
-import beKlubeLogo from "./../../../public/BeKlube-Logo.png"
+import beKlubeLogo from "/BeKlube-Logo.png"
 
 const Copyright = () => {
     return (
