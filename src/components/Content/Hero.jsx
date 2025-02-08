@@ -1,5 +1,5 @@
 import PropTypes from "prop-types";
-
+import ScrollButton from "../Buttons/ScrollButton";
 
 const Hero = (
   { title,
@@ -10,23 +10,26 @@ const Hero = (
     textStyle,
     hasButton,
     spanStyle,
-    bgImage }
+    bgImage,
+    scrollRef }
 ) => {
   const backgroundStyle = bgImage ? { backgroundImage: `url(${bgImage})`, backgroundSize: 'cover', backgroundPosition: 'center' } : {};
-  
+
   if (!data || data.length === 0) {
     return (
       <>
         <div className={`${style}`} style={backgroundStyle}>
           <h2 className={`${titleStyle}`}>{title}</h2>
         </div>
+        <ScrollButton className="-z-1" href={scrollRef}/>
+
       </>
     );
   }
   else {
     if (hasButton == true) {
       return (
-        <div className={`${style}`}  style={backgroundStyle}>
+        <div className={`${style}`} style={backgroundStyle}>
           <h2 className={`${titleStyle}`}>{title}</h2>
           {data.map((item, index) => {
             return <span className={spanStyle} key={index}>
@@ -35,12 +38,13 @@ const Hero = (
             </span>
           }
           )}
+          <ScrollButton href={scrollRef} />
         </div>
       )
     }
     else {
       return (
-        <div className={`${style}`}  style={backgroundStyle}>
+        <div className={`${style}`} style={backgroundStyle}>
           <h2 className={`${titleStyle}`}>{title}</h2>
           {data.map((item, index) => {
             return <span className={spanStyle} key={index}>
@@ -49,6 +53,7 @@ const Hero = (
             </span>
           }
           )}
+
         </div>
       )
     }
@@ -68,8 +73,10 @@ Hero.propTypes = {
     }),
   ),
   textStyle: PropTypes.string,
+  component: PropTypes.string,
   hasButton: PropTypes.bool,
   bgImage: PropTypes.string,
+  scrollRef: PropTypes.string,
   spanStyle: PropTypes.string,
   subTitleStyle: PropTypes.string,
   titleStyle: PropTypes.string // Marked as required to ensure it's always provided
