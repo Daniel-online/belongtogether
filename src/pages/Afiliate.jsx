@@ -14,7 +14,7 @@ const Afiliate = () => {
             <Hero
                 title={"Seja um Afiliado"}
                 data={[]}
-                hasButton={true}
+                hasButton={false}
                 bgImage={imgUrl}
                 titleStyle={"text-border-lg border-white text-7xl h-1/2 text-yellow-500 font-bold"}
                 subTitleStyle={"items-center flex flex-col content-center w-1/2 text-white font-bold"}
