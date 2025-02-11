@@ -13,18 +13,16 @@ const Home = () => {
 
         <div className="">
             <Navbar
-                className="scroll-smooth"
-                id="navbar"
                 data={navbarData}
             />
             <Hero
-                className="scroll-smooth"
+
                 id="Hero"
                 title={"O Maior Marketing do Brasil"}
                 data={heroTestData}
                 hasButton={true}
                 bgImage={""}
-                scrollRef="#presentation"
+                scrollRef="presentation"
                 titleStyle={"transition transform ease-in-out delay-100 text-border-lg border-white text-7xl h-1/3  text-yellow-500 font-bold"}
 
                 subTitleStyle={"transition delay-200 easy-in duration-300 items-center flex flex-col content-center w-1/2 text-white font-bold"}
@@ -36,16 +34,10 @@ const Home = () => {
             //px-6 bg-gradient-to-b from-violet-500 to-violet-900 items-center flex flex-col content-center h-screen  overflow-hidden place-content-center
             />
             <Presentation
-                className="scroll-smooth"
-                id="presentation"
             />
-            <Planos
-                className="scroll-smooth"
-                id="planos"
-            />
+            <Planos/>
             <Footer
-                className="scroll-smooth"
-                id="#footer"
+                id="footer"
                 data={footerData}
             />
         </div>

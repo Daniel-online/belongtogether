@@ -4,7 +4,7 @@ import Logo from "./Logo"
 const Navbar = ({ data }) => {
   // console.log("navbar rendered", navbarData)
   return (
-    <nav className="z-20 bg-cover border-b-2 border-yellow-600 h-[70px] top-0 sticky bg-violet-800 flex items-center w-full px-4 md:px-8 lg:px-16 ">
+    <nav id="navbar" className="z-20 bg-cover border-b-2 border-yellow-600 h-[70px] top-0 sticky bg-violet-800 flex items-center w-full px-4 md:px-8 lg:px-16 ">
       <div className=" flex items-center h-full" style={{ flex: 1 }}>
 
           <Logo/>
