@@ -5,10 +5,10 @@ const Navbar = ({ data }) => {
   // console.log("navbar rendered", navbarData)
   return (
     <nav className="z-20 bg-cover border-b-2 border-yellow-600 h-[70px] top-0 sticky bg-violet-800 flex items-center w-full px-4 md:px-8 lg:px-16 ">
-      <div className=" flex items-center " style={{ flex: 1 }}>
-        <div className="h-1/5 w-2/6 ">
+      <div className=" flex items-center h-full" style={{ flex: 1 }}>
+
           <Logo/>
-        </div>
+
       </div>
 
       <div className="Right flex items-center place-content-evenly px-px mr-6">

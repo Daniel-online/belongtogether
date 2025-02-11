@@ -16,15 +16,24 @@ const Hero = (
   const backgroundStyle = bgImage ? { backgroundImage: `url(${bgImage})`, backgroundSize: 'cover', backgroundPosition: 'center' } : {};
 
   if (!data || data.length === 0) {
-    return (
-      <>
-        <div className={`${style}`} style={backgroundStyle}>
-          <h2 className={`${titleStyle}`}>{title}</h2>
-        </div>
-        <ScrollButton className="-z-1" href={scrollRef}/>
+    if (hasButton == true) {
+      return (
+        <>
+          <div className={`${style}`+'max-w-screen'} style={backgroundStyle}>
+            <h2 className={`${titleStyle}`}>{title}</h2>
+          </div>
 
-      </>
-    );
+          <ScrollButton href={scrollRef} />
+        </>
+      );
+    } else {
+      return (
+        <>
+          <div className={`${style}`} style={backgroundStyle}>
+            <h2 className={`${titleStyle}`}>{title}</h2>
+          </div>
+        </>)
+    }
   }
   else {
     if (hasButton == true) {

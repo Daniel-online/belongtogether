@@ -1,7 +1,7 @@
 import { Route, Routes } from "react-router-dom";
 import Home from "./pages/Home.jsx";
 import Policy from "./pages/Policy.jsx";
-import TermsOfService from "./pages/TermsOfService.jsx";
+import Terms from "./pages/Terms.jsx";
 import Auth from "./pages/Auth.jsx";
 import Afiliate from "./pages/Afiliate.jsx";
 import Carreers from "./pages/Carreers.jsx";
@@ -20,7 +20,7 @@ function App() {
   return (
     <Routes>
       <Route path="/" element={<Home />} />
-      <Route path="/termos-de-servico" element={<TermsOfService />} />
+      <Route path="/termos-de-servico" element={<Terms />} />
       <Route path="/auth" element={<Auth />} />
       <Route path="/seja-afiliado" element={<Afiliate />} />
       <Route path="/nossos-produtos" element={<Products />} />

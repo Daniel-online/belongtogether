@@ -9,8 +9,8 @@ const Hero = () => {
 
 
     return (<>
-        <div className=" border-neutral-900 pb-4 lg:mb-35 ">
-            <div className="flex flex-wrap lg:flex-nowrap">
+        <div className=" border-neutral-900 pb-4 overflow-hidden max-w-screen mx-auto ">
+            <div className="flex flex-wrap">
                 {/* left side */}
                 <div className="w-full lg:w-1/2 ">
 
@@ -37,10 +37,10 @@ const Hero = () => {
                     </div>
 
                 </div>
-
+{/* 
                     <div className="style={{ width: '100%', height: '100%' }} mr-2 w-2/3 ">
                        
-                    </div>
+                    </div> */}
 
             </div>
 
