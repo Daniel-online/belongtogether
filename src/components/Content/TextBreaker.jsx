@@ -14,7 +14,7 @@ const TextBreaker = (
     return (
         <div>
             {paragraphs.map((paragraph, index) => (
-                <p key={index} className="mb-4 whitespace-pre-line">{paragraph}</p>
+                <p key={index} className="mb-4 space-x-2 whitespace-pre-line">{paragraph}</p>
                     )
                 )
             }

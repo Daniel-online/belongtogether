@@ -6,6 +6,7 @@ import Footer from "../components/Footer/Footer";
 import footerData from "./../Data/footerData.json"
 import navbarData from "./../Data/navbarData.json"
 import heroTestData from "./../Data/heroTestData.json"
+import Carousel from "../components/Content/Carousel.jsx";
 // import imgUrl from "./../images/testHero.jpeg"
 
 const Home = () => {
@@ -36,6 +37,7 @@ const Home = () => {
             <Presentation
             />
             <Planos/>
+            <Carousel></Carousel>
             <Footer
                 id="footer"
                 data={footerData}

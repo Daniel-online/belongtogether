@@ -9,7 +9,7 @@ const ScrollButton = (
         e.preventDefault(); // Prevent default anchor behavior
         const element = document.getElementById(href);
         if (element) {
-            element.scrollIntoView({ behavior: "smooth" , block:"nearest"});
+            element.scrollIntoView({ behavior: "smooth" , block:"start"});
         } else {
             console.warn(`Element with id "${href}" not found.`);
         }

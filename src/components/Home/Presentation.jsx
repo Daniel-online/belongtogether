@@ -7,7 +7,7 @@ const Presentation = () => {
   return (
     <div className="flex flex-col" id="presentation">
       <Hero
-        title={"O Maior Marketing do Brasil"}
+        title={"O que e a BeKlube?"}
         data={heroTestData}
         hasButton={true}
         bgImage={""}

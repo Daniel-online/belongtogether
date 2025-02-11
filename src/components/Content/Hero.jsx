@@ -2,7 +2,9 @@ import PropTypes from "prop-types";
 import ScrollButton from "../Buttons/ScrollButton";
 
 const Hero = (
-  { title,
+  { 
+    id,
+    title,
     data,
     style,
     titleStyle,
@@ -19,7 +21,7 @@ const Hero = (
     if (hasButton == true) {
       return (
         <>
-          <div className={`${style}`+'max-w-screen'} style={backgroundStyle}>
+          <div id={id} className={`${style}`+'max-w-screen'} style={backgroundStyle}>
             <h2 className={`${titleStyle}`}>{title}</h2>
           </div>
 
@@ -29,7 +31,7 @@ const Hero = (
     } else {
       return (
         <>
-          <div className={`${style}`} style={backgroundStyle}>
+          <div id={id} className={`${style}`} style={backgroundStyle}>
             <h2 className={`${titleStyle}`}>{title}</h2>
           </div>
         </>)
@@ -38,7 +40,7 @@ const Hero = (
   else {
     if (hasButton == true) {
       return (
-        <div className={`${style}`} style={backgroundStyle}>
+        <div id={id} className={`${style}`} style={backgroundStyle}>
           <h2 className={`${titleStyle}`}>{title}</h2>
           {data.map((item, index) => {
             return <span className={spanStyle} key={index}>
@@ -53,7 +55,7 @@ const Hero = (
     }
     else {
       return (
-        <div className={`${style}`} style={backgroundStyle}>
+        <div id={id} className={`${style}`} style={backgroundStyle}>
           <h2 className={`${titleStyle}`}>{title}</h2>
           {data.map((item, index) => {
             return <span className={spanStyle} key={index}>
@@ -83,6 +85,7 @@ Hero.propTypes = {
   ),
   textStyle: PropTypes.string,
   component: PropTypes.string,
+  id: PropTypes.string,
   hasButton: PropTypes.bool,
   bgImage: PropTypes.string,
   scrollRef: PropTypes.string,
