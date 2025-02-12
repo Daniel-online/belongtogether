@@ -1,7 +1,7 @@
 import PropTypes from "prop-types";
 
 
-const Hero = (
+const Thumbnail = (
   { title,
     data,
     style,
@@ -44,7 +44,7 @@ const Hero = (
   }
 }
 
-Hero.propTypes = {
+Thumbnail.propTypes = {
   title: PropTypes.string.isRequired,
   style: PropTypes.string, // Style should be a string for Tailwind classes
   data: PropTypes.arrayOf(
@@ -63,4 +63,4 @@ Hero.propTypes = {
   titleStyle: PropTypes.string // Marked as required to ensure it's always provided
 
 }
-export default Hero
+export default Thumbnail

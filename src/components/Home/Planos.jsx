@@ -1,6 +1,7 @@
 import Carousel from "../Content/Carousel"
 import VoidHero from "../Content/VoidHero"
 import voidData from "./../../Data/voidData.json"
+import imgUrl from "/testHero.jpeg"
 
 const Planos = () => {
   return (
@@ -11,7 +12,7 @@ const Planos = () => {
         title={"Nossos Planos"}
         data={voidData}
         hasButton={true}
-        bgImage={""}
+        bgImage={''}
         scrollRef="navbar"
         titleStyle={"transition transform ease-in-out delay-100 text-border-lg border-white text-7xl h-1/5 text-yellow-500 font-bold"}
         style={"px-6 bg-gradient-to-b from-violet-500 to-violet-900 items-center flex flex-col content-center h-screen  overflow-hidden place-content-center"}
