@@ -1,7 +1,8 @@
-import cardData from "./../../Data/cardData.json"
+
+import PropTypes from "prop-types"
 import TextBreaker from "./TextBreaker"
 
-const Cards = () => {
+const Cards = ({cardData}) => {
   return (
     <>
       {cardData.map(
@@ -30,5 +31,7 @@ const Cards = () => {
     </>
   )
 }
-
+Cards.propTypes={
+  cardData: PropTypes.array
+}
 export default Cards

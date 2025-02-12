@@ -1,8 +1,9 @@
 import PropTypes from "prop-types";
 import ScrollButton from "../Buttons/ScrollButton";
 
+
 const Hero = (
-  { 
+  {
     id,
     title,
     data,
@@ -11,34 +12,21 @@ const Hero = (
     subTitleStyle,
     textStyle,
     hasButton,
+    hasText,
     spanStyle,
     bgImage,
-    scrollRef }
+    scrollRef,
+    scrollStyle
+   }
 ) => {
   const backgroundStyle = bgImage ? { backgroundImage: `url(${bgImage})`, backgroundSize: 'cover', backgroundPosition: 'center' } : {};
 
-  if (!data || data.length === 0) {
+  if (hasText == true) {
+    //tem texto
     if (hasButton == true) {
-      return (
-        <>
-          <div id={id} className={`${style}`+'max-w-screen'} style={backgroundStyle}>
-            <h2 className={`${titleStyle}`}>{title}</h2>
-          </div>
+      //tem botao
 
-          <ScrollButton href={scrollRef} />
-        </>
-      );
-    } else {
-      return (
-        <>
-          <div id={id} className={`${style}`} style={backgroundStyle}>
-            <h2 className={`${titleStyle}`}>{title}</h2>
-          </div>
-        </>)
-    }
-  }
-  else {
-    if (hasButton == true) {
+      //retorna titulo+ texto + botao
       return (
         <div id={id} className={`${style}`} style={backgroundStyle}>
           <h2 className={`${titleStyle}`}>{title}</h2>
@@ -49,11 +37,15 @@ const Hero = (
             </span>
           }
           )}
-          <ScrollButton href={scrollRef} />
+          <ScrollButton className={scrollStyle} href={scrollRef} />
         </div>
       )
     }
     else {
+      //tem texto
+      //nao tem botao
+
+      //retorna texto + titulo
       return (
         <div id={id} className={`${style}`} style={backgroundStyle}>
           <h2 className={`${titleStyle}`}>{title}</h2>
@@ -67,6 +59,35 @@ const Hero = (
 
         </div>
       )
+    }
+  }
+  else {
+    //nao tem texto
+
+    if (hasButton == true) {
+      //tem botao
+
+      //retorna titulo + botao
+      return (
+        <>
+
+          <div id={id} className={`${style}` + 'max-w-screen'} style={backgroundStyle}>
+            <h2 className={`${titleStyle}`}>{title}</h2>
+          </div>
+
+          <ScrollButton href={scrollRef} />
+        </>
+      );
+    } else {
+      //nao tem botao
+
+      //retorna titulo somente
+      return (
+        <>
+          <div id={id} className={`${style}`} style={backgroundStyle}>
+            <h2 className={`${titleStyle}`}>{title}</h2>
+          </div>
+        </>)
     }
   }
 }
@@ -84,6 +105,7 @@ Hero.propTypes = {
     }),
   ),
   textStyle: PropTypes.string,
+  scrollStyle: PropTypes.string,
   component: PropTypes.string,
   id: PropTypes.string,
   hasButton: PropTypes.bool,
@@ -91,7 +113,7 @@ Hero.propTypes = {
   scrollRef: PropTypes.string,
   spanStyle: PropTypes.string,
   subTitleStyle: PropTypes.string,
-  titleStyle: PropTypes.string // Marked as required to ensure it's always provided
-
+  titleStyle: PropTypes.string,
+  hasText: PropTypes.bool
 }
 export default Hero

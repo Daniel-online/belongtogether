@@ -9,7 +9,10 @@ const Presentation = () => {
       <Hero
         title={"O que e a BeKlube?"}
         data={heroTestData}
+
         hasButton={true}
+        hasText={true}
+        
         bgImage={""}
         scrollRef={"planos"}
         titleStyle={"text-border-lg border-white text-7xl h-1/3 text-yellow-500 font-bold"}
