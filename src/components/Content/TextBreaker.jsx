@@ -1,7 +1,7 @@
 import PropTypes from "prop-types";
 
 const TextBreaker = (
-    { text, wordsPerParagraph }
+    { text, wordsPerParagraph, style }
     ) => {
     if (!text) return [];
     const words = text.split(" ");
@@ -12,7 +12,7 @@ const TextBreaker = (
     }
 
     return (
-        <div>
+        <div className={style}>
             {paragraphs.map((paragraph, index) => (
                 <p key={index} className="mb-4 space-x-2 whitespace-pre-line">{paragraph}</p>
                     )
@@ -23,6 +23,7 @@ const TextBreaker = (
 
 TextBreaker.propTypes={
     text: PropTypes.string,
+    style: PropTypes.string,
     wordsPerParagraph: PropTypes.number
 }
 export default TextBreaker

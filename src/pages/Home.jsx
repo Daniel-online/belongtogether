@@ -53,11 +53,12 @@ const Home = () => {
                 id={'presentation'}
             />
             <Plataformas
-                style={'flex p-4 grid grid-cols-3 gap-4 bg-gradient-to-tr from-violet-500 to-violet-900'}
+                style={' h-fit relative flex flex-col p-4 gap-4 bg-gradient-to-tr from-violet-500 to-violet-900'}
                 sideImage={notebook}
                 imageAlt={'notebook'}
-                imageStyle={'border-8 border-yellow-500 h-auto lg:w-96 md:w-72 sm:w-64 rounded-full'}
+                imageStyle={'items-center border-8 border-yellow-500 h-auto lg:w-96 md:w-72 sm:w-64 rounded-full'}
                 id={'plataformas'}
+                scrollStyle={'flex justify-center py-4'}
                 />
             <Beneficios
                 id={'beneficios'}

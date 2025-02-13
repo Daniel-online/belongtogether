@@ -1,10 +1,12 @@
-
-const Grid = () => {
+import PropTypes from "prop-types"
+const Grid = ({style}) => {
   return (
-    <div>
-      
+    <div className={style}>
+      textosss
     </div>
   )
 }
-
+Grid. propTypes={
+style: PropTypes.string
+}
 export default Grid
