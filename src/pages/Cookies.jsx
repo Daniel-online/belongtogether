@@ -3,7 +3,9 @@ import Navbar from "../components/Navigation/Navbar"
 import footerData from "./../Data/footerData.json"
 import navbarData from "./../Data/navbarData.json"
 import Hero from "./../components/Content/Hero"
+import Content from "./../components/Content/Content"
 import { useEffect } from "react"
+import cookieData from "./../Data/cookieData.json"
 
 const Cookies = () => {
   useEffect(()=>{
@@ -27,6 +29,15 @@ const Cookies = () => {
       style={"bg-gradient-to-b from-violet-500 to-violet-900 items-center flex flex-col content-center h-72 w-full place-content-center  h-64 "}
       spanStyle={"rounded-xl bg-opacity-80  bg-yellow-600 outline outline-white items-center flex flex-col content-center h-1/3 w-1/2 place-content-center"}
 
+    />
+    <Content
+      data={cookieData}
+      hasMedia={false}
+      style={''}
+      titleStyle={'text-violet-800 font-bold'}
+      subTitleStyle={''}
+      listStyle={''}
+      textStyle={''}
     />
     <Footer
       data={footerData}
