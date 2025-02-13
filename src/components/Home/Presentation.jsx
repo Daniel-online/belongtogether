@@ -14,7 +14,7 @@ const Presentation = () => {
         hasText={true}
         
         bgImage={imgUrl}
-        scrollRef={"planos"}
+        scrollRef={"plataformas"}
         scrollStyle={"bottom"}
         titleStyle={"text-border-lg border-white text-7xl h-1/2 text-yellow-500 font-bold"}
 

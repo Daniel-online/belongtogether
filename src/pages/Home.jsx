@@ -1,16 +1,19 @@
 import Navbar from "../components/Navigation/Navbar"
 import Hero from "../components/Content/Hero.jsx"
 import Presentation from "../components/Home/Presentation";
-// import Planos from "../components/Home/Planos";
 import Footer from "../components/Footer/Footer";
 import footerData from "./../Data/footerData.json"
 import navbarData from "./../Data/navbarData.json"
-// import heroTestData from "./../Data/heroTestData.json"
-// import Carousel from "../components/Content/Carousel.jsx";
-// import Cards from "../components/Content/Cards.jsx"
-// import Media from "../components/Content/Media.jsx";
-// import image from "../assets/Pages/purple/thumb-midia-light.jpg"
+
+import Beneficios from "../components/Home/Benefits.jsx";
+import Plataformas from "../components/Home/Plataformas.jsx";
+import Goals from "../components/Home/Goals.jsx";
+import SocialMedia from "./../components/Home/SocialMedia.jsx"
+
 import thumbHero from "../assets/Pages/purple/thumb-hero.jpg"
+import notebook from "./../assets/Comercial/other/notebook.jpg"
+// import 
+
 const Home = () => {
     return (
 
@@ -21,7 +24,7 @@ const Home = () => {
             <Hero
 
                 id="Hero"
-                title={"A ESCOLA DIGITAL DE MARKETING"}
+                title={"ACADEMIA DIGITAL DE MARKETING"}
                 data={[]}
 
                 hasButton={true}
@@ -42,9 +45,22 @@ const Home = () => {
             />
 
             <Presentation
+                id={'presentation'}
             />
-
-
+            <Plataformas
+                style={'flex p-4 grid grid-cols-3 gap-4 bg-gradient-to-tr from-violet-500 to-violet-900'}
+                sideImage={notebook}
+                imageAlt={'notebook'}
+                imageStyle={'border-8 border-yellow-500 h-auto lg:w-96 md:w-72 sm:w-64 rounded-full'}
+                id={'plataformas'}
+                />
+            <Beneficios
+                id={'beneficios'}
+            />
+            <Goals
+                id={'goals'}
+            />
+            <SocialMedia id={'socialmedia'} />
 
             <Footer
                 id="footer"

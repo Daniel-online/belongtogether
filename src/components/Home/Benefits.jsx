@@ -1,5 +1,5 @@
     
-const Beneficios = () => {
+const Benefits = () => {
   return (
     <div>
       
@@ -7,4 +7,4 @@ const Beneficios = () => {
   )
 }
 
-export default Beneficios
+export default Benefits
