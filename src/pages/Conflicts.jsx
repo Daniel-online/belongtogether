@@ -1,9 +1,13 @@
+import { useEffect } from "react"
 import Footer from "../components/Footer/Footer"
 import Navbar from "../components/Navigation/Navbar"
 import footerData from "./../Data/footerData.json"
 import navbarData from "./../Data/navbarData.json"
 import Hero from "./../components/Content/Hero"
 const Conflicts = () => {
+    useEffect(()=>{
+        document.title="Política de Conflitos"
+    })
     return (
         <>
             <Navbar data={navbarData}></Navbar>

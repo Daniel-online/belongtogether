@@ -4,8 +4,12 @@ import Hero from "../components/Content/Hero"
 import footerData from "./../Data/footerData.json"
 import navbarData from "./../Data/navbarData.json"
 import thumbHero from "./../assets/Pages/purple/thumb-contatos.jpg"
-import WhatsappButton from "../components/Buttons/WhatsappButton"
+// import WhatsappButton from "../components/Buttons/WhatsappButton"
+import { useEffect } from "react"
 const Support = () => {
+    useEffect(()=>{
+        document.title="Suporte"
+    })
     return (
         <>
             <Navbar data={navbarData}></Navbar>
@@ -32,7 +36,7 @@ const Support = () => {
             //px-6 bg-gradient-to-b from-violet-500 to-violet-900 items-center flex flex-col content-center h-screen  overflow-hidden place-content-center
             />
 
-            <WhatsappButton url={"https://wa.me/5521999462860"}/>
+            {/* <WhatsappButton url={"https://wa.me/5521999462860"} /> */}
             <Footer data={footerData}></Footer>
         </>
     )

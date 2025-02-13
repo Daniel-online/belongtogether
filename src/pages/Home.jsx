@@ -12,9 +12,14 @@ import SocialMedia from "./../components/Home/SocialMedia.jsx"
 
 import thumbHero from "../assets/Pages/purple/thumb-hero.jpg"
 import notebook from "./../assets/Comercial/other/notebook.jpg"
+
+import { useEffect } from "react";
 // import 
 
 const Home = () => {
+    useEffect(() => {
+        document.title = "Início | Meu Site";
+      }, []);
     return (
 
         <div className="">
@@ -24,7 +29,7 @@ const Home = () => {
             <Hero
 
                 id="Hero"
-                title={"ACADEMIA DIGITAL DE MARKETING"}
+                title={" ACADEMIA DO EMPREENDEDOR DIGITAL"}
                 data={[]}
 
                 hasButton={true}
@@ -61,7 +66,7 @@ const Home = () => {
                 id={'goals'}
             />
             <SocialMedia id={'socialmedia'} />
-
+            
             <Footer
                 id="footer"
                 data={footerData}

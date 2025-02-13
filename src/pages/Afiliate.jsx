@@ -1,3 +1,4 @@
+import { useEffect } from "react"
 import Footer from "../components/Footer/Footer"
 import Navbar from "../components/Navigation/Navbar"
 import footerData from "./../Data/footerData.json"
@@ -6,6 +7,9 @@ import Hero from "./../components/Content/Hero"
 import imgUrl from "/testHero.jpeg"
 
 const Afiliate = () => {
+    useEffect(()=>{
+        document.title="Seja Afiliado"
+    })
     return (
         <>
             <Navbar

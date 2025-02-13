@@ -5,8 +5,13 @@ import footerData from "./../Data/footerData.json"
 import navbarData from "./../Data/navbarData.json"
 import Hero from "./../components/Content/Hero"
 import aboutUsData from "./..//Data/aboutUsData.json"
+import { useEffect } from "react"
 const AboutUs = () => {
+    useEffect(()=>{
+        document.title="Sobre Nós"
+    })
     return (
+
         <>
             <Navbar data={navbarData}></Navbar>
             <Hero

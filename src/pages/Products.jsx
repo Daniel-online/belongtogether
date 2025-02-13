@@ -4,8 +4,12 @@ import footerData from "./../Data/footerData.json"
 import navbarData from "./../Data/navbarData.json"
 import Hero from "./../components/Content/Hero"
 import imgUrl from "/testHero.jpeg"
+import { useEffect } from "react"
 
 const Products = () => {
+        useEffect(() => {
+          document.title = "Produtos";
+        }, []);
     return (
 <>
             <Navbar data={navbarData}></Navbar>

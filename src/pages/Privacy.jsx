@@ -3,8 +3,11 @@ import Navbar from "../components/Navigation/Navbar"
 import footerData from "./../Data/footerData.json"
 import navbarData from "./../Data/navbarData.json"
 import Hero from "./../components/Content/Hero"
-
+import { useEffect } from "react"
 const Privacy = () => {
+    useEffect(() => {
+      document.title = "Política de Privacidade";
+    }, []);
   return (
     <>
       <Navbar

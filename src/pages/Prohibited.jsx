@@ -4,7 +4,12 @@ import Navbar from "../components/Navigation/Navbar"
 import footerData from "./../Data/footerData.json"
 import navbarData from "./../Data/navbarData.json"
 import Hero from "./../components/Content/Hero"
+import { useEffect } from "react"
+
 const Prohibited = () => {
+          useEffect(() => {
+            document.title = "Produtos";
+          }, []);
   return (
     <>
             <Navbar data={navbarData}></Navbar>

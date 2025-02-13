@@ -6,8 +6,11 @@ import footerData from "./../Data/footerData.json"
 import navbarData from "./../Data/navbarData.json"
 import cardData from "./../Data/cardData.json"
 import imgUrl from "/testHero.jpeg"
-
+import { useEffect } from "react"
 const Pricing = () => {
+    useEffect(() => {
+        document.title = "Pacotes";
+    }, []);
     return (
         <>
             <Navbar
@@ -18,7 +21,7 @@ const Pricing = () => {
                 data={[]}
                 hasButton={false}
                 hasText={true}
-                bgImage={imgUrl }
+                bgImage={imgUrl}
                 titleStyle={"text-border-lg border-white text-7xl h-1/2 text-yellow-500 font-bold"}
                 subTitleStyle={"items-center flex flex-col content-center w-1/2 text-white font-bold"}
                 textStyle={"indent-2 line-clamp-3 break-words text-wrap overflow-auto text-clip h-24 w-1/2 place-content-center text-white font-semibold"}
