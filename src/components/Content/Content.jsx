@@ -28,13 +28,14 @@ const Content = ({
                             {section.subtitle}
                         </h4>
                     )}
+                    
                     <ul>
                         {section.list.map((item, index) => { return <li className={listStyle} key={index}>{item}</li> })}
                     </ul>
                     <TextBreaker
                         style={textStyle}
                         text={section.content}
-                        wordsPerParagraph={hasMedia ? 100 : 100} />
+                        wordsPerParagraph={hasMedia ? 150 : 100} />
                 </div>
             ))}
         </div>

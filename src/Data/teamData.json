@@ -1,0 +1,24 @@
+[
+    {
+        "title": "Kleber Gomes",
+        "subTitle":"CEO",
+        "image":"../src/assets//Comercial/people/Kleber.jpg",
+        "alt":"alt",
+        "description":"Desde 1999 como fundador e CEO da K EXPRESS MARKETING DIRETO no mercado de publicidade, propaganda e MKT Regionalizado."
+    },
+    {
+        "title": "Daniel L. Affonso",
+        "subTitle":"Desenvolvedor Fullstack",
+        "image":"../src/assets//Comercial/people/Daniel.jpg",
+        "alt":"alt",
+        "description":"Carioca, desenvolvedor especializado em produzir apps de alta perfomance com diversas tecnologias como Node e React.js. "
+    },
+    {
+        "title": "Rodrigo Giovanni",
+        "subTitle":"SR Marketing Strategist",
+        "image":"../src/assets//Comercial/people/img85.jpg",
+        "alt":"alt",
+        "description":"Analista e planejador principal do sistema BeKlube. "
+    }
+   
+]

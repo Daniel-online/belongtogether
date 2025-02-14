@@ -1,26 +1,64 @@
 [
-    {
-      "title": "Section 1 Title",
-      "subtitle": "Section 1 Subtitle",
-      "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus lacinia odio vitae vestibulum vestibulum. Cras venenatis euismod malesuada.elit. Vivamus lacinia odio vitae vestibulum vestibulum. Cras venenatis euismod malesuadaelit. Vivamus lacinia odio vitae vestibulum vestibulum. Cras venenatis euismod malesuadaelit. Vivamus lacinia odio vitae vestibulum vestibulum. Cras venenatis euismod malesuadaelit. Vivamus lacinia odio vitae vestibulum vestibulum. Cras venenatis euismod malesuadaelit. Vivamus lacinia odio vitae vestibulum vestibulum. Cras venenatis euismod malesuadaelit. Vivamus lacinia odio vitae vestibulum vestibulum. Cras venenatis euismod malesuadaelit. Vivamus lacinia odio vitae vestibulum vestibulum. Cras venenatis euismod malesuadaelit. Vivamus lacinia odio vitae vestibulum vestibulum. Cras venenatis euismod malesuadaelit. Vivamus lacinia odio vitae vestibulum vestibulum. Cras venenatis euismod malesuadaelit. Vivamus lacinia odio vitae vestibulum vestibulum. Cras venenatis euismod malesuadaelit. Vivamus lacinia odio vitae vestibulum vestibulum. Cras venenatis euismod malesuadaelit. Vivamus lacinia odio vitae vestibulum vestibulum. Cras venenatis euismod malesuadaelit. Vivamus lacinia odio vitae vestibulum vestibulum. Cras venenatis euismod malesuadaelit. Vivamus lacinia odio vitae vestibulum vestibulum. Cras venenatis euismod malesuada ...",
-      "list": [""],
-      "media": "public/BeKlube-Logo.png",
-      "alt" : "alt"
-    },
-    {
-      "title": "Section 2 Title",
-      "subtitle": "Section 2 Subtitle",
-      "content": "Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. ...",
-      "list": [""],
-      "media": "",
-        "alt" : ""
-    },
-    {
-      "title": "Section 3 Title",
-      "content": "Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
-      "list": [],
-      "media": "",
-      "alt" : ""
-    }
-  ]
   
+  {
+    "title": "A BE.KLUBE",
+    "subtitle": " ",
+    "content": "A Be.Klube Digital é a empresa que veio para revolucionar o mercado de MARKETING DIGITAL e economia compartilhada. Somos a primeira no mundo a investir na junção desses dois mercados. A perspectiva de crescimento é estrondosa E VOCÊ NÃO VAI QUERER FICAR DE FORA DESSA OPORTUNIDADE ÚNICA!",
+    "list": [
+      ""
+    ],
+    "media": "",
+    "alt": "alt"
+  },
+  {
+    "title": "Nossa História",
+    "subtitle": "O Mercado Atual",
+    "content": "Conforme relatado pela Digital Comerce 360, em 2023, A INDUSTRIA DE MARKETING DIGITAL DE AFILIADOS esta avaliada em mais de 85 bilhões. Ademais, uma pesquisa realizada pela Filet Marketing Academy, em 2023, revela que 81% dos profissionais de marketing de afiliados no Brasil, ganham mais de 50.000 por ano. Por fim, a economia compartilhada, que faz parte do amplo seguimento do mercado de vendas direta, vem demonstrando um crescimento impressionante, de acordo com a Federação Mundial de associações de vendas diretas, WFDSA. O setor alcançou, um faturamento de mais de 180 bilhões de reais, em 2023, globalmente. Superando indústria como da música e do cinema."
+    ,
+    "list": [
+      ""
+    ],
+    "media": "",
+    "alt": "alt"
+  },
+  {
+    "title": "",
+    "subtitle": "Contexto Comercial",
+    "content": "Estudos realizados pela Associação Americana de Vendas Diretas, DSA, indicam que 90% das pessoas, dos EUA, e 80% no Japão, já realizaram comprar através de empresas de economia compartilhada, que demonstra a abrangência e a aceitação dessa modalidade de negócios. Finalmente a economia compartilhada, consolidou-se como uma potência incontestável, movimentando 74,5% no Brasil, no setor de vendas diretas. Uma parcela substancial, equivalente a 33.75 bilhões, segundo os dados da Associação Brasileira de Empresas de Vendas Diretas – ABVD, reportados em 2023 e destacam essa modalidade de negócios como o motor de crescimento e inovação no cenário econômico nacional.",
+    "list": [
+      ""
+    ],
+    "media": "",
+    "alt": "alt"
+  },
+  {
+    "title": "",
+    "subtitle": "",
+    "content": "Dentro deste contexto, a Be.Klube Digital, emergiu com uma força dominante, na vanguarda dessa transformação, distinguindo-se significativamente de outras empresas do setor, com uma robusta plataforma dedicada a produtores e afiliados, A Be.klube Digital, se posiciona unicamente no epicentro da junção da economia compartilhada, com o marketing digital, oferecendo oportunidades inigualáveis, para vendas de promoções de produtos e serviços online. Tudo isso, aproveitando o boom do E-comerce e o poder das redes sociais, para conectar empreendedores a um público mais amplo e diversificado, de maneira inédita. Ao optar pela Be.Kube Digital, os empreendedores têm à disposição não apenas uma plataforma intuitiva, mas também uma comunidade vibrante e um ecossistema de recursos projetados para maximizar o potencial de vendas e crescimento.",
+    "list": [
+      ""
+    ],
+    "media": "",
+    "alt": "alt"
+  },
+  {
+    "title": "Quem Somos",
+    "subtitle": " ",
+    "content": "Dentro deste contexto, a Be.Klube Digital, emergiu com uma força dominante, na vanguarda dessa transformação, distinguindo-se significativamente de outras empresas do setor, com uma robusta plataforma dedicada a produtores e afiliados, A Be.klube Digital, se posiciona unicamente no epicentro da junção da economia compartilhada, com o marketing digital, oferecendo oportunidades inigualáveis, para vendas de promoções de produtos e serviços online. Tudo isso, aproveitando o boom do E-comerce e o poder das redes sociais, para conectar empreendedores a um público mais amplo e diversificado, de maneira inédita. Ao optar pela Be.Kube Digital, os empreendedores têm à disposição não apenas uma plataforma intuitiva, mas também uma comunidade vibrante e um ecossistema de recursos projetados para maximizar o potencial de vendas e crescimento.",
+    "list": [
+      ""
+    ],
+    "media": "",
+    "alt": "alt"
+  },
+  {
+    "title": "Educação BE.KLUBE",
+    "subtitle": " ",
+    "content": "Na Be.Klube Digital, não apenas acreditamos, mas vivemos a fusão do marketing digital e a economia compartilhada, e convido-o para descobrirmos juntos, o segredo por trás dessa aliança poderosa, e como a usará para resultados que façam sentidos. Não é necessário que faça grandes sacrifícios para ter resultados nesse caminho, ou que abra mão de seu conforto, mas que apenas reserve um tempo diário, de maneira consistente, para que assista as aulas e coloque em prática todo novo conhecimento que adquirir conosco, e consiga gerar os resultados que fazem sentido, para que se comprometa cada vez mais e continue estudando, aplicando cada estratégia e tática que seja orientado.",
+    "list": [
+      ""
+    ],
+    "media": "",
+    "alt": "alt"
+  }
+]

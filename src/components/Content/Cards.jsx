@@ -2,17 +2,16 @@
 import PropTypes from "prop-types"
 import TextBreaker from "./TextBreaker"
 
-const Cards = ({cardData, style}) => {
-    const basicStyle="bg-red-500 transform hover:scale-105 drop-shadow-md transition delay-100 hover:drop-shadow-2xl p-4 rounded-xl flex flex-col items-center w-1/4 h-auto "
+const Cards = ({cardData, style, imageStyle}) => {
   return (
     <>
       {cardData.map(
         (card, index) => {
           return (
-            <div key={index} className={basicStyle}>
+            <div key={index} className={`${style} transform hover:scale-105 drop-shadow-md transition delay-100 hover:drop-shadow-2xl p-4 rounded-xl flex flex-col items-center w-1/4 h-auto`}>
               <img
-                className="rounded-lg bg-cover w-auto h-auto "
-                src={card.image}
+                className={imageStyle}
+                src={`${card.image}`}
                 alt={card.alt} />
               <h3 className="font-bold" >
                 {card.title}
@@ -23,6 +22,7 @@ const Cards = ({cardData, style}) => {
               <TextBreaker 
               text={card.description}
               wordsPerParagraph={50}
+              style={'text-indigo-700 indent-3 text-center italic'}
               />
             </div>
           )
@@ -34,6 +34,7 @@ const Cards = ({cardData, style}) => {
 }
 Cards.propTypes={
   cardData: PropTypes.array,
-  style: PropTypes.string
+  style: PropTypes.string,
+  imageStyle: PropTypes.string
 }
 export default Cards
