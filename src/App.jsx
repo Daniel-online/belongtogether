@@ -14,7 +14,6 @@ import Privacy from "./pages/Privacy.jsx"
 import Prohibited from "./pages/Prohibited.jsx"
 import Conflicts from "./pages/Conflicts.jsx";
 
-
 function App() {
 
   return (

@@ -1,0 +1,33 @@
+[
+    {
+        "license":"Bronze",
+        "size":"w-24",
+        "premium":false,
+        "iconStyle":"text-amber-800"
+        
+    },
+    {
+        "license":"Prata",
+        "size":"w-32",
+        "premium":false,
+        "iconStyle":"text-sky-50"
+    },
+    {
+        "license":"Ouro",
+        "size":"w-48",
+        "premium":false,
+        "iconStyle":"text-amber-400"
+    },
+    {
+        "license":"Ruby",
+        "size":"w-64",
+        "premium":true,
+        "iconStyle":"text-rose-600"
+    },
+    {
+        "license":"Diamante",
+        "size":"w-80",
+        "premium":true,
+                "iconStyle":"text-cyan-400"
+    }
+]

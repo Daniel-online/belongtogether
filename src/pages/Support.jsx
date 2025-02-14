@@ -32,7 +32,7 @@ const Support = () => {
                 // // spanStyle={"rounded-xl bg-opacity-70  bg-yellow-600 outline outline-white items-center flex flex-col content-center h-1/3 w-1/2 place-content-center"}
                 //rounded-xl bg-opacity-70  bg-yellow-600 outline outline-white items-center flex flex-col content-center h-1/3 w-1/2 place-content-center
                 //altere aqui o posicionamento dos items, evite usar spanStyle
-                style={"px-6 bg-gradient-to-b from-violet-500 to-violet-900 items-center flex flex-col content-center h-72 md:h-64 overflow-hidden place-content-center"}
+                style={"px-6 bg-gradient-to-b from-violet-500 to-violet-900 items-center flex flex-col content-center lg:h-96 md:h-64 overflow-hidden place-content-center"}
             //px-6 bg-gradient-to-b from-violet-500 to-violet-900 items-center flex flex-col content-center h-screen  overflow-hidden place-content-center
             />
 
