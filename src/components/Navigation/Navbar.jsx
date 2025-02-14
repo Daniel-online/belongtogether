@@ -4,14 +4,14 @@ import Logo from "./Logo"
 const Navbar = ({ data }) => {
   // console.log("navbar rendered", navbarData)
   return (
-    <nav id="navbar" className="z-20 bg-cover border-b-2 border-yellow-600 h-[70px] top-0 sticky bg-violet-800 flex items-center w-full px-4 md:px-8 lg:px-16 ">
+    <nav id="navbar" className="flex items-center z-20 bg-cover border-b-2 border-yellow-600 h-[70px] top-0 sticky bg-violet-800 flex items-center px-4 md:px-8 lg:px-16 ">
       <div className=" flex items-center h-full" style={{ flex: 1 }}>
 
           <Logo/>
 
       </div>
 
-      <div className="Right flex items-center place-content-evenly px-px mr-6">
+      <div className="Right flex items-center place-content-evenly px-px mr-6 lg:visible sm:invisible">
         <div className="mr-2 px-px text-white flex font-semibold rounded-lg place-content-evenly space-x-2 items-center " style={{ flex: 4 }}>
           {/* o mapping itera sobre o json "data" e acessa o label e link de cada objeto de "data" */}
           {data.map((item, index) => (
@@ -19,13 +19,7 @@ const Navbar = ({ data }) => {
               {item.label}
             </a>)
           )}
-          {/* 
-           <a href="" className="font-semibold"> <GoPerson className="text-white h-6 w-6"/>Seja Associado</a>
-           <a href="" className="font-semibold"> <IoChatbubblesOutline className="text-white h-6 w-6"/>Nossos Produtos</a>
-           <a href="" className="font-semibold"> <IoNotificationsOutline className="text-white h-6 w-6"/>Suport</a>
-           */}
-           
-
+          
         </div>
         <a href="/auth" className="ml-auto font-semibold text-white px-4 py-2 border border-white rounded-lg text-white transition hover:bg-yellow-500  hover:text-black">Login</a>
       </div>

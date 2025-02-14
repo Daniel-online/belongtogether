@@ -2,12 +2,16 @@
    {
       "title": "BeKlube",
       "list": [
+         "Nossos Produtos",
+         "Licenças",
          "Sobre nos",
          "Seja um Afiliado",
          "Suporte",
          "Trabalhe Conosco"
       ],
       "links": [
+         "/nossos-produtos",
+         "/licencas",
          "/sobre-nos",
          "/seja-afiliado",
          "/suporte",

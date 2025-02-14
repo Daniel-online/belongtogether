@@ -29,10 +29,10 @@ const Plataformas = (
             spanStyle={''}
             subTitleStyle={''}
           ></Text>
-          <AnimatedDiv>
+          {/* <AnimatedDiv>
             <h1 className="text-white text-2xl">I appear from the right!</h1>
-          </AnimatedDiv>
-          {/*       <Grid style="bg-green-500" /> */}
+          </AnimatedDiv> */}
+          <Grid style="bg-green-500" />
         </div>
       </div>
 

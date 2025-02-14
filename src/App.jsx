@@ -24,7 +24,7 @@ function App() {
       <Route path="/auth" element={<Auth />} />
       <Route path="/seja-afiliado" element={<Afiliate />} />
       <Route path="/nossos-produtos" element={<Products />} />
-      <Route path="/pacotes" element={<Pricing />} />
+      <Route path="/licencas" element={<Pricing />} />
       <Route path="/suporte" element={<Support />} />
       <Route path="/trabalhe-conosco" element={<Carreers />} />
       <Route path="/politica-cookies" element={<Cookies  />} />
