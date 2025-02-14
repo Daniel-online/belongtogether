@@ -10,8 +10,8 @@ import Plataformas from "../components/Home/Plataformas.jsx";
 import Goals from "../components/Home/Goals.jsx";
 import SocialMedia from "./../components/Home/SocialMedia.jsx"
 
-import thumbHero from "../assets/Pages/purple/thumb-hero.jpg"
-import notebook from "./../assets/Comercial/other/notebook.jpg"
+import thumbHero from "./../../public/assets/Pages/purple/thumb-hero.jpg"
+import notebook from "./../../public/assets/Comercial/other/notebook.jpg"
 
 import { useEffect } from "react";
 // import 

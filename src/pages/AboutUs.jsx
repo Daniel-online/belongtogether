@@ -6,6 +6,7 @@ import navbarData from "./../Data/navbarData.json"
 import Hero from "./../components/Content/Hero"
 import aboutUsData from "./..//Data/aboutUsData.json"
 import { useEffect } from "react"
+import imgUrl from "./../../public/assets/Pages/yellow/thumb-about-us.jpg"
 // import Cards from "../components/Content/Cards"
 import teamData from "./../Data/teamData.json"
 import Team from "../components/Team/Team"
@@ -22,7 +23,7 @@ const AboutUs = () => {
                 title={""}
                 data={[]}
                 hasButton={false}
-                bgImage={"../src/assets/Pages/yellow/thumb-about-us.jpg"}
+                bgImage={imgUrl}
                 titleStyle={"text-border-lg border-white text-7xl h-1/2 text-yellow-500 font-bold"}
                 subTitleStyle={"items-center flex flex-col content-center w-1/2 text-white font-bold"}
                 textStyle={"indent-2 line-clamp-3 break-words text-wrap overflow-auto text-clip h-24 w-1/2 place-content-center text-white font-semibold"}

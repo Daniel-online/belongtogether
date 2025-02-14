@@ -3,7 +3,7 @@ import Navbar from "../components/Navigation/Navbar"
 import Hero from "../components/Content/Hero"
 import footerData from "./../Data/footerData.json"
 import navbarData from "./../Data/navbarData.json"
-import thumbHero from "./../assets/Pages/purple/thumb-contatos.jpg"
+import thumbHero from "./../../public/assets/Pages/purple/thumb-contatos.jpg"
 // import WhatsappButton from "../components/Buttons/WhatsappButton"
 import { useEffect } from "react"
 const Support = () => {

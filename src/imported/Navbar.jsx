@@ -1,4 +1,4 @@
-import logo from "./../../public/NeonLogo.png";
+import logo from "./../../../public/public/NeonLogo.png";
 import './styles/Navbar.scss';
 import { FaGithub } from "react-icons/fa";
 import { FaLinkedin } from "react-icons/fa";

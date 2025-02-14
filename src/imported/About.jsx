@@ -1,5 +1,5 @@
 import { ABOUT_TEXT_FIRST, ABOUT_TEXT_FOURTH, ABOUT_TEXT_THIRD, ABOUT_TEXT_SECOND } from '../constants';
-import perfil from './../assets/images/chatbot-dev.jpeg';
+import perfil from './../../../public/assets/images/chatbot-dev.jpeg';
 
 const About = () => {
     return (
