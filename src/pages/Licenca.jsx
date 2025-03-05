@@ -2,15 +2,15 @@
 import Hero from "../components/Content/Hero"
 import Footer from "../components/Footer/Footer"
 import Navbar from "../components/Navigation/Navbar"
-import footerData from "./../Data/footerData.json"
-import navbarData from "./../Data/navbarData.json"
+import footerData from "../Data/footerData.json"
+import navbarData from "../Data/navbarData.json"
 // import cardData from "./../Data/cardData.json"
 // import imgUrl from "/testHero.jpeg"
 import { useEffect } from "react"
-import Licenses from "../components/Planos/Licenses"
-import licenseData from "./../Data/licenseData.json"
+// import Licenses from "../components/Planos/Licenses"
+// import licenseData from "./../Data/licenseData.json"
 
-const Pricing = () => {
+const Licenca = () => {
     useEffect(() => {
         document.title = "Pacotes";
     }, []);
@@ -33,10 +33,7 @@ const Pricing = () => {
 
             />
             {/* <Cards cardData={cardData} /> */}
-            <Licenses
-                licenseData={licenseData}
-                licenseStyle={""}
-            />
+
             <Footer
                 data={footerData}
             />
@@ -44,4 +41,4 @@ const Pricing = () => {
     )
 }
 
-export default Pricing
+export default Licenca

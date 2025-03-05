@@ -3,42 +3,33 @@ import { HiOutlineStar } from "react-icons/hi2";
 import { GoRuby } from "react-icons/go";
 
 const Licenses = ({ licenseData, licenseStyle }) => {
-  if(licenseData.premium==true){
-    return (
-      <div>
-        {licenseData.map((item, index) => {
-          <>
-            <span key={index}
-              className={`${item.size}+${licenseStyle}`}
-            >{item.license}</span>
-            <div className={item.iconStyle}>
-              <GoRuby/>
-            </div>
-          </>
-        })}
-      </div>
-    )
-  }else{
-    return (
-      <div>
-        {licenseData.map((item, index) => {
-          <>
-            <span key={index}
-              className={`${item.size}+${licenseStyle}`}
-            >{item.license}</span>
-            <div className={item.iconStyle}>
-              <HiOutlineStar/>
-            </div>
-          </>
-        })}
-      </div>
-    )
-  }
 
-  
+  return (
+    <div>
+      {licenseData.map((item, index) => {
+        <>
+          <span key={index}
+            className={`${item.size}+${licenseStyle}`}
+          >{item.license}</span>
+          <div className={item.iconStyle}>
+            {item.premium ? <GoRuby /> : <HiOutlineStar />}
+          </div>
+        </>
+      })}
+    </div>
+  )
+
+
 }
 Licenses.propTypes = {
-  licenseData: PropTypes.array,
+  licenseData: PropTypes.arrayOf(
+    PropTypes.shape({
+      license: PropTypes.string.isRequired,
+      size: PropTypes.string,
+      premium: PropTypes.bool,
+      iconStyle: PropTypes.string,
+    })),
+
   licenseStyle: PropTypes.string
 }
 

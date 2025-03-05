@@ -6,7 +6,7 @@ import Auth from "./pages/Auth.jsx";
 import Afiliate from "./pages/Afiliate.jsx";
 import Carreers from "./pages/Carreers.jsx";
 import Products from "./pages/Products.jsx";
-import Pricing from "./pages/Pricing.jsx";
+import Licenca from "./pages/Licenca.jsx";
 import Support from "./pages/Support.jsx";
 import AboutUs from "./pages/AboutUs.jsx"
 import Cookies from "./pages/Cookies.jsx"
@@ -23,7 +23,7 @@ function App() {
       <Route path="/auth" element={<Auth />} />
       <Route path="/seja-afiliado" element={<Afiliate />} />
       <Route path="/nossos-produtos" element={<Products />} />
-      <Route path="/licencas" element={<Pricing />} />
+      <Route path="/licencas" element={<Licenca />} />
       <Route path="/suporte" element={<Support />} />
       <Route path="/trabalhe-conosco" element={<Carreers />} />
       <Route path="/politica-cookies" element={<Cookies  />} />
