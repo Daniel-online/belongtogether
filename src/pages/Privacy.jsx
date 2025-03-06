@@ -3,6 +3,8 @@ import Navbar from "../components/Navigation/Navbar"
 import footerData from "./../Data/footerData.json"
 import navbarData from "./../Data/navbarData.json"
 import Hero from "./../components/Content/Hero"
+import Content from "../components/Content/Content"
+import data from "./../Data/privacyPolicyData.json"
 import { useEffect } from "react"
 const Privacy = () => {
     useEffect(() => {
@@ -25,6 +27,15 @@ const Privacy = () => {
         spanStyle={"rounded-xl bg-opacity-80  bg-yellow-600 outline outline-white items-center flex flex-col content-center h-1/3 w-1/2 place-content-center"}
 
       />
+       <Content
+                data={data}
+                hasMedia={false}
+                style={'list-disc'}
+                titleStyle={'font-bold text-violet-600'}
+                subTitleStyle={''}
+                listStyle={''}
+                textStyle={'indent-3 text-justify font-medium'}
+            />
       <Footer
         data={footerData}
       />

@@ -1,6 +1,5 @@
 import { Route, Routes } from "react-router-dom";
 import Home from "./pages/Home.jsx";
-import Policy from "./pages/Policy.jsx";
 import Terms from "./pages/Terms.jsx";
 import Auth from "./pages/Auth.jsx";
 import Afiliate from "./pages/Afiliate.jsx";
@@ -30,7 +29,6 @@ function App() {
       <Route path="/politica-conflitos" element={<Conflicts />} />
       <Route path="/politica-privacidade" element={<Privacy />} />
       <Route path="/politica-proibicao" element={<Prohibited />} />
-      <Route path="/condicoes-de-uso" element={<Policy />} />
       <Route path="/sobre-nos" element={<AboutUs/>}></Route>
     </Routes>
   )

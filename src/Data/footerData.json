@@ -40,16 +40,15 @@
          "Politica de Privacidade",
          "Politica de Cookies",
          "Politica de Resolucao de Conflitos",
-         "Politica de Produtos Proibidos",
-         "Termos e Condicoes de Uso"
+         "Politica de Produtos Proibidos"
+
       ],
       "links": [
          "/termos-de-servico",
          "/politica-privacidade",
          "/politica-cookies",
          "/politica-conflitos",
-         "/politica-proibicao",
-         "/condicoes-de-uso"
+         "/politica-proibicao"
       ]
    }
 ]

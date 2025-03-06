@@ -10,6 +10,12 @@ const Content = ({
     listStyle,
     textStyle
 }) => {
+
+    // const verifyData = (data) => {
+    //     if (data == null || data == []) {
+    //         return true
+    //     }
+    // }
     return (
         <div className="p-10">
             {data.map((section, index) => (
@@ -28,14 +34,22 @@ const Content = ({
                             {section.subtitle}
                         </h4>
                     )}
-                    
-                    <ul>
-                        {section.list.map((item, index) => { return <li className={listStyle} key={index}>{item}</li> })}
-                    </ul>
+
                     <TextBreaker
                         style={textStyle}
                         text={section.content}
                         wordsPerParagraph={hasMedia ? 150 : 100} />
+                        
+                    <ul className={section.list && section.list.length > 0 ? "list-disc list-inside" : "hidden list-none"}>
+                        {section.list && section.list.map((item, index) => (
+                            <li className={listStyle} key={index}>
+                                {item}
+                            </li>
+                        ))}
+                    </ul>
+
+
+
                 </div>
             ))}
         </div>
