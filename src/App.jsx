@@ -21,7 +21,7 @@ function App() {
       <Route path="/termos-de-servico" element={<Terms />} />
       <Route path="/auth" element={<Auth />} />
       <Route path="/seja-afiliado" element={<Afiliate />} />
-      <Route path="/nossos-produtos" element={<Products />} />
+      <Route path="/premios" element={<Products />} />
       <Route path="/licencas" element={<Licenca />} />
       <Route path="/suporte" element={<Support />} />
       <Route path="/trabalhe-conosco" element={<Carreers />} />

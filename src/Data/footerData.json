@@ -4,13 +4,13 @@
       "list": [
          "Nossos Produtos",
          "Licenças",
-         "Sobre nos",
+         "Sobre nós",
          "Seja um Afiliado",
          "Suporte",
          "Trabalhe Conosco"
       ],
       "links": [
-         "/nossos-produtos",
+         "/premios",
          "/licencas",
          "/sobre-nos",
          "/seja-afiliado",
@@ -34,13 +34,13 @@
       ]
    },
    {
-      "title": "Politica e Termos",
+      "title": "Política e Termos",
       "list": [
          "Termos de Servico",
-         "Politica de Privacidade",
-         "Politica de Cookies",
-         "Politica de Resolucao de Conflitos",
-         "Politica de Produtos Proibidos"
+         "Política de Privacidade",
+         "Política de Cookies",
+         "Política de Resolucao de Conflitos",
+         "Política de Produtos Proibidos"
 
       ],
       "links": [

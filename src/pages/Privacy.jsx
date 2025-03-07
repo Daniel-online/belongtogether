@@ -16,7 +16,7 @@ const Privacy = () => {
         data={navbarData}
       />
       <Hero
-        title={"Politica de Privacidade"}
+        title={"Política de Privacidade"}
         data={[]}
         hasButton={false}
         bgImage={""}

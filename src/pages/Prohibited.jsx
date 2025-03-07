@@ -16,7 +16,7 @@ const Prohibited = () => {
     <>
       <Navbar data={navbarData}></Navbar>
       <Hero
-        title={"Politica de Produtos Proibidos"}
+        title={"Política de Produtos Proibidos"}
         data={[]}
         hasButton={false}
         bgImage={""}

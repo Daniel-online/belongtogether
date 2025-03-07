@@ -19,7 +19,7 @@ const Cookies = () => {
         data={navbarData}
       />
       <Hero
-        title={"Politica de Cookies"}
+        title={"Política de Cookies"}
         data={[]}
         hasButton={false}
         bgImage={""}
