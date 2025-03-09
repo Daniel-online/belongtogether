@@ -3,7 +3,10 @@
       "label": "Seja Afiliado",
       "link": "/seja-afiliado"
     },
-
+    {
+      "label": "Seja Produtor",
+      "link": "http://escritorio.beklube.com.br/login"
+    },
     {
       "label": "Licenças",
       "link": "/licencas"
