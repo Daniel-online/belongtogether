@@ -1,4 +1,5 @@
 // import Cards from "../components/Content/Cards"
+import Cards from "../components/Content/Cards"
 import Hero from "../components/Content/Hero"
 import Footer from "../components/Footer/Footer"
 import Navbar from "../components/Navigation/Navbar"
@@ -8,8 +9,7 @@ import navbarData from "../Data/navbarData.json"
 // import imgUrl from "/testHero.jpeg"
 import { useEffect } from "react"
 // import Licenses from "../components/Planos/Licenses"
-// import licenseData from "./../Data/licenseData.json"
-
+import licenseData from "./../Data/licenseData.json"
 const Licenca = () => {
     useEffect(() => {
         document.title = "Pacotes";
@@ -33,6 +33,18 @@ const Licenca = () => {
 
             />
             {/* <Cards cardData={cardData} /> */}
+            <div className="grid ">
+                <div className=''>
+                    <h3>
+                        Escolha entre nossas opcoes 
+                    </h3>
+                </div>
+                <Cards
+                    cardData={licenseData}
+                    style={'space-y-1 bg-violet-600 border-yellow-500 border-4  font-semibold text-slate-200 text-border min-h-full  bg-opacity-80 hover:bg-opacity-100 w-96 h- '}
+                    imageStyle={'border-4 border-white rounded-lg object-cover'}
+                />
+            </div>
 
             <Footer
                 data={footerData}
