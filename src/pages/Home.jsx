@@ -10,7 +10,7 @@ import Benefits from "../components/Home/Benefits.jsx";
 import Goals from "../components/Home/Goals.jsx";
 // import SocialMedia from "./../components/Home/SocialMedia.jsx"
 
-import thumbHero from "./../../public/assets/Pages/purple/thumb-hero.jpg"
+import thumbHero from "./../../public/website-guilherme/Website-Guilherme.png"
 // import notebook from "./../../public/assets/Comercial/other/notebook.jpg"
 
 import { useEffect } from "react";
@@ -30,7 +30,7 @@ const Home = () => {
             <Hero
 
                 id="Hero"
-                title={" ACADEMIA DO EMPREENDEDOR DIGITAL"}
+                title={"Uma experiencia tantrica"}
                 data={[]}
 
                 hasButton={true}
@@ -38,38 +38,11 @@ const Home = () => {
 
                 bgImage={thumbHero}
                 scrollRef="presentation"
-                scrollStyle={""}
+                scrollStyle={"text-white bg-red-500 ng-opacity-70 hover:bg-black hover:text-red-500 hover:border-2 hover:border-red-500"}
 
-                titleStyle={"transition transform ease-in-out delay-100 text-border-lg border-white text-5xl h-1/2  text-yellow-500 font-bold"}
-                style={"px-6 bg-gradient-to-b from-violet-500 to-violet-900 items-center flex flex-col content-center h-screen  overflow-hidden place-content-center w-screen"}
+                titleStyle={"transition transform ease-in-out delay-100 text-border-lg border-white text-5xl h-1/2 text-white font-bold place-content-center left-8"}
+                style={"px-6 bg-gradient-to-b from-red-500 to-red-900 items-center flex flex-col content-center h-screen  overflow-hidden place-content-center w-screen"}
             //px-6 bg-gradient-to-b from-violet-500 to-violet-900 items-center flex flex-col content-center h-screen  overflow-hidden place-content-center
-            />
-
-            <Presentation
-                id={'presentation'}
-            />
-            {/* <Plataformas
-                style={' h-fit relative flex flex-col p-4 gap-4 bg-gradient-to-tr from-violet-500 to-violet-900 w-screen'}
-                sideImage={notebook}
-                imageAlt={'notebook'}
-                imageStyle={'items-center border-8 border-yellow-500 h-auto lg:w-96 md:w-72 sm:w-64 rounded-full'}
-                id={'plataformas'}
-                scrollStyle={'flex justify-center py-4'}
-                /> */}
-            <Plataforms
-                id={'plataformas'}
-            />
-            <Benefits
-                id={'beneficios'}
-            />
-            <Goals
-                id={'goals'}
-            />
-            {/* <SocialMedia
-                id={'socialmedia'} 
-            /> */}
-            <CallToAction 
-                id={'callToAction'}
             />
             <Footer
                 id={'footer'}

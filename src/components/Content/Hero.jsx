@@ -37,7 +37,7 @@ const Hero = (
             </span>
           }
           )}
-          <ScrollButton className={scrollStyle} href={scrollRef} />
+          <ScrollButton style={scrollStyle} href={scrollRef} />
         </div>
       )
     }

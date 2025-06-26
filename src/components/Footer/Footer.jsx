@@ -4,7 +4,7 @@ import Copyright from "./Copyright";
 
 const Footer = ({ data }) => {
   return (
-    <div className="w-full">
+    <div className="w-full bg-red-500 text-white">
       <footer className=" justify-around place-content-center px-4 py-2 space-x-4 flex flex-row  ">
 
         {data.map((section, index) => {

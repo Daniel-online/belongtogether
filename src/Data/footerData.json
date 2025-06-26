@@ -1,21 +1,17 @@
 [
    {
-      "title": "BeKlube",
+      "title": "Belong Together",
       "list": [
-         "Nossos Produtos",
-         "Licenças",
-         "Sobre nós",
-         "Seja um Afiliado",
-         "Suporte",
-         "Trabalhe Conosco"
+         "Sobre",
+         "Tratamentos",
+         "Contato",
+         "Depoimentos"
       ],
       "links": [
-         "/premios",
-         "/licencas",
-         "/sobre-nos",
-         "/seja-afiliado",
-         "/suporte",
-         "/trabalhe-conosco"
+         "/sobre",
+         "/tratamentos",
+         "/contato",
+         "/Depoimentos"
       ]
    },
    {
@@ -38,17 +34,13 @@
       "list": [
          "Termos de Servico",
          "Política de Privacidade",
-         "Política de Cookies",
-         "Política de Resolucao de Conflitos",
-         "Política de Produtos Proibidos"
+         "Política de Reservas"
 
       ],
       "links": [
          "/termos-de-servico",
          "/politica-privacidade",
-         "/politica-cookies",
-         "/politica-conflitos",
-         "/politica-proibicao"
+         "/politica-reservas"
       ]
    }
 ]

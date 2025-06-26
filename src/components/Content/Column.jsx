@@ -27,7 +27,7 @@ const Column = ({
 
   } else {
     return (
-      <div className="text-violet-900 font-semibold">
+      <div className="text-white font-semibold">
         <h3 className=" capitalize d text-lg">{title}</h3>
         <ul>
           {list.map((item, index) => (

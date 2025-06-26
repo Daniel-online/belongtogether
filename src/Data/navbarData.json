@@ -1,23 +1,19 @@
 [
     {
-      "label": "Seja Afiliado",
-      "link": "/seja-afiliado"
+      "label": "SOBRE",
+      "link": "/sobre"
     },
     {
-      "label": "Seja Produtor",
-      "link": "http://escritorio.beklube.com.br/login"
+      "label": "TRATAMENTOS",
+      "link": "/tratamentos"
     },
     {
-      "label": "Licenças",
-      "link": "/licencas"
+      "label": "CONTATO",
+      "link": "/contato"
     },
     {
-      "label": "Prêmios",
-      "link": "/premios"
-    },
-    {
-      "label": "Suporte",
-      "link": "/suporte"
+      "label": "DEPOIMENTOS",
+      "link": "/depoimentos"
     }
   ]
   
