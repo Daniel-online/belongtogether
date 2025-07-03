@@ -27,6 +27,7 @@ const Home = () => {
             <Navbar
                 data={navbarData}
             />
+            
             <Hero
 
                 id="Hero"
@@ -38,12 +39,13 @@ const Home = () => {
 
                 bgImage={thumbHero}
                 scrollRef="presentation"
-                scrollStyle={"text-white bg-red-500 ng-opacity-70 hover:bg-black hover:text-red-500 hover:border-2 hover:border-red-500"}
+                scrollStyle={"text-white bg-red-500  hover:bg-black hover:text-red-500 hover:border-2 hover:border-red-500"}
 
                 titleStyle={"transition transform ease-in-out delay-100 text-border-lg border-white text-5xl h-1/2 text-white font-bold place-content-center left-8"}
                 style={"px-6 bg-gradient-to-b from-red-500 to-red-900 items-center flex flex-col content-center h-screen  overflow-hidden place-content-center w-screen"}
             //px-6 bg-gradient-to-b from-violet-500 to-violet-900 items-center flex flex-col content-center h-screen  overflow-hidden place-content-center
             />
+            
             <Footer
                 id={'footer'}
                 data={footerData}
