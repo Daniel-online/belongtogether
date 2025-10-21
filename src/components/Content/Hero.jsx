@@ -1,6 +1,6 @@
 import PropTypes from "prop-types";
 import ScrollButton from "../Buttons/ScrollButton";
-
+// import BackgroundVideo from "./BackgroundVideo";
 
 const Hero = (
   {
@@ -28,6 +28,7 @@ const Hero = (
 
       //retorna titulo+ texto + botao
       return (
+       
         <div id={id} className={`${style}`} style={backgroundStyle}>
           <h2 className={`${titleStyle}`}>{title}</h2>
           {data.map((item, index) => {
@@ -39,7 +40,8 @@ const Hero = (
           )}
           <ScrollButton style={scrollStyle} href={scrollRef} />
         </div>
-      )
+      
+     )
     }
     else {
       //tem texto

@@ -1,5 +1,5 @@
 import Hero from "../Content/Hero"
-import thumbHero from "/assets/Pages/white/thumb-goals.jpg"
+// import thumbHero from "/assets/Pages/white/thumb-goals.jpg"
 const Goals = () => {
   return (
     <div>

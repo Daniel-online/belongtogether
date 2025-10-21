@@ -1,6 +1,6 @@
 
 import Action from "./../Buttons/Action"
-import thumbHero from "/assets/Pages/yellow/thumb-call-to-action.jpg"
+// import thumbHero from "/assets/Pages/yellow/thumb-call-to-action.jpg"
 const CallToAction = () => {
     return (
         <div className="">

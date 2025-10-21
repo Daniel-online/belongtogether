@@ -1,5 +1,5 @@
 import Hero from "../Content/Hero"
-import imgUrl from "./../../../public/assets/Pages/purple/thumb-comercial-1.jpg"
+// import imgUrl from "./../../../public/assets/Pages/purple/thumb-comercial-1.jpg"
 // import heroTestData from "./../../Data/heroTestData.json"
 
 

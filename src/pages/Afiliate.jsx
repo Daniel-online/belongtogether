@@ -4,7 +4,7 @@ import { useEffect } from "react"
 // import footerData from "./../Data/footerData.json"
 // import navbarData from "./../Data/navbarData.json"
 import Hero from "./../components/Content/Hero"
-import imgUrl from "/assets/Pages/purple/thumb-hero-phone.jpg"
+// import imgUrl from "/assets/Pages/purple/thumb-hero-phone.jpg"
 import SignUp from "../components/Forms/SignUp"
 
 const Afiliate = () => {

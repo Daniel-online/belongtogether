@@ -1,4 +1,4 @@
-import Logo from "/website-guilherme/Logo-1.jpg"
+import Logo from "/src/assets/Logo-1.jpg"
 
 const Copyright = () => {
     return (
@@ -7,6 +7,9 @@ const Copyright = () => {
             <div className="py-2 px-2 flex flex-col">
                 <span>Belong Together LTDA</span>
                 <span>Sao Paulo - Brasil</span>
+
+                <span>Created by <a className="text-black font-bold" href="https://danielisonline.vercel.app/">Daniel L. Affonso</a></span>
+                <span>© 2025 Todos os direitos reservados.</span>
             </div>
         </span>
     )

@@ -1,5 +1,5 @@
 // import Logo from "/BeKlube logo - 3031x1130.png";
-import whiteLogo from "/website-guilherme/Logo-1.jpg";
+import logo from "./../../../src/assets/logo.svg";
 
 const Logo = () => {
   return (
@@ -7,7 +7,7 @@ const Logo = () => {
       <a href="/" className="block h-full">
         {/* Base Logo */}
         <img
-          src={whiteLogo}
+          src={logo}
           className=" w-full h-auto object-contain absolute inset-0 transition-opacity duration-300 max-h-full"
           alt="Home"
         />

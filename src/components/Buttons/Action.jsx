@@ -10,8 +10,8 @@ const Action = ({
 
     const backgroundStyle = bgImage ? { backgroundImage: `url(${bgImage})`, backgroundSize: 'cover', backgroundPosition: 'center' } : {};
     return (
-        <div id={id} className={`relative flex items-center justify-center ${style}`} style={backgroundStyle}>
-            <a href={href} className={`${buttonStyle} absolute bottom-20 left-1/2 `}>
+        <div id={id} className={`flex items-center justify-center ${style}`} style={backgroundStyle}>
+            <a href={href} className={buttonStyle}>
                 {title}
             </a>
         </div>

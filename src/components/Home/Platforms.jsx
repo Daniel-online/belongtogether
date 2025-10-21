@@ -1,5 +1,5 @@
 import Hero from "../Content/Hero"
-import thumbHero from "/assets/Pages/yellow/thumb-plataforms.jpg"
+// import thumbHero from "/assets/Pages/yellow/thumb-plataforms.jpg"
 const Platforms = () => {
     return (
         <div>

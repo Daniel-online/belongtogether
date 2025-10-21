@@ -1,19 +1,18 @@
 [
-    {
-      "label": "SOBRE",
-      "link": "/sobre"
-    },
-    {
-      "label": "TRATAMENTOS",
-      "link": "/tratamentos"
-    },
-    {
-      "label": "CONTATO",
-      "link": "/contato"
-    },
-    {
-      "label": "DEPOIMENTOS",
-      "link": "/depoimentos"
-    }
-  ]
-  
+  {
+    "label": "SOBRE",
+    "link": "/sobre"
+  },
+  {
+    "label": "DEPOIMENTOS",
+    "link": "/depoimentos"
+  },
+  {
+    "label": "TRATAMENTOS",
+    "link": "/tratamentos"
+  },
+  {
+    "label": "CONTATO",
+    "link": "/contato"
+  }
+]

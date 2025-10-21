@@ -1,4 +1,4 @@
-import thumbHero from "/assets/Pages/yellow/beneficios.jpg"
+// import thumbHero from "/assets/Pages/yellow/beneficios.jpg"
 import Hero from "../Content/Hero"
 
 const Benefits = () => {

@@ -1,6 +1,6 @@
 import Login from "./../components/Forms/Login.jsx"
 import Hero from "../components/Content/Hero.jsx"
-import imgUrl from "/assets/Pages/purple/thumb-hero-phone.jpg"
+// import imgUrl from "/assets/Pages/purple/thumb-hero-phone.jpg"
 import { useEffect } from "react"
 const Auth = () => {
   useEffect(() => {
