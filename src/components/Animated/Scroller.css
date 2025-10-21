@@ -1,0 +1,93 @@
+/* Wrapper: centers everything vertically */
+.scroller-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100vw;
+  min-height: 100vh;
+  background: #EF4444; /* red-700 */
+  overflow: hidden;
+  gap: 2rem;
+  padding: 2rem 0;
+}
+
+/* Each scroller row */
+.scroller {
+  width: 100%;
+  overflow: hidden;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  /* Add padding to create space for the hover effect */
+  padding: 20px 0;
+  margin: -20px 0;
+}
+
+/* Inner content that scrolls */
+.scroller__inner {
+  display: flex;
+  align-items: center;
+  gap: 1rem; /* spacing between images */
+  width: max-content;
+  animation: scroll var(--_animation-duration, 40s)
+    var(--_animation-direction, forwards) linear infinite;
+}
+
+.scroller[data-animated="false"] .scroller__inner {
+  animation: none;
+}
+
+/* Image styles */
+.scroller__inner img {
+  max-height: 160px;
+  width: auto;
+  height: auto;
+  object-fit: contain;
+  border-radius: 0.5rem;
+  flex-shrink: 0;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+  transition: transform 0.3s ease;
+  /* Ensure the image has a proper stacking context */
+  position: relative;
+  z-index: 1;
+}
+
+.scroller__inner img:hover {
+  transform: scale(1.05);
+  /* Bring the hovered image to front */
+  z-index: 10;
+}
+
+/* Animation direction + speed */
+.scroller[data-direction="right"] {
+  --_animation-direction: reverse;
+}
+
+.scroller[data-direction="left"] {
+  --_animation-direction: forwards;
+}
+
+.scroller[data-speed="fast"] {
+  --_animation-duration: 20s;
+}
+
+.scroller[data-speed="slow"] {
+  --_animation-duration: 60s;
+}
+/* Mobile adjustments */
+@media (max-width: 768px) {
+  .scroller[data-speed="fast"] {
+    --_animation-duration: 10s; /* 2x faster on mobile */
+  }
+  
+  .scroller[data-speed="slow"] {
+    --_animation-duration: 30s; /* 2x faster on mobile */
+  }
+}
+/* Smooth looping */
+@keyframes scroll {
+  to {
+    transform: translateX(calc(-50% - 1rem));
+  }
+}
