@@ -1,6 +1,25 @@
 import React, { useEffect, useState } from "react";
 import "./Scroller.css";
 
+// Import all images at the top
+import dep1 from '@assets/depoimentos/dep_1.jpg';
+import dep2 from '@assets/depoimentos/dep_2.jpg';
+import dep3 from '@assets/depoimentos/dep_3.jpg';
+import dep4 from '@assets/depoimentos/dep_4.jpg';
+import dep5 from '@assets/depoimentos/dep_5.jpg';
+import dep6 from '@assets/depoimentos/dep_6.jpg';
+import dep7 from '@assets/depoimentos/dep_7.jpg';
+import dep8 from '@assets/depoimentos/dep_8.jpg';
+import dep9 from '@assets/depoimentos/dep_9.jpg';
+import dep10 from '@assets/depoimentos/dep_10.jpg';
+import dep11 from '@assets/depoimentos/dep_11.jpg';
+import dep12 from '@assets/depoimentos/dep_12.jpg';
+import dep13 from '@assets/depoimentos/dep_13.jpg';
+import dep14 from '@assets/depoimentos/dep_14.jpg';
+import dep15 from '@assets/depoimentos/dep_15.jpg';
+import dep16 from '@assets/depoimentos/dep_16.jpg';
+import dep17 from '@assets/depoimentos/dep_17.jpg';
+
 const Scroller = () => {
   const [isReducedMotion, setIsReducedMotion] = useState(false);
 
@@ -25,33 +44,32 @@ const Scroller = () => {
     return content;
   };
 
+  // Use imported image variables instead of file paths
   const images1 = [
-    "./../../src/assets/depoimentos/dep_1.jpg",
-    "./../../src/assets/depoimentos/dep_2.jpg",
-    "./../../src/assets/depoimentos/dep_3.jpg",
-    "./../../src/assets/depoimentos/dep_4.jpg",
-    "./../../src/assets/depoimentos/dep_5.jpg",
-    "./../../src/assets/depoimentos/dep_6.jpg",
-    
+    dep1,
+    dep2,
+    dep3,
+    dep4,
+    dep5,
+    dep6,
   ]
+  
   const images2 = [
-
-    "./../../src/assets/depoimentos/dep_7.jpg",
-    "./../../src/assets/depoimentos/dep_8.jpg",
-    "./../../src/assets/depoimentos/dep_9.jpg",
-    "./../../src/assets/depoimentos/dep_10.jpg",
-    "./../../src/assets/depoimentos/dep_11.jpg",
-    "./../../src/assets/depoimentos/dep_12.jpg",
+    dep7,
+    dep8,
+    dep9,
+    dep10,
+    dep11,
+    dep12,
   ]
-const images3 = [
-
-    "./../../src/assets/depoimentos/dep_13.jpg",
-    "./../../src/assets/depoimentos/dep_14.jpg",
-    "./../../src/assets/depoimentos/dep_15.jpg",
-    "./../../src/assets/depoimentos/dep_16.jpg",
-    "./../../src/assets/depoimentos/dep_17.jpg",
+  
+  const images3 = [
+    dep13,
+    dep14,
+    dep15,
+    dep16,
+    dep17,
   ]
-
 
   return (
     <div className="scroller-wrapper">

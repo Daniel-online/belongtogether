@@ -5,13 +5,14 @@ import Footer from "../components/Footer/Footer";
 import footerData from "./../Data/footerData.json"
 import navbarData from "./../Data/navbarData.json"
 
-import bambuterapia from "./../../src/assets/Bambuterapia.jpg";
-import ventosoterapia from "./../../src/assets/Ventosoterapia.jpg";
-import pedrasQuentes from "./../../src/assets/PedrasQuentes.jpg";
+// Use proper paths - adjust based on where Home.jsx is located
+import bambuterapia from "@assets/Bambuterapia.jpg";
+import ventosoterapia from "@assets/Ventosoterapia.jpg";
+import pedrasQuentes from "@assets/PedrasQuentes.jpg";
+import depoimentos from "@assets/depoimentos/dep_text_wide.png";
 
-import depoimentos from "./../../src/assets/depoimentos/dep_text_wide.png"
 // import notebook from "./../../src/assets/src/assets/Comercial/other/notebook.jpg"
-import teamData from "./../Data/teamData.json";
+import teamData from "./../components/Team/teamData.js";
 import { useEffect } from "react";
 
 import SideView from "../components/Content/SideView.jsx";

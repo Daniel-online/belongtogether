@@ -1,4 +1,6 @@
 import React, { useState, useEffect, useRef } from 'react';
+import srcMobile from './../../assets/videos/mobile_smoke_compressed.mp4';
+import srcDesktop from './../../assets/videos/compressed_smoke.mp4';
 
 const BackgroundVideo = () => {
   const [isMobile, setIsMobile] = useState(false);
@@ -52,13 +54,13 @@ const BackgroundVideo = () => {
       >
         {/* Mobile Video Source - comes first for priority */}
         <source
-          src="./src/assets/mobile_smoke_compressed.mp4"
+          src={srcMobile}
           media="(max-width: 768px)"
           type="video/mp4"
         />
         {/* Desktop Video Source */}
         <source
-          src="./src/assets/compressed_smoke.mp4"
+          src={srcDesktop}
           media="(min-width: 769px)"
           type="video/mp4"
         />
