@@ -30,7 +30,7 @@ import Scroller from "../components/Animated/Scroller.jsx";
 
 const Home = () => {
     useEffect(() => {
-        document.title = "Início | Meu Site";
+        document.title = "Belong Together - Home";
     }, []);
     return (
 
