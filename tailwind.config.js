@@ -7,13 +7,41 @@ export default {
   theme: {
     extend: {
       animation: {
-        'gradient-text': 'gradient-text 3s infinite linear',
+        'gradient': 'gradient 3s ease infinite',
+        'gradient-text': 'gradient-text 3s ease infinite',
+        'gradient-x': 'gradient-x 3s ease infinite',
       },
       keyframes: {
+        'gradient': {
+          '0%, 100%': {
+            'background-size': '200% 200%',
+            'background-position': 'left center'
+          },
+          '50%': {
+            'background-size': '200% 200%',
+            'background-position': 'right center'
+          },
+        },
         'gradient-text': {
-          '0%': { backgroundPosition: '0% 50%' },
-          '50%': { backgroundPosition: '100% 50%' },
-          '100%': { backgroundPosition: '0% 50%' },
+          '0%': { 
+            'background-position': '0% 50%'
+          },
+          '50%': { 
+            'background-position': '100% 50%'
+          },
+          '100%': { 
+            'background-position': '0% 50%'
+          },
+        },
+        'gradient-x': {
+          '0%, 100%': {
+            'background-size': '200% 200%',
+            'background-position': 'left center'
+          },
+          '50%': {
+            'background-size': '200% 200%',
+            'background-position': 'right center'
+          },
         },
       },
     },

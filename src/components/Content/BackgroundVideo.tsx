@@ -79,16 +79,21 @@ const BackgroundVideo = () => {
 
       {/* Content Container */}
       <div className="relative z-10 h-full flex flex-col justify-center items-center text-center text-white px-4 sm:px-6 lg:px-8">
-        <h1 className="text-3xl sm:text-4xl md:text-5xl font-bold mb-4 sm:mb-6 drop-shadow-2xl bg-gradient-to-r from-red-500 to-red-700 bg-clip-text text-transparent">
+        <h1 className="text-3xl sm:text-4xl md:text-5xl font-bold mb-4 sm:mb-6 drop-shadow-2xl text-4xl font-bold 
+      bg-gradient-to-r from-red-700 via-pink-600 to-red-600
+      bg-clip-text text-transparent 
+      animate-gradient-text">
           Uma Experiência Inesquecível
         </h1>
         <p className="text-lg sm:text-xl md:text-2xl mb-6 sm:mb-8 max-w-2xl drop-shadow-lg leading-relaxed">
           Tratamento especializado, cuidadoso e profissional de quem sabe do que{' '}
-          <span className="italic font-bold text-red-400">você</span> precisa.
+          <span className="italic font-bold bg-gradient-to-r from-red-700 via-pink-600 to-red-600
+      bg-clip-text text-transparent 
+      animate-gradient-text">você</span> precisa.
         </p>
-        <button className="bg-white bg-opacity-20 backdrop-blur-sm border border-white border-opacity-50 text-red-500 font-bold px-6 py-3 sm:px-8 sm:py-3 rounded-full text-base sm:text-lg hover:bg-red-500 hover:text-white transition-all duration-300 hover:scale-105 active:scale-95 shadow-lg">
+        <a href="#sobre" className="bg-white bg-opacity-20 backdrop-blur-sm border border-white border-opacity-50 text-red-500 font-bold px-6 py-3 sm:px-8 sm:py-3 rounded-full text-base sm:text-lg hover:bg-red-500 hover:text-white transition-all duration-300 hover:scale-105 active:scale-95 shadow-lg">
           CONHECER MAIS
-        </button>
+        </a>
       </div>
     </div>
   );

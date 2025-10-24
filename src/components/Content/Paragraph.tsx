@@ -10,7 +10,7 @@ export default function Paragraph({ title, text, titleStyle, textStyle }) {
           {title}
         </h2>
       )}
-      {paragraphs.map((para, idx) => (
+      {paragraphs.map((para: string, idx: number) => (
         <p
           key={idx}
           className={`text-lg text-gray-800 leading-relaxed mb-4 ${textStyle}`}

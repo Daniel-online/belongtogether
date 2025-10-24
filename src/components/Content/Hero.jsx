@@ -2,97 +2,55 @@ import PropTypes from "prop-types";
 import ScrollButton from "../Buttons/ScrollButton";
 // import BackgroundVideo from "./BackgroundVideo";
 
-const Hero = (
-  {
-    id,
-    title,
-    data,
-    style,
-    titleStyle,
-    subTitleStyle,
-    textStyle,
-    hasButton,
-    hasText,
-    spanStyle,
-    bgImage,
-    scrollRef,
-    scrollStyle
-   }
-) => {
-  const backgroundStyle = bgImage ? { backgroundImage: `url(${bgImage})`, backgroundSize: 'cover', backgroundPosition: 'center' } : {};
+const Hero = ({
+  id,
+  title,
+  data = [],
+  style = "",
+  titleStyle = "",
+  subTitleStyle = "",
+  textStyle = "",
+  hasButton = false,
+  hasText = false,
+  spanStyle = "",
+  bgImage,
+  scrollRef,
+  scrollStyle = "",
+}) => {
+  return (
+    <div
+      id={id}
+      className={`relative w-full flex flex-col items-center justify-center overflow-hidden ${style}`}
+    >
+      {/* ✅ Image layer (keeps full image visible, maintains aspect ratio) */}
+      {bgImage && (
+        <img
+          src={bgImage}
+          alt={title || "hero background"}
+          className="w-full h-auto object-contain max-h-screen"
+        />
+      )}
 
-  if (hasText == true) {
-    //tem texto
-    if (hasButton == true) {
-      //tem botao
+      {/* ✅ Overlay content */}
+      <div className="absolute inset-0 flex flex-col items-center justify-center text-center p-4">
+        <h2 className={`${titleStyle}`}>{title}</h2>
 
-      //retorna titulo+ texto + botao
-      return (
-       
-        <div id={id} className={`${style}`} style={backgroundStyle}>
-          <h2 className={`${titleStyle}`}>{title}</h2>
-          {data.map((item, index) => {
-            return <span className={spanStyle} key={index}>
-              <h4 className={`${subTitleStyle}`}>{item.subTitle}</h4>
-              <a href={item.link}>{item.button}</a>
+        {hasText &&
+          data.map((item, index) => (
+            <span className={spanStyle} key={index}>
+              {item.subTitle && (
+                <h4 className={`${subTitleStyle}`}>{item.subTitle}</h4>
+              )}
+              {item.text && <p className={`${textStyle}`}>{item.text}</p>}
             </span>
-          }
-          )}
-          <ScrollButton style={scrollStyle} href={scrollRef} />
-        </div>
-      
-     )
-    }
-    else {
-      //tem texto
-      //nao tem botao
+          ))}
 
-      //retorna texto + titulo
-      return (
-        <div id={id} className={`${style}`} style={backgroundStyle}>
-          <h2 className={`${titleStyle}`}>{title}</h2>
-          {data.map((item, index) => {
-            return <span className={spanStyle} key={index}>
-              <h4 className={`${subTitleStyle}`}>{item.subTitle}</h4>
-              <p className={`${textStyle}`}>{item.text}</p>
-            </span>
-          }
-          )}
+        {hasButton && <ScrollButton style={scrollStyle} href={scrollRef} />}
+      </div>
+    </div>
+  );
+};
 
-        </div>
-      )
-    }
-  }
-  else {
-    //nao tem texto
-
-    if (hasButton == true) {
-      //tem botao
-
-      //retorna titulo + botao
-      return (
-        <>
-
-          <div id={id} className={`${style}` + 'max-w-screen'} style={backgroundStyle}>
-            <h2 className={`${titleStyle}`}>{title}</h2>
-          </div>
-
-          <ScrollButton href={scrollRef} />
-        </>
-      );
-    } else {
-      //nao tem botao
-
-      //retorna titulo somente
-      return (
-        <>
-          <div id={id} className={`${style}`} style={backgroundStyle}>
-            <h2 className={`${titleStyle}`}>{title}</h2>
-          </div>
-        </>)
-    }
-  }
-}
 
 Hero.propTypes = {
   title: PropTypes.string.isRequired,

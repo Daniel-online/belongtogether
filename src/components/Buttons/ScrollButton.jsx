@@ -23,7 +23,7 @@ const ScrollButton = (
     return (
         <a className={`z-0 rounded-full bottom-8 transition`} href={`#${href}`} onClick={handleClick}>
             < IoMdHeart
-                className={`transition  size-24  hover:bg-opacity-30 hover:bg-yellow-400 animate-bounce rounded-full  bg-cover ${style}`}
+                className={`transition  size-24  hover:bg-opacity-30 hover:bg-white animate-bounce rounded-full  bg-cover ${style}`}
             />
         </a>
     )

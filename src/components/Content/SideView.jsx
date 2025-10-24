@@ -1,8 +1,9 @@
 import PropTypes from "prop-types";
 import Paragraph from "./Paragraph";
-
+import Action from "../Buttons/Action";
+//  
 const SideView = ({
-    isSectionTitle,
+    id,
     sectionTitle,
     sectionStyle,
     sideDirection,
@@ -11,12 +12,13 @@ const SideView = ({
     titleStyle,
     therapyLevel,
     image,
-    imageStyle
+    imageStyle,
+    referralLink
 }) => {
     const levels = ["BÁSICO", "MÉDIO", "ALTO"];
 
     return (
-        <div className={`w-full h-auto ${sectionStyle}`}>
+        <div id={id} className={`w-full h-auto ${sectionStyle}`}>
             {/* Mobile Layout - Always stacked vertically */}
             <div className="flex flex-col lg:hidden">
                 {/* Image on Top for Mobile */}
@@ -28,7 +30,7 @@ const SideView = ({
                         loading="lazy"
                     />
                 </div>
-                
+
                 {/* Text on Bottom for Mobile */}
                 <div className="w-full p-4">
                     <Paragraph
@@ -36,6 +38,14 @@ const SideView = ({
                         text={text}
                         titleStyle={titleStyle}
                         textStyle={textStyle}
+                    />
+                    <Action
+
+                        title={"AGENDAR"}
+
+                        buttonStyle={'bg-white bg-opacity-20 backdrop-blur-sm border border-white border-opacity-50 text-red-500 font-bold px-6 py-3 sm:px-8 sm:py-3 rounded-full text-base sm:text-lg hover:bg-red-500 hover:text-white transition-all duration-300 hover:scale-105 active:scale-95 shadow-lg'}
+
+                        href={referralLink}
                     />
                 </div>
             </div>
@@ -51,7 +61,14 @@ const SideView = ({
                             titleStyle={titleStyle}
                             textStyle={textStyle}
                         />
-                        
+                        <Action
+
+                            title={"AGENDAR"}
+
+                            buttonStyle={'bg-white bg-opacity-20 backdrop-blur-sm border border-white border-opacity-50 text-red-500 font-bold px-6 py-3 sm:px-8 sm:py-3 rounded-full text-base sm:text-lg hover:bg-red-500 hover:text-white transition-all duration-300 hover:scale-105 active:scale-95 shadow-lg'}
+
+                            href={referralLink}
+                        />
                         {/* Therapy Level - Only show if provided */}
                         {therapyLevel !== undefined && (
                             <div className="mt-6">
@@ -82,11 +99,10 @@ const SideView = ({
                     <img
                         src={image}
                         alt={sectionTitle}
-                        className={`${imageStyle} w-full h-full object-cover ${
-                            sideDirection 
-                                ? 'rounded-l-3xl' 
-                                : 'rounded-r-3xl'
-                        }`}
+                        className={`${imageStyle} w-full h-full object-cover ${sideDirection
+                            ? 'rounded-l-3xl'
+                            : 'rounded-r-3xl'
+                            }`}
                         loading="lazy"
                     />
                 </div>
@@ -105,7 +121,9 @@ SideView.propTypes = {
     titleStyle: PropTypes.string,
     therapyLevel: PropTypes.number,
     image: PropTypes.string,
-    imageStyle: PropTypes.string
+    imageStyle: PropTypes.string,
+    referralLink: PropTypes.string,
+    id: PropTypes.string,
 };
 
 export default SideView;

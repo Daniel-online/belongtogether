@@ -1,18 +1,18 @@
 [
   {
     "label": "SOBRE",
-    "link": "/sobre"
+    "link": "#sobre"
   },
   {
     "label": "DEPOIMENTOS",
-    "link": "/depoimentos"
+    "link": "#depoimentos"
   },
   {
     "label": "TRATAMENTOS",
-    "link": "/tratamentos"
+    "link": "#tratamentos"
   },
   {
     "label": "CONTATO",
-    "link": "/contato"
+    "link": "#contato"
   }
 ]

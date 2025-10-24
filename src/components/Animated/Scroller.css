@@ -3,13 +3,12 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
+  justify-content: flex-start; /* ✅ let content define height */
   width: 100vw;
-  min-height: 100vh;
   background: #EF4444; /* red-700 */
   overflow: hidden;
   gap: 2rem;
-  padding: 2rem 0;
+  padding: 3rem 0; /* a bit more vertical padding */
 }
 
 /* Each scroller row */
@@ -19,16 +18,18 @@
   position: relative;
   display: flex;
   justify-content: center;
-  /* Add padding to create space for the hover effect */
-  padding: 20px 0;
-  margin: -20px 0;
+
+  /* Give breathing space per row */
+  padding: 1rem 0;
+  margin: 0;
+  height: clamp(120px, 25vw, 200px); /* dynamic height */
 }
 
 /* Inner content that scrolls */
 .scroller__inner {
   display: flex;
   align-items: center;
-  gap: 1rem; /* spacing between images */
+  gap: 1rem;
   width: max-content;
   animation: scroll var(--_animation-duration, 40s)
     var(--_animation-direction, forwards) linear infinite;
@@ -40,22 +41,19 @@
 
 /* Image styles */
 .scroller__inner img {
-  max-height: 160px;
+  height: 100%;          /* fill the scroller height dynamically */
   width: auto;
-  height: auto;
   object-fit: contain;
   border-radius: 0.5rem;
   flex-shrink: 0;
   box-shadow: 0 4px 10px rgba(0,0,0,0.2);
   transition: transform 0.3s ease;
-  /* Ensure the image has a proper stacking context */
   position: relative;
   z-index: 1;
 }
 
 .scroller__inner img:hover {
   transform: scale(1.05);
-  /* Bring the hovered image to front */
   z-index: 10;
 }
 
@@ -75,19 +73,39 @@
 .scroller[data-speed="slow"] {
   --_animation-duration: 60s;
 }
-/* Mobile adjustments */
-@media (max-width: 768px) {
-  .scroller[data-speed="fast"] {
-    --_animation-duration: 10s; /* 2x faster on mobile */
-  }
-  
-  .scroller[data-speed="slow"] {
-    --_animation-duration: 30s; /* 2x faster on mobile */
-  }
-}
+
 /* Smooth looping */
 @keyframes scroll {
   to {
     transform: translateX(calc(-50% - 1rem));
+  }
+}
+
+/* ✅ Responsive adjustments for mobile */
+@media (max-width: 768px) {
+  .scroller-wrapper {
+    gap: 1.5rem;
+    padding: 1rem 0;
+  }
+
+  .scroller {
+    height: clamp(80px, 35vw, 140px); /* smaller on mobile */
+    padding: 0.5rem 0;
+  }
+
+  .scroller__inner {
+    gap: 0.75rem;
+  }
+
+  .scroller__inner img {
+    border-radius: 0.35rem;
+  }
+
+  .scroller[data-speed="fast"] {
+    --_animation-duration: 10s;
+  }
+
+  .scroller[data-speed="slow"] {
+    --_animation-duration: 30s;
   }
 }

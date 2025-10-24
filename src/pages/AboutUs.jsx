@@ -1,41 +1,95 @@
-import { useEffect } from "react"
-import Hero from "./../components/Content/Hero"
-import Paragraph from "../components/Content/Paragraph"
-import imgUrl from "./../../src/assets/massagem.jpg"
+import { useEffect, useState } from "react";
+import { motion } from "framer-motion";
+import Hero from "./../components/Content/Hero";
+import Paragraph from "../components/Content/Paragraph";
+import PropTypes from "prop-types";
 
-const AboutUs = () => {
-    useEffect(() => {
-        document.title = "Sobre Nós"
-    }, [])
+// Backgrounds
+import imgDesktop from "./../../src/assets/Sobre_mim.png";
+import imgMobile from "./../../src/assets/Sobre_mim_mobile.png";
 
-    return (
-        <div className="relative"> {/* Add relative positioning container */}
-            <Hero
-                title={"Sobre Mim"}
-                data={[]}
-                hasText={true}
-                hasButton={true}
-                bgImage={imgUrl}
-                titleStyle={"text-border-lg border-white text-7xl h-full text-red-500 font-bold"}
-                subTitleStyle={"items-center flex flex-col content-center w-1/2 text-white font-bold"}
-                textStyle={"indent-2 line-clamp-3 break-words text-wrap overflow-auto text-clip h-24 w-1/2 place-content-center text-white font-semibold"}
-                style={"bg-black items-center flex flex-col content-center object-cover h-screen w-full place-content-center"}
-                spanStyle={"rounded-xl text-red-500 outline outline-white items-center flex flex-col content-center h-1/3 w-1/2 place-content-center"}
-                scrollRef="about_us"
-                scrollStyle={"text-white bg-red-500 hover:bg-black hover:text-red-500 hover:border-2 hover:border-red-500"}
-            />
-            
-            {/* Paragraph positioned absolutely over Hero */}
-            <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 z-10 w-3/4 max-w-2xl">
-                <Paragraph
-                    title="Quem sou eu?"
-                    text="texto introdutorio sobre o massoterapeuta"
-                    titleStyle="text-white text-center text-4xl font-bold mb-4"
-                    textStyle="text-white text-center text-lg bg-black bg-opacity-50 p-4 rounded-lg"
-                />
-            </div>
-        </div>
-    )
-}
+const AboutUs = ({ id }) => {
+  const [isMobile, setIsMobile] = useState(false);
 
-export default AboutUs
+  useEffect(() => {
+    const checkViewport = () => setIsMobile(window.innerWidth <= 768);
+    checkViewport();
+    window.addEventListener("resize", checkViewport);
+    return () => window.removeEventListener("resize", checkViewport);
+  }, []);
+
+  useEffect(() => {
+    document.title = "Sobre Mim";
+  }, []);
+
+  const bgImage = isMobile ? imgMobile : imgDesktop;
+  const titleText = "SOBRE MIM";
+
+  return (
+    <div id={id} className="relative w-full overflow-hidden">
+      {/* HERO */}
+      <Hero
+        title=""
+        data={[]}
+        hasText={false}
+        hasButton={false}
+        bgImage={bgImage}
+        style={`
+          bg-black bg-cover bg-center bg-no-repeat
+          flex flex-col justify-center items-center
+          min-h-[100dvh] w-full relative
+        `}
+        scrollRef="depoimentos"
+        scrollStyle="text-white bg-red-500 hover:bg-black hover:text-red-500 hover:border-2 hover:border-red-500"
+      />
+
+      {/* OVERLAY CONTENT */}
+      <div
+        className={`absolute inset-0 flex ${isMobile
+            ? "flex-col items-center justify-center text-center p-4 gap-4"
+            : "flex-row items-center justify-center text-left px-24 gap-16"
+          }`}
+      >
+        {/* Left side (empty for mobile, shows hero background) */}
+        {!isMobile && <div className="flex-1" />}
+
+        {/* Right side content */}
+        <motion.div
+          initial={{ opacity: 0, y: 50 }}
+          whileInView={{ opacity: 1, y: 0 }}
+          transition={{ duration: 1, ease: "easeOut" }}
+          viewport={{ once: true }}
+          className={`flex flex-col ${isMobile ? "items-center" : "items-start"
+            } max-w-2xl`}
+        >
+          <motion.h1
+            className={`font-extrabold text-red-500 drop-shadow-[0_0_10px_rgba(0,0,0,0.6)] ${isMobile ? "text-4xl mb-4" : "text-7xl mb-8"
+              }`}
+          >
+            SOBRE MIM
+          </motion.h1>
+
+          <Paragraph
+            title={isMobile ? "Guilherme Caldeira" : "Quem sou eu?"}
+            text={
+              isMobile
+                ? ` Massoterapeuta especializado em terapias corporais, com anos de experiência em técnicas de relaxamento e reabilitação.`
+                : `Guilherme Caldeira é a harmonia entre toque, ritmo e presença. Massoterapeuta de mãos precisas, DJ que sente cada batida e modelo que vive a arte do corpo em movimento. Entre o relaxar e o vibrar, ele convida você a experimentar o equilíbrio perfeito entre energia e desejo.`
+            }
+            titleStyle={`text-white ${isMobile ? "text-center text-2xl" : "text-left text-3xl"
+              } font-bold mb-4`}
+            textStyle={`text-white ${isMobile ? "text-center text-base" : "text-left text-lg"
+              } bg-black bg-opacity-50 p-4 rounded-lg max-w-xl`}
+          />
+        </motion.div>
+      </div>
+
+    </div>
+  );
+};
+
+AboutUs.propTypes = {
+  id: PropTypes.string,
+};
+
+export default AboutUs;
