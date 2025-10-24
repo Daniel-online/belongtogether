@@ -13,7 +13,7 @@ import ventosoterapia from "@assets/Ventosoterapia.jpg";
 import pedrasQuentes from "@assets/PedrasQuentes.jpg";
 import depoimentos from "@assets/depoimentos/dep_text_wide.png";
 import Depilacao from "@assets/Depilacao.jpg";
-import tantrica from "@assets/Tantrica.jpg";
+import tantrica from "@assets/tantrica.jpg";
 import nuru from "@assets/nuruMassage.jpg";
 import relaxante from "@assets/Relaxante.jpg";
 import secreta from "@assets/massagemSecreta.jpg";
