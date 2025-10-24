@@ -12,7 +12,7 @@ import bambuterapia from "@assets/Bambuterapia.jpg";
 import ventosoterapia from "@assets/Ventosoterapia.jpg";
 import pedrasQuentes from "@assets/PedrasQuentes.jpg";
 import depoimentos from "@assets/depoimentos/dep_text_wide.png";
-import Depilacao from "@assets/Depilacao.jpg";
+import Depilacao from "@assets/depilacao.jpg";
 import tantrica from "@assets/tantrica.jpg";
 import nuru from "@assets/nuruMassage.jpg";
 import relaxante from "@assets/Relaxante.jpg";
