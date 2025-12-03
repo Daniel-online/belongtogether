@@ -1,0 +1,26 @@
+[
+  {
+    "name": "Guilherme Caldeira",
+    "title": "Quem sou eu?",
+    "text": "Guilherme Caldeira é a harmonia entre toque, ritmo e presença. Massoterapeuta de mãos precisas, DJ que sente cada batida e modelo que vive a arte do corpo em movimento. Entre o relaxar e o vibrar, ele convida você a experimentar o equilíbrio perfeito entre energia, desejo e bem-estar.",
+    "image": "/src/assets/profiles/guilherme.jpg"
+  },
+  {
+    "name": "Isabela Moura",
+    "title": "Terapias Integrativas",
+    "text": "Especialista em aromaterapia, ayurveda e relaxamento profundo. Isabela combina técnicas orientais com uma sensibilidade única, criando experiências que alinham corpo, mente e respiração. Seu toque é suave, preciso e profundamente restaurador.",
+    "image": "/src/assets/profiles/isabela.jpg"
+  },
+  {
+    "name": "Rafael Tavares",
+    "title": "Produtor & Experiências Sonoras",
+    "text": "Rafael é o responsável pela ambientação musical dos rituais e sessões exclusivas. Com experiência em design sonoro e música eletrônica, ele cria atmosferas que intensificam a experiência sensorial e ampliam a presença no momento.",
+    "image": "/src/assets/profiles/rafael.jpg"
+  },
+  {
+    "name": "Marina Lopes",
+    "title": "Estética & Bem-Estar",
+    "text": "Profissional de estética avançada e cuidados terapêuticos corporais, Marina traz equilíbrio, leveza e toque refinado. Especializada em revitalização, drenagem e rituais de autocuidado, ela transforma cada sessão em um momento íntimo de reconexão.",
+    "image": "/src/assets/profiles/marina.jpg"
+  }
+]

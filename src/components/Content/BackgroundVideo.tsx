@@ -1,6 +1,6 @@
 import React, { useState, useEffect, useRef } from 'react';
 import srcMobile from './../../assets/videos/mobile_smoke_compressed.mp4';
-import srcDesktop from './../../assets/videos/compressed_smoke.mp4';
+import srcDesktop from './../../assets/videos/new-dsktp-bg.mp4';
 
 const BackgroundVideo = () => {
   const [isMobile, setIsMobile] = useState(false);
@@ -83,15 +83,12 @@ const BackgroundVideo = () => {
       bg-gradient-to-r from-red-700 via-pink-600 to-red-600
       bg-clip-text text-transparent 
       animate-gradient-text">
-          Uma Experiência Inesquecível
+          AQUI PARA PROPORCIONAR UMA EXPERIÊNCIA
         </h1>
         <p className="text-lg sm:text-xl md:text-2xl mb-6 sm:mb-8 max-w-2xl drop-shadow-lg leading-relaxed">
-          Tratamento especializado, cuidadoso e profissional de quem sabe do que{' '}
-          <span className="italic font-bold bg-gradient-to-r from-red-700 via-pink-600 to-red-600
-      bg-clip-text text-transparent 
-      animate-gradient-text">você</span> precisa.
+         
         </p>
-        <a href="#sobre" className="bg-white bg-opacity-20 backdrop-blur-sm border border-white border-opacity-50 text-red-500 font-bold px-6 py-3 sm:px-8 sm:py-3 rounded-full text-base sm:text-lg hover:bg-red-500 hover:text-white transition-all duration-300 hover:scale-105 active:scale-95 shadow-lg">
+        <a href="#sobre" className="bg-red-500  backdrop-blur-sm border border-white border-opacity-50 text-white-500 font-bold px-6 py-3 sm:px-8 sm:py-3 rounded-full text-base sm:text-lg hover:bg-white hover:text-red-500 transition-all duration-300 hover:scale-105 active:scale-95 shadow-lg">
           CONHECER MAIS
         </a>
       </div>

@@ -49,7 +49,7 @@ const Action = ({
 }
 
 Action.propTypes = {
-    title: PropTypes.string.isRequired,
+    title: PropTypes.string,
     href: PropTypes.string.isRequired,
     style: PropTypes.string,
     id: PropTypes.string,

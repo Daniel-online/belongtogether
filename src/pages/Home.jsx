@@ -70,7 +70,7 @@ const Home = () => {
             <Team
                 id="tratamentos"
                 data={teamData}
-                title={'Nossas Massoterapias'}
+                title={'EXPERIÊNCIAS DE MASSOTERAPIA'}
                 titleStyle={`bg-black capitalize text-4xl p-2 place-items-center p-8 font-extrabold text-red-600 `}
                 style={"bg-black p-4 h-auto w-full flex place-items-center grid lg:grid-cols-3 md:grid-cols-2 sm:grid-cols-1 gap-4 auto-rows-max"}
             />
@@ -79,91 +79,51 @@ const Home = () => {
 
             */}
             <SideView
-                id="terapia0"
+                id="terapia7"
                 isSectionTitle={true}
-                sectionTitle={"Depilação com Máquina"}
-                sectionStyle={"bg-black"}
-                sideDirection={true}
-                text={`
-                                A depilação com máquina é um método moderno e eficiente para remoção de pelos, proporcionando resultados duradouros e uma pele suave. Utilizando tecnologia avançada, este tratamento é realizado por profissionais qualificados, garantindo conforto e segurança durante todo o processo.
-                    `}
-                textStyle={"text-red-500 font-medium p-2"}
-                titleStyle={"text-white p-4 flex place-content-center"}
-                // therapyLevel={1}
-                image={Depilacao}
-                imageStyle={"w-full h-auto rounded-l-full"}
-                referralLink={whatsappRef[0].link}
-            />
-            <SideView
-                id="terapia1"
-                isSectionTitle={true}
-                sectionTitle={"Bambuterapia"}
+                sectionTitle={"MASSAGEM SECRETA"}
                 sectionStyle={"bg-black"}
                 sideDirection={false}
                 text={`
-                    A bambuterapia é uma técnica de massagem terapêutica que utiliza hastes de bambu de diferentes tamanhos e formas para realizar movimentos de pressão e deslizamento sobre o corpo. É uma técnica milenar chinesa, adaptada e utilizada em diversas partes do mundo, como a França, onde se tornou popular como uma alternativa para modelagem corporal e relaxamento. 
-                `}
-                textStyle={"text-white font-medium p-2"}
-                titleStyle={"text-red-500 p-4 flex place-content-center"}
-                // therapyLevel={0}
-                image={bambuterapia}
-                imageStyle={"w-full h-auto rounded-r-full"}
-                referralLink={whatsappRef[1].link}
-            />
+                    Bem-vindo ao ritual que quebra as barreiras do conhecido. A Massagem Secreta é uma experiência de acesso exclusivo, onde o toque transcende o físico para desvendar sensações que você nunca soube que existiam.
 
-            <SideView
-                id="terapia2"
-                isSectionTitle={true}
-                sectionTitle={"Ventosoterapia"}
-                sectionStyle={"bg-black"}
-                sideDirection={true}
-                text={`
-                    Também conhecida como cupping therapy, é uma técnica de cura tradicional que utiliza ventosas para criar vácuo na pele, com o objetivo de melhorar a circulação sanguínea, aliviar dores, reduzir inflamações e promover relaxamento muscular. Ela pode ser usada para tratar uma variedade de condições, como dores nas costas, no pescoço, dores de cabeça, rigidez muscular, ansiedade e até mesmo celulite.
-                    `}
-                textStyle={"text-red-500 font-medium p-2"}
-                titleStyle={"text-white p-4 flex place-content-center"}
-                // therapyLevel={1}
-                image={ventosoterapia}
-                imageStyle={"w-full h-auto rounded-l-full"}
-                referralLink={whatsappRef[2].link}
-            />
+Este tratamento é uma jornada sensorial única, totalmente adaptada à sua  energia. Não há protocolo fixo; há apenas a sua entrega a um caminho de prazer e mistério, guiado por um toque profundamente intuitivo e pela expertise de um terapeuta que domina técnicas raras e aprimoradas.
 
-            <SideView
-                id="terapia3"
-                isSectionTitle={true}
-                sectionTitle={"Pedras Quentes"}
-                sectionStyle={"bg-black"}
-                sideDirection={false}
-                text={`
-  A massagem com pedras quentes, ou "hot stone massage", oferece diversos benefícios, incluindo alívio de dores musculares, relaxamento profundo, redução de estresse e ansiedade, melhora da circulação e, em alguns casos, alívio de dores de cabeça e enxaquecas.
+O objetivo é a transcendência: liberar o que está oculto e despertar um novo nível de percepção sensorial no seu corpo. Permita que o inédito aconteça. Descubra o segredo que só o seu corpo pode guardar e desvendar.
                 `}
                 textStyle={"text-white font-medium p-2"}
                 titleStyle={"text-red-500 p-4 flex place-content-center"}
                 // therapyLevel={1}
-                image={pedrasQuentes}
+                image={secreta}
                 imageStyle={"w-full h-auto rounded-r-full"}
-                referralLink={whatsappRef[3].link}
+                referralLink={whatsappRef[7].link}
             />
             <SideView
-                id="terapia4"
-                sectionTitle={"Massagem Tântrica"}
+                id="terapia6"
+                isSectionTitle={true}
+                sectionTitle={"MASSAGEM RELAXANTE"}
                 sectionStyle={"bg-black"}
                 sideDirection={true}
-                text={`A Massagem Tântrica é uma poderosa extensão da filosofia milenar do Tantra, originária da Índia há mais de 5.000 anos, que considera o corpo humano como um templo sagrado e um veículo para a conexão profunda entre mente, corpo e espírito.
+                text={`
+                    Descubra a Massagem Relaxante elevada a uma nova arte: um encontro de profundo bem-estar e despertar sensual, guiado por **mãos profissionais** e experientes.
 
-Diferente das massagens convencionais, que focam primariamente na tensão muscular, a Tântrica é uma prática terapêutica de autoconhecimento que utiliza toques sutis, conscientes e técnicas de respiração guiada.`}
+Nossa técnica é a **soma de anos de prática e aprimoramento**, integrando o melhor das massagens clássicas com o toque sutil e consciente que evoca o erotismo e o prazer. Cada movimento é executado com **precisão e sensibilidade**, visando não apenas o alívio das tensões musculares, mas a expansão de todas as suas sensações.
+
+Permita-se entregar a este ritual onde o **cuidado profissional** se une ao **despertar do erotismo**. É o momento ideal para desligar a mente, relaxar profundamente e redescobrir a beleza e a sensualidade do seu próprio corpo, através de um toque que é técnico, respeitoso e inesquecível.
+                    `}
                 textStyle={"text-red-500 font-medium p-2"}
                 titleStyle={"text-white p-4 flex place-content-center"}
                 // therapyLevel={1}
-                image={tantrica}
+                image={relaxante}
                 imageStyle={"w-full h-auto rounded-l-full"}
-                referralLink={whatsappRef[4].link}
+                referralLink={whatsappRef[6].link}
+
             />
 
             <SideView
                 id="terapia5"
                 isSectionTitle={true}
-                sectionTitle={"Massagem Nuru"}
+                sectionTitle={"MASSAGEM NURU"}
                 sectionStyle={"bg-black"}
                 sideDirection={false}
                 text={`
@@ -184,48 +144,90 @@ Cuidado com a Pele: O Nuru Gel é conhecido por suas propriedades hidratantes, n
                 imageStyle={"w-full h-auto rounded-r-full"}
                 referralLink={whatsappRef[5].link}
             />
+
             <SideView
-                id="terapia6"
-                isSectionTitle={true}
-                sectionTitle={"Massagem Relaxante"}
+                id="terapia4"
+                sectionTitle={"MASSAGEM TÂNTRICA"}
                 sectionStyle={"bg-black"}
                 sideDirection={true}
-                text={`
-                    Descubra a Massagem Relaxante elevada a uma nova arte: um encontro de profundo bem-estar e despertar sensual, guiado por **mãos profissionais** e experientes.
+                text={`A Massagem Tântrica é uma poderosa extensão da filosofia milenar do Tantra, originária da Índia há mais de 5.000 anos, que considera o corpo humano como um templo sagrado e um veículo para a conexão profunda entre mente, corpo e espírito.
 
-Nossa técnica é a **soma de anos de prática e aprimoramento**, integrando o melhor das massagens clássicas com o toque sutil e consciente que evoca o erotismo e o prazer. Cada movimento é executado com **precisão e sensibilidade**, visando não apenas o alívio das tensões musculares, mas a expansão de todas as suas sensações.
-
-Permita-se entregar a este ritual onde o **cuidado profissional** se une ao **despertar do erotismo**. É o momento ideal para desligar a mente, relaxar profundamente e redescobrir a beleza e a sensualidade do seu próprio corpo, através de um toque que é técnico, respeitoso e inesquecível.
-                    `}
+Diferente das massagens convencionais, que focam primariamente na tensão muscular, a Tântrica é uma prática terapêutica de autoconhecimento que utiliza toques sutis, conscientes e técnicas de respiração guiada.`}
                 textStyle={"text-red-500 font-medium p-2"}
                 titleStyle={"text-white p-4 flex place-content-center"}
                 // therapyLevel={1}
-                image={relaxante}
+                image={tantrica}
                 imageStyle={"w-full h-auto rounded-l-full"}
-                referralLink={whatsappRef[6].link}
-
+                referralLink={whatsappRef[4].link}
             />
 
+
             <SideView
-                id="terapia7"
+                id="terapia3"
                 isSectionTitle={true}
-                sectionTitle={"Massagem Secreta"}
+                sectionTitle={" PEDRAS QUENTES"}
                 sectionStyle={"bg-black"}
                 sideDirection={false}
                 text={`
-                    Bem-vindo ao ritual que quebra as barreiras do conhecido. A Massagem Secreta é uma experiência de acesso exclusivo, onde o toque transcende o físico para desvendar sensações que você nunca soube que existiam.
-
-Este tratamento é uma jornada sensorial única, totalmente adaptada à sua energia. Não há protocolo fixo; há apenas a sua entrega a um caminho de prazer e mistério, guiado por um toque profundamente intuitivo e pela expertise de um terapeuta que domina técnicas raras e aprimoradas.
-
-O objetivo é a transcendência: liberar o que está oculto e despertar um novo nível de percepção sensorial no seu corpo. Permita que o inédito aconteça. Descubra o segredo que só o seu corpo pode guardar e desvendar.
+  A massagem com pedras quentes, ou "hot stone massage", oferece diversos benefícios, incluindo alívio de dores musculares, relaxamento profundo, redução de estresse e ansiedade, melhora da circulação e, em alguns casos, alívio de dores de cabeça e enxaquecas.
                 `}
                 textStyle={"text-white font-medium p-2"}
                 titleStyle={"text-red-500 p-4 flex place-content-center"}
                 // therapyLevel={1}
-                image={secreta}
+                image={pedrasQuentes}
                 imageStyle={"w-full h-auto rounded-r-full"}
-                referralLink={whatsappRef[7].link}
+                referralLink={whatsappRef[3].link}
             />
+            <SideView
+                id="terapia2"
+                isSectionTitle={true}
+                sectionTitle={"VENTOSOTERAPIA"}
+                sectionStyle={"bg-black"}
+                sideDirection={true}
+                text={`
+                    Também conhecida como cupping therapy, é uma técnica de cura tradicional que utiliza ventosas para criar vácuo na pele, com o objetivo de melhorar a circulação sanguínea, aliviar dores, reduzir inflamações e promover relaxamento muscular. Ela pode ser usada para tratar uma variedade de condições, como dores nas costas, no pescoço, dores de cabeça, rigidez muscular, ansiedade e até mesmo celulite.
+                    `}
+                textStyle={"text-red-500 font-medium p-2"}
+                titleStyle={"text-white p-4 flex place-content-center"}
+                // therapyLevel={1}
+                image={ventosoterapia}
+                imageStyle={"w-full h-auto rounded-l-full"}
+                referralLink={whatsappRef[2].link}
+            />
+            <SideView
+                id="terapia1"
+                isSectionTitle={true}
+                sectionTitle={"BAMBUTERAPIA"}
+                sectionStyle={"bg-black"}
+                sideDirection={false}
+                text={`
+                    A bambuterapia é uma técnica de massagem terapêutica que utiliza hastes de bambu de diferentes tamanhos e formas para realizar movimentos de pressão e deslizamento sobre o corpo. É uma técnica milenar chinesa, adaptada e utilizada em diversas partes do mundo, como a França, onde se tornou popular como uma alternativa para modelagem corporal e relaxamento. 
+                `}
+                textStyle={"text-white font-medium p-2"}
+                titleStyle={"text-red-500 p-4 flex place-content-center"}
+                // therapyLevel={0}
+                image={bambuterapia}
+                imageStyle={"w-full h-auto rounded-r-full"}
+                referralLink={whatsappRef[1].link}
+            />
+
+            <SideView
+                id="terapia0"
+                isSectionTitle={true}
+                sectionTitle={"DEPILAÇÃO COM MÁQUINA"}
+                sectionStyle={"bg-black"}
+                sideDirection={true}
+                text={`
+                                A depilação com máquina é um método moderno e eficiente para remoção de pelos, proporcionando resultados duradouros e uma pele suave. Utilizando tecnologia avançada, este tratamento é realizado por profissionais qualificados, garantindo conforto e segurança durante todo o processo.
+                    `}
+                textStyle={"text-red-500 font-medium p-2"}
+                titleStyle={"text-white p-4 flex place-content-center"}
+                // therapyLevel={1}
+                image={Depilacao}
+                imageStyle={"w-full h-auto rounded-l-full"}
+                referralLink={whatsappRef[0].link}
+            />
+
             <div className="bg-black py-24 px-8 flex flex-col items-center justify-center text-center">
                 <Action
                     id="contato"
@@ -243,7 +245,7 @@ O objetivo é a transcendência: liberar o que está oculto e despertar um novo 
                     buttonStyle={`
     group
     flex items-center justify-center gap-3
-    bg-red-500 text-white font-extrabold tracking-wide bg-opacity-90
+    bg-green-500 text-white font-extrabold tracking-wide bg-opacity-90
     px-8 sm:px-10 py-4 sm:py-6 rounded-full text-lg sm:text-xl md:text-2xl
     border border-red-700 shadow-xl
     hover:bg-white hover:text-red-600 hover:scale-105
