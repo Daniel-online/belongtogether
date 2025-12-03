@@ -35,16 +35,16 @@ const Team = ({ data, title, titleStyle = "", style = "", id }: TeamProps) => {
       </div>
       <Action
          title={
-                        <span className="flex items-center gap-3">
+                        <span className="flex items-center gap-3 ">
                             <IoLogoWhatsapp
-                                className="te xt-white w-8 h-8 sm:w-10 sm:h-10 md:w-12 md:h-12 transition-colors duration-300 group-hover:text-red-500"
+                                className=" w-8 h-8 sm:w-10 sm:h-10 md:w-12 md:h-12 transition-colors duration-300 group-hover:text-red-500"
                             />
                             <span className="text-lg sm:text-xl md:text-2xl font-bold">
                                 Procura algo específico? Fale Conosco!
                             </span>
                         </span>
                     }
-        style={"flex justify-center bg-black"}
+        style={"flex justify-center bg-black p-8"}
         buttonStyle={"bg-green-500  backdrop-blur-sm border border-white border-opacity-50 text-white font-bold px-6 py-3 sm:px-8 sm:py-3 rounded-full text-base sm:text-lg hover:bg-white hover:text-red-500 transition-all duration-300 hover:scale-105 active:scale-95 shadow-lg"}
        
         href="#contato"
