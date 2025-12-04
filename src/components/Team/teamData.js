@@ -9,70 +9,72 @@ import massagemTantrica from '@assets/tantrica_card.jpg';
 import Depilacao from '@assets/depilacao.jpg';
 const teamData = [
     {
-        "title": "Massagem Secreta",
+        "title": "MASSAGEM SECRETA",
         "subTitle": "",
         "image": massagemSecreta,
         "alt": "Massagem Secreta",
         "description": " ",
-        "benefits": "Relaxamento: \n Ajuda a reduzir o estresse e a tensão muscular, promovendo um estado de relaxamento. \nModelagem corporal: \nPode auxiliar na redução de celulite, gordura localizada e flacidez. \nDrenagem linfática: \nA pressão e os movimentos do bambu podem estimular a drenagem linfática, auxiliando na eliminação de toxinas. \nMelhora da circulação sanguínea: \nA massagem com bambu pode melhorar a circulação, levando a uma melhor oxigenação dos tecidos. \nRedução de dor e tensão: \nPode aliviar dores e tensões musculares, promovendo uma sensação de bem-estar."
+        "benefits": "Técnicas exclusivas, desenvolvidas com anos de experiência em massoterapia. \n Um serviço de luxo PREMIUM, feito na medida certa para despertar sua curiosidade… 🤫"
     },
+
     {
-        "title": "Massagem Nuru",
+        "title": "MASSAGEM NURU",
         "subTitle": "Massagem Sensorial Corpo a Corpo",
         "image": massagemNuru,
         "alt": "Massagem Nuru treatment",
         "description": " ",
-        "benefits": "A Massagem Nuru é uma técnica japonesa que utiliza um gel especial à base de algas (Nuru Gel) para promover um deslizamento suave e contínuo, corpo a corpo. Seus benefícios principais são: Relaxamento Profundo: O toque total e a fluidez dos movimentos aliviam tensões musculares e promovem um estado de descanso mental. Estímulo Sensorial Intenso: A técnica estimula a sensibilidade ao toque, proporcionando uma experiência sensorial única e envolvente. Hidratação da Pele: O gel Nuru, feito de algas marinhas, nutre e hidrata a pele, deixando-a macia e revitalizada. Conexão e Bem-Estar: Ajuda a reduzir o estresse, a ansiedade e fortalece a consciência corporal, ideal para quem busca uma vivência de toque e intimidade diferenciada (inclusive para casais)."
+        "benefits": "A Massagem Nuru é uma experiência única, em que o terapeuta utiliza todo o seu corpo de forma sensível e conectada. Ideal para quem busca um novo nível de prazer e relaxamento, combinando técnicas de massagem erótica e relaxante. O principal objetivo é proporcionar bem-estar profundo, prazer intenso e momentos de entrega total, com confiança e segurança durante todo o atendimento. Durante o processo, também pode ser incorporada a Lingam ou Yoni Massagem, elevando a experiência a um estágio de satisfação e intimidade jamais imaginados.😈"
     },
+
     {
-        "title": "Massagem Tântrica",
+        "title": "MASSAGEM TÂNTRICA | RELAXANTE + SENSITIVE + ALONGAMENTOS",
         "subTitle": "Expansão da Consciência Corporal e do Prazer Sensorial.",
         "image": massagemTantrica,
         "alt": "Massagem Tântrica treatment",
         "description": " ",
-        "benefits": "A Massagem Tântrica é uma poderosa ferramenta de autoconhecimento e cura que visa integrar corpo, mente e espírito, indo além do relaxamento físico. Seus principais benefícios incluem: Autoconhecimento e Consciência Corporal: Desperta a sensibilidade e expande a percepção do próprio corpo e do prazer. Desbloqueio e Expansão de Energia: Mobiliza a energia sexual (energia vital), auxiliando na cura de bloqueios emocionais e traumas relacionados à sexualidade. Melhora da Qualidade do Prazer: Intensifica e melhora a qualidade dos orgasmos, auxiliando em disfunções sexuais (como ejaculação precoce e anorgasmia). Redução de Estresse e Ansiedade: Promove um relaxamento profundo e duradouro, contribuindo para o bem-estar geral e a melhoria do sono."
+        "benefits": "Trabalha toda a musculatura, proporcionando alívio de tensões e relaxamento profundo. Técnicas de fricção, amassamento, shiatsu, reflexologia podal e alongamentos promovem o fluxo de energia pelo corpo, cuidando da sua saúde física e emocional. Uma experiência essencial para restaurar o bem-estar completo e renovar suas energias."
     },
+
     {
-        "title": "Massagem Relaxante",
+        "title": "MASSAGEM RELAXANTE + SENSITIVE + ALONGAMENTOS",
         "subTitle": "",
         "image": massagemRelaxante,
         "alt": "Massagem Relaxante",
         "description": " ",
-        "benefits": "Relaxamento: \n Ajuda a reduzir o estresse e a tensão muscular, promovendo um estado de relaxamento. \nModelagem corporal: \nPode auxiliar na redução de celulite, gordura localizada e flacidez. \nDrenagem linfática: \nA pressão e os movimentos do bambu podem estimular a drenagem linfática, auxiliando na eliminação de toxinas. \nMelhora da circulação sanguínea: \nA massagem com bambu pode melhorar a circulação, levando a uma melhor oxigenação dos tecidos. \nRedução de dor e tensão: \nPode aliviar dores e tensões musculares, promovendo uma sensação de bem-estar."
+        "benefits": "Descubra a Massagem Relaxante elevada a uma nova arte: um encontro de profundo bem-estar e despertar sensual, guiado por mãos profissionais e experientes. Nossa  técnica é a soma de anos de prática e aprimoramento, integrando o melhor das massagens clássicas com o toque sutil e consciente que evoca o erotismo e o prazer. Cada movimento é executado com precisão e sensibilidade, visando não apenas o alívio das tensões musculares, mas a expansão de todas as suas sensações. Permita-se entregar a este ritual onde o cuidado profissional se une ao despertar do erotismo. É o momento ideal para desligar a mente, relaxar profundamente e redescobrir a beleza e a sensualidade do seu próprio corpo, através de um toque que é técnico, respeitoso e inesquecível."
     },
-
     {
-        "title": "Pedras Quentes",
+        "title": "MASSAGEM COM PEDRAS QUENTES",
         "subTitle": "Terapia do Calor para Relaxamento Profundo e Alívio de Tensão.",
         "image": PedrasQuentes,
         "alt": "Pedras Quentes treatment",
         "description": " ",
-        "benefits": "A massagem com pedras quentes, ou 'hot stone massage', oferece benefícios terapêuticos profundos. O calor combinado ao toque alivia intensamente dores e tensões musculares, promovendo um relaxamento físico e mental incomparável. É eficaz na redução do estresse e ansiedade, melhora a circulação sanguínea (vasodilatação) e auxilia na drenagem de toxinas. O resultado é um aumento imediato da sensação de bem-estar, melhora da qualidade do sono e equilíbrio energético."
+        "benefits": "  Relaxamento profundo e calor terapêutico. Pedras aquecidas são aplicadas estrategicamente para aliviar tensões, aumentar a circulação e desbloquear energias. Uma experiência que revitaliza o corpo e acalma a mente, trazendo conforto, prazer e bem-estar absoluto."
     },
     {
-        "title": "Ventosaterapia",
+        "title": "VENTOSA TERAPIA",
         "subTitle": "Terapia de Sucção para Alívio Muscular e Desbloqueio da Dor.",
         "image": Ventosaterapia,
         "alt": "Ventosaterapia treatment",
-        "description": " ",
-        "benefits": "A Ventosaterapia utiliza a sucção para estimular o corpo, oferecendo diversos benefícios terapêuticos. É altamente eficaz para: Alívio de Dores: Diminui dores musculares, articulares e de cabeça, relaxando músculos e aliviando contraturas e tensões lombares. Melhora da Circulação: Aumenta o fluxo sanguíneo na área tratada, auxiliando na redução da inflamação, dor e promovendo melhor oxigenação. Recuperação e Bem-Estar: Acelera a recuperação de lesões musculares e contribui para a redução do estresse, ansiedade e fadiga, promovendo um estado geral de bem-estar."
+        "description": "",
+        "benefits": " Descompressão, alívio e renovação.Técnica que utiliza copos para estimular a circulação, soltar tensões musculares e liberar energia acumulada. Uma experiência que revitaliza o corpo, promove relaxamento profundo e sensação de leveza."
     },
     {
-        "title": "Bambuterapia",
+        "title": "BAMBUTERAPIA",
         "subTitle": "Massagem Modeladora e Drenante com o Poder do Bambu.",
         "image": Bambuterapia,
         "alt": "Bambuterapia treatment",
-        "description": " ",
-        "benefits": "Relaxamento: Ajuda a reduzir o estresse e a tensão muscular, promovendo um estado de relaxamento. Modelagem corporal: Pode auxiliar na redução de celulite, gordura localizada e flacidez. Drenagem linfática: A pressão e os movimentos do bambu podem estimular a drenagem linfática, auxiliando na eliminação de toxinas. Melhora da circulação sanguínea: A massagem com bambu pode melhorar a circulação, levando a uma melhor oxigenação dos tecidos. Redução de dor e tensão: Pode aliviar dores e tensões musculares, promovendo uma sensação de bem-estar."
+        "description": "                 ",
+        "benefits": "Força, precisão e relaxamento profundo. A técnica utiliza bambus de diferentes tamanhos para amassar, descontrair e revitalizar a musculatura, promovendo alívio de tensões e melhora da circulação. Uma experiência única que une técnica, conforto e bem-estar completo."
     },
 
     {
-        "title": "Depilação",
+        "title": "DEPILAÇÃO À MÁQUINAo",
         "subTitle": "",
         "image": Depilacao,
         "alt": "Depilação treatment",
         "description": " ",
-        "benefits": "Depilação profissional realizada por massoterapeuta, unindo beleza e bem-estar. Benefícios principais: 1. Habilidade e Precisão: Remoção eficaz dos pelos com o toque sensível e treinado das mãos do massoterapeuta, minimizando o desconforto. 2. Relaxamento Profundo: O procedimento se transforma em um momento terapêutico que acalma a mente e alivia tensões corporais. 3. Cuidado Integral da Pele: Tratamento que prepara, acalma e deixa a pele suave, luminosa e saudável, devido ao conhecimento em toque e cuidado do corpo. É a excelência da massoterapia aplicada à sua beleza."
+        "benefits": "Precisão, conforto e resultado imediato. Técnica profissional que garante remoção de pelos de forma eficaz, deixando a pele lisinha, macia e sem irritações. Um serviço pensado para bem-estar, cuidado e autoestima elevada."
     }
 ];
 

@@ -94,10 +94,51 @@ Um serviço de luxo PREMIUM, feito na medida certa para despertar sua curiosidad
                 imageStyle={"w-full h-auto rounded-r-full"}
                 referralLink={whatsappRef[7].link}
             />
+
+            <SideView
+                id="terapia5"
+                isSectionTitle={true}
+                sectionTitle={"NURU ERÓTICA | RELAXANTE + SENSITIVE"}
+                sectionStyle={"bg-black"}
+                sideDirection={true}
+                text={`A Massagem Nuru é uma experiência única, em que o terapeuta utiliza todo o seu corpo de forma sensível e conectada. Ideal para quem busca um novo nível de prazer e relaxamento, combinando técnicas de massagem erótica e relaxante.
+
+O principal objetivo é proporcionar bem-estar profundo, prazer intenso e momentos de entrega total, com confiança e segurança durante todo o atendimento.
+
+Durante o processo, também pode ser incorporada a Lingam ou Yoni Massagem, elevando a experiência a um estágio de satisfação e intimidade jamais imaginados.😈
+                                   `}
+                textStyle={"text-white font-medium p-2"}
+                titleStyle={"text-red-500 p-4 flex place-content-center"}
+                // therapyLevel={1}
+                image={nuru}
+                imageStyle={"w-full h-auto rounded-l-full"}
+                referralLink={whatsappRef[5].link}
+            />
+     <SideView
+                id="terapia4"
+                sectionTitle={"MASSAGEM TÂNTRICA | RELAXANTE + SENSITIVE"}
+                sectionStyle={"bg-black"}
+                sideDirection={false}
+                text={`
+                    
+
+Trabalha toda a musculatura, proporcionando alívio de tensões e relaxamento profundo. Técnicas de fricção, amassamento, shiatsu, reflexologia podal e alongamentos promovem o fluxo de energia pelo corpo, cuidando da sua saúde física e emocional.
+
+Uma experiência essencial para restaurar o bem-estar completo e renovar suas energias.`}
+
+
+                textStyle={"text-red-500 font-medium p-2"}
+                titleStyle={"text-white p-4 flex place-content-center"}
+                // therapyLevel={1}
+                image={tantrica}
+                imageStyle={"w-full h-auto rounded-r-full"}
+                referralLink={whatsappRef[4].link}
+            />
+
             <SideView
                 id="terapia6"
                 isSectionTitle={true}
-                sectionTitle={"MASSAGEM RELAXANTE"}
+                sectionTitle={"MASSAGEM RELAXANTE | RELAXANTE + SENSITIVE + ALONGAMENTOS"}
                 sectionStyle={"bg-black"}
                 sideDirection={true}
                 text={`
@@ -116,52 +157,13 @@ Permita-se entregar a este ritual onde o cuidado profissional se une ao desperta
 
             />
 
-            <SideView
-                id="terapia5"
-                isSectionTitle={true}
-                sectionTitle={"NURU ERÓTICA | RELAXANTE + SENSITIVE"}
-                sectionStyle={"bg-black"}
-                sideDirection={false}
-                text={`A Massagem Nuru é uma experiência única, em que o terapeuta utiliza todo o seu corpo de forma sensível e conectada. Ideal para quem busca um novo nível de prazer e relaxamento, combinando técnicas de massagem erótica e relaxante.
 
-O principal objetivo é proporcionar bem-estar profundo, prazer intenso e momentos de entrega total, com confiança e segurança durante todo o atendimento.
-
-Durante o processo, também pode ser incorporada a Lingam ou Yoni Massagem, elevando a experiência a um estágio de satisfação e intimidade jamais imaginados.😈
-                                   `}
-                textStyle={"text-white font-medium p-2"}
-                titleStyle={"text-red-500 p-4 flex place-content-center"}
-                // therapyLevel={1}
-                image={nuru}
-                imageStyle={"w-full h-auto rounded-r-full"}
-                referralLink={whatsappRef[5].link}
-            />
-
-            <SideView
-                id="terapia4"
-                sectionTitle={"MASSAGEM TÂNTRICA | RELAXANTE + SENSITIVE + ALONGAMENTOS"}
-                sectionStyle={"bg-black"}
-                sideDirection={true}
-                text={`
-                    
-
-Trabalha toda a musculatura, proporcionando alívio de tensões e relaxamento profundo. Técnicas de fricção, amassamento, shiatsu, reflexologia podal e alongamentos promovem o fluxo de energia pelo corpo, cuidando da sua saúde física e emocional.
-
-Uma experiência essencial para restaurar o bem-estar completo e renovar suas energias.`}
-                
-            
-                textStyle={"text-red-500 font-medium p-2"}
-                titleStyle={"text-white p-4 flex place-content-center"}
-                // therapyLevel={1}
-                image={tantrica}
-                imageStyle={"w-full h-auto rounded-l-full"}
-                referralLink={whatsappRef[4].link}
-            />
-
+       
 
             <SideView
                 id="terapia3"
                 isSectionTitle={true}
-                sectionTitle={" PEDRAS QUENTES"}
+                sectionTitle={" MASSAGEM COM PEDRAS QUENTES"}
                 sectionStyle={"bg-black"}
                 sideDirection={false}
                 text={`
@@ -179,13 +181,13 @@ Pedras aquecidas são aplicadas estrategicamente para aliviar tensões, aumentar
             <SideView
                 id="terapia2"
                 isSectionTitle={true}
-                sectionTitle={"VENTOSOTERAPIA"}
+                sectionTitle={"VENTOSA TERAPIA"}
                 sectionStyle={"bg-black"}
                 sideDirection={true}
                 text={`
 
 Descompressão, alívio e renovação.
-Técnica que utiliza copos para estimular a circulação, soltar tensões musculares e liberar energia acumulada. Uma experiência que revitaliza o corpo, promove relaxamento profundo e sensação de leveza.                    `}
+Técnica que utiliza copos para estimular a circulação, soltar tensões musculares e liberar energia acumulada. Uma experiência que revitaliza o corpo, promove relaxamento profundo e sensação de leveza.`}
                 textStyle={"text-red-500 font-medium p-2"}
                 titleStyle={"text-white p-4 flex place-content-center"}
                 // therapyLevel={1}
@@ -213,7 +215,7 @@ A técnica utiliza bambus de diferentes tamanhos para amassar, descontrair e rev
             <SideView
                 id="terapia0"
                 isSectionTitle={true}
-                sectionTitle={"DEPILAÇÃO COM MÁQUINA"}
+                sectionTitle={"DEPILAÇÃO À MÁQUINA"}
                 sectionStyle={"bg-black"}
                 sideDirection={true}
                 text={`
