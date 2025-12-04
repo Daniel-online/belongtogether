@@ -11,7 +11,7 @@ import whatsappRef from "./../Data/whatsappRef.json";
 import bambuterapia from "@assets/Bambuterapia.jpg";
 import ventosoterapia from "@assets/Ventosoterapia.jpg";
 import pedrasQuentes from "@assets/PedrasQuentes.jpg";
-import depoimentos from "@assets/depoimentos/dep_text_wide.png";
+import depoimentos from "@assets/depoimentos/dp_new_heart_wide.png";
 import Depilacao from "@assets/depilacao.jpg";
 import tantrica from "@assets/tantrica.jpg";
 import nuru from "@assets/nuruMassage.jpg";
@@ -85,12 +85,8 @@ const Home = () => {
                 sectionStyle={"bg-black"}
                 sideDirection={false}
                 text={`
-                    Bem-vindo ao ritual que quebra as barreiras do conhecido. A Massagem Secreta é uma experiência de acesso exclusivo, onde o toque transcende o físico para desvendar sensações que você nunca soube que existiam.
-
-Este tratamento é uma jornada sensorial única, totalmente adaptada à sua  energia. Não há protocolo fixo; há apenas a sua entrega a um caminho de prazer e mistério, guiado por um toque profundamente intuitivo e pela expertise de um terapeuta que domina técnicas raras e aprimoradas.
-
-O objetivo é a transcendência: liberar o que está oculto e despertar um novo nível de percepção sensorial no seu corpo. Permita que o inédito aconteça. Descubra o segredo que só o seu corpo pode guardar e desvendar.
-                `}
+                    Técnicas exclusivas, desenvolvidas com anos de experiência em massoterapia.
+Um serviço de luxo PREMIUM, feito na medida certa para despertar sua curiosidade… 🤫   `}
                 textStyle={"text-white font-medium p-2"}
                 titleStyle={"text-red-500 p-4 flex place-content-center"}
                 // therapyLevel={1}
@@ -107,9 +103,9 @@ O objetivo é a transcendência: liberar o que está oculto e despertar um novo 
                 text={`
                     Descubra a Massagem Relaxante elevada a uma nova arte: um encontro de profundo bem-estar e despertar sensual, guiado por **mãos profissionais** e experientes.
 
-Nossa técnica é a **soma de anos de prática e aprimoramento**, integrando o melhor das massagens clássicas com o toque sutil e consciente que evoca o erotismo e o prazer. Cada movimento é executado com **precisão e sensibilidade**, visando não apenas o alívio das tensões musculares, mas a expansão de todas as suas sensações.
+Nossa  técnica é a soma de anos de prática e aprimoramento, integrando o melhor das massagens clássicas com o toque sutil e consciente que evoca o erotismo e o prazer. Cada movimento é executado com precisão e sensibilidade, visando não apenas o alívio das tensões musculares, mas a expansão de todas as suas sensações.
 
-Permita-se entregar a este ritual onde o **cuidado profissional** se une ao **despertar do erotismo**. É o momento ideal para desligar a mente, relaxar profundamente e redescobrir a beleza e a sensualidade do seu próprio corpo, através de um toque que é técnico, respeitoso e inesquecível.
+Permita-se entregar a este ritual onde o cuidado profissional se une ao despertar do erotismo. É o momento ideal para desligar a mente, relaxar profundamente e redescobrir a beleza e a sensualidade do seu próprio corpo, através de um toque que é técnico, respeitoso e inesquecível.
                     `}
                 textStyle={"text-red-500 font-medium p-2"}
                 titleStyle={"text-white p-4 flex place-content-center"}
@@ -123,20 +119,15 @@ Permita-se entregar a este ritual onde o **cuidado profissional** se une ao **de
             <SideView
                 id="terapia5"
                 isSectionTitle={true}
-                sectionTitle={"MASSAGEM NURU"}
+                sectionTitle={"NURU ERÓTICA | RELAXANTE + SENSITIVE"}
                 sectionStyle={"bg-black"}
                 sideDirection={false}
-                text={`
-                    A Massagem Nuru é uma experiência sensorial única, de origem japonesa, que se destaca pelo método de deslizamento total do corpo ("corpo a corpo") utilizando um gel especial (Nuru Gel), geralmente à base de algas marinhas. Este gel é transparente, inodoro e altamente viscoso, permitindo um contato de baixíssima fricção. O objetivo principal é proporcionar um relaxamento profundo e uma intensa consciência corporal.
+                text={`A Massagem Nuru é uma experiência única, em que o terapeuta utiliza todo o seu corpo de forma sensível e conectada. Ideal para quem busca um novo nível de prazer e relaxamento, combinando técnicas de massagem erótica e relaxante.
 
-A Massagem Nuru oferece três benefícios centrais:
+O principal objetivo é proporcionar bem-estar profundo, prazer intenso e momentos de entrega total, com confiança e segurança durante todo o atendimento.
 
-Relaxamento e Alívio de Tensão: O deslizamento contínuo e envolvente acalma a mente, alivia profundamente as tensões musculares e reduz o estresse e a ansiedade.
-
-Estímulo Sensorial Único: A técnica intensifica a sensibilidade ao toque, proporcionando uma experiência tátil singular e expansiva que desperta os sentidos de forma incomparável.
-
-Cuidado com a Pele: O Nuru Gel é conhecido por suas propriedades hidratantes, nutrindo a pele e deixando-a macia, suave e revitalizada após a sessão
-                `}
+Durante o processo, também pode ser incorporada a Lingam ou Yoni Massagem, elevando a experiência a um estágio de satisfação e intimidade jamais imaginados.😈
+                                   `}
                 textStyle={"text-white font-medium p-2"}
                 titleStyle={"text-red-500 p-4 flex place-content-center"}
                 // therapyLevel={1}
@@ -147,12 +138,17 @@ Cuidado com a Pele: O Nuru Gel é conhecido por suas propriedades hidratantes, n
 
             <SideView
                 id="terapia4"
-                sectionTitle={"MASSAGEM TÂNTRICA"}
+                sectionTitle={"MASSAGEM TÂNTRICA | RELAXANTE + SENSITIVE + ALONGAMENTOS"}
                 sectionStyle={"bg-black"}
                 sideDirection={true}
-                text={`A Massagem Tântrica é uma poderosa extensão da filosofia milenar do Tantra, originária da Índia há mais de 5.000 anos, que considera o corpo humano como um templo sagrado e um veículo para a conexão profunda entre mente, corpo e espírito.
+                text={`
+                    
 
-Diferente das massagens convencionais, que focam primariamente na tensão muscular, a Tântrica é uma prática terapêutica de autoconhecimento que utiliza toques sutis, conscientes e técnicas de respiração guiada.`}
+Trabalha toda a musculatura, proporcionando alívio de tensões e relaxamento profundo. Técnicas de fricção, amassamento, shiatsu, reflexologia podal e alongamentos promovem o fluxo de energia pelo corpo, cuidando da sua saúde física e emocional.
+
+Uma experiência essencial para restaurar o bem-estar completo e renovar suas energias.`}
+                
+            
                 textStyle={"text-red-500 font-medium p-2"}
                 titleStyle={"text-white p-4 flex place-content-center"}
                 // therapyLevel={1}
@@ -169,7 +165,9 @@ Diferente das massagens convencionais, que focam primariamente na tensão muscul
                 sectionStyle={"bg-black"}
                 sideDirection={false}
                 text={`
-  A massagem com pedras quentes, ou "hot stone massage", oferece diversos benefícios, incluindo alívio de dores musculares, relaxamento profundo, redução de estresse e ansiedade, melhora da circulação e, em alguns casos, alívio de dores de cabeça e enxaquecas.
+  Relaxamento profundo e calor terapêutico.
+
+Pedras aquecidas são aplicadas estrategicamente para aliviar tensões, aumentar a circulação e desbloquear energias. Uma experiência que revitaliza o corpo e acalma a mente, trazendo conforto, prazer e bem-estar absoluto.
                 `}
                 textStyle={"text-white font-medium p-2"}
                 titleStyle={"text-red-500 p-4 flex place-content-center"}
@@ -185,8 +183,9 @@ Diferente das massagens convencionais, que focam primariamente na tensão muscul
                 sectionStyle={"bg-black"}
                 sideDirection={true}
                 text={`
-                    Também conhecida como cupping therapy, é uma técnica de cura tradicional que utiliza ventosas para criar vácuo na pele, com o objetivo de melhorar a circulação sanguínea, aliviar dores, reduzir inflamações e promover relaxamento muscular. Ela pode ser usada para tratar uma variedade de condições, como dores nas costas, no pescoço, dores de cabeça, rigidez muscular, ansiedade e até mesmo celulite.
-                    `}
+
+Descompressão, alívio e renovação.
+Técnica que utiliza copos para estimular a circulação, soltar tensões musculares e liberar energia acumulada. Uma experiência que revitaliza o corpo, promove relaxamento profundo e sensação de leveza.                    `}
                 textStyle={"text-red-500 font-medium p-2"}
                 titleStyle={"text-white p-4 flex place-content-center"}
                 // therapyLevel={1}
@@ -201,8 +200,8 @@ Diferente das massagens convencionais, que focam primariamente na tensão muscul
                 sectionStyle={"bg-black"}
                 sideDirection={false}
                 text={`
-                    A bambuterapia é uma técnica de massagem terapêutica que utiliza hastes de bambu de diferentes tamanhos e formas para realizar movimentos de pressão e deslizamento sobre o corpo. É uma técnica milenar chinesa, adaptada e utilizada em diversas partes do mundo, como a França, onde se tornou popular como uma alternativa para modelagem corporal e relaxamento. 
-                `}
+Força, precisão e relaxamento profundo.
+A técnica utiliza bambus de diferentes tamanhos para amassar, descontrair e revitalizar a musculatura, promovendo alívio de tensões e melhora da circulação. Uma experiência única que une técnica, conforto e bem-estar completo.                `}
                 textStyle={"text-white font-medium p-2"}
                 titleStyle={"text-red-500 p-4 flex place-content-center"}
                 // therapyLevel={0}
@@ -218,8 +217,9 @@ Diferente das massagens convencionais, que focam primariamente na tensão muscul
                 sectionStyle={"bg-black"}
                 sideDirection={true}
                 text={`
-                                A depilação com máquina é um método moderno e eficiente para remoção de pelos, proporcionando resultados duradouros e uma pele suave. Utilizando tecnologia avançada, este tratamento é realizado por profissionais qualificados, garantindo conforto e segurança durante todo o processo.
-                    `}
+
+Precisão, conforto e resultado imediato.
+Técnica profissional que garante remoção de pelos de forma eficaz, deixando a pele lisinha, macia e sem irritações. Um serviço pensado para bem-estar, cuidado e autoestima elevada.                    `}
                 textStyle={"text-red-500 font-medium p-2"}
                 titleStyle={"text-white p-4 flex place-content-center"}
                 // therapyLevel={1}

@@ -3,9 +3,8 @@ import { useEffect, useRef, useState } from "react";
 import { motion } from "framer-motion";
 import Hero from "./../components/Content/Hero";
 import Paragraph from "../components/Content/Paragraph";
-import profilesData from "./../Data/aboutus.json";
+import profilesData from "../Data/aboutus.js";
 import { FaChevronLeft, FaChevronRight } from "react-icons/fa";
-
 import imgDesktop from "./../../src/assets/Sobre_mim.png";
 import imgMobile from "./../../src/assets/Sobre_mim_mobile.png";
 

@@ -42,9 +42,8 @@ const BackgroundVideo = () => {
         muted
         loop
         playsInline
-        className={`absolute inset-0 w-full h-full object-cover transition-opacity duration-500 ${
-          videoLoaded ? 'opacity-100' : 'opacity-0'
-        }`}
+        className={`absolute inset-0 w-full h-full object-cover transition-opacity duration-500 ${videoLoaded ? 'opacity-100' : 'opacity-0'
+          }`}
         onLoadedData={() => setVideoLoaded(true)}
         onError={(e) => {
           console.error("Video loading error:", e);
@@ -85,8 +84,14 @@ const BackgroundVideo = () => {
       animate-gradient-text">
           AQUI PARA PROPORCIONAR UMA EXPERIÊNCIA
         </h1>
-        <p className="text-lg sm:text-xl md:text-2xl mb-6 sm:mb-8 max-w-2xl drop-shadow-lg leading-relaxed">
-         
+        <p className="text-lg sm:text-xl md:text-2xl mb-6 sm:mb-8 max-w-2xl drop-shadow-lg leading-relaxed font-bold bg-gradient-to-r from-red-700 via-pink-600 to-red-600
+      bg-clip-text text-transparent 
+      animate-gradient-text">
+          Você merece o <span className="italic text-white">MELHOR.</span>
+          <br />
+          <br />
+          Massagem profissional, cuidado real, resultados imediatos
+          e serviços exclusivos para elevar seu autocuidado ao nível que você merece.
         </p>
         <a href="#sobre" className="bg-red-500  backdrop-blur-sm border border-white border-opacity-50 text-white-500 font-bold px-6 py-3 sm:px-8 sm:py-3 rounded-full text-base sm:text-lg hover:bg-white hover:text-red-500 transition-all duration-300 hover:scale-105 active:scale-95 shadow-lg">
           CONHECER MAIS
@@ -96,4 +101,4 @@ const BackgroundVideo = () => {
   );
 };
 
-export default BackgroundVideo;
+export default BackgroundVideo; 
