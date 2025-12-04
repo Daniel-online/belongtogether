@@ -19,7 +19,7 @@ const teamData = [
 
     {
         "title": "MASSAGEM NURU",
-        "subTitle": "Massagem Sensorial Corpo a Corpo",
+        "subTitle": " Relaxante + Sensitive",
         "image": massagemNuru,
         "alt": "Massagem Nuru treatment",
         "description": " ",
@@ -27,8 +27,8 @@ const teamData = [
     },
 
     {
-        "title": "MASSAGEM TÂNTRICA | RELAXANTE + SENSITIVE + ALONGAMENTOS",
-        "subTitle": "Expansão da Consciência Corporal e do Prazer Sensorial.",
+        "title": "MASSAGEM TÂNTRICA ",
+        "subTitle": "TÂNTRICA + RELAXANTE + SENSITIVE ",
         "image": massagemTantrica,
         "alt": "Massagem Tântrica treatment",
         "description": " ",
@@ -36,8 +36,8 @@ const teamData = [
     },
 
     {
-        "title": "MASSAGEM RELAXANTE + SENSITIVE + ALONGAMENTOS",
-        "subTitle": "",
+        "title": "MASSAGEM RELAXANTE",
+        "subTitle": "RELAXANTE + SENSITIVE + ALONGAMENTOS",
         "image": massagemRelaxante,
         "alt": "Massagem Relaxante",
         "description": " ",
@@ -45,7 +45,7 @@ const teamData = [
     },
     {
         "title": "MASSAGEM COM PEDRAS QUENTES",
-        "subTitle": "Terapia do Calor para Relaxamento Profundo e Alívio de Tensão.",
+        "subTitle": "",
         "image": PedrasQuentes,
         "alt": "Pedras Quentes treatment",
         "description": " ",
@@ -53,7 +53,7 @@ const teamData = [
     },
     {
         "title": "VENTOSA TERAPIA",
-        "subTitle": "Terapia de Sucção para Alívio Muscular e Desbloqueio da Dor.",
+        "subTitle": "",
         "image": Ventosaterapia,
         "alt": "Ventosaterapia treatment",
         "description": "",
@@ -61,7 +61,7 @@ const teamData = [
     },
     {
         "title": "BAMBUTERAPIA",
-        "subTitle": "Massagem Modeladora e Drenante com o Poder do Bambu.",
+        "subTitle": "",
         "image": Bambuterapia,
         "alt": "Bambuterapia treatment",
         "description": "                 ",
@@ -69,7 +69,7 @@ const teamData = [
     },
 
     {
-        "title": "DEPILAÇÃO À MÁQUINAo",
+        "title": "DEPILAÇÃO À MÁQUINA",
         "subTitle": "",
         "image": Depilacao,
         "alt": "Depilação treatment",
