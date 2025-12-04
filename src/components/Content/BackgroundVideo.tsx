@@ -1,5 +1,5 @@
 import React, { useState, useEffect, useRef } from 'react';
-import srcMobile from './../../assets/videos/mobile_smoke_compressed.mp4';
+import srcMobile from './../../assets/videos/mobile_vid.mp4';
 import srcDesktop from './../../assets/videos/new-dsktp-bg.mp4';
 
 const BackgroundVideo = () => {
