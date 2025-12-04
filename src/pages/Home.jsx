@@ -96,7 +96,7 @@ Um serviço de luxo PREMIUM, feito na medida certa para despertar sua curiosidad
             />
 
             <SideView
-                id="terapia5"
+                id="terapia6"
                 isSectionTitle={true}
                 sectionTitle={"NURU ERÓTICA | RELAXANTE + SENSITIVE"}
                 sectionStyle={"bg-black"}
@@ -115,7 +115,7 @@ Durante o processo, também pode ser incorporada a Lingam ou Yoni Massagem, elev
                 referralLink={whatsappRef[5].link}
             />
      <SideView
-                id="terapia4"
+                id="terapia5"
                 sectionTitle={"MASSAGEM TÂNTRICA | RELAXANTE + SENSITIVE"}
                 sectionStyle={"bg-black"}
                 sideDirection={false}
@@ -136,7 +136,7 @@ Uma experiência essencial para restaurar o bem-estar completo e renovar suas en
             />
 
             <SideView
-                id="terapia6"
+                id="terapia4"
                 isSectionTitle={true}
                 sectionTitle={"MASSAGEM RELAXANTE | RELAXANTE + SENSITIVE + ALONGAMENTOS"}
                 sectionStyle={"bg-black"}
