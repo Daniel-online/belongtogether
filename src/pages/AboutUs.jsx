@@ -200,7 +200,7 @@ const AboutUs = ({ id }) => {
 
       <div className="absolute inset-0 flex flex-col items-center justify-center p-6">
         <h1 className={`font-extrabold text-red-500 ${isMobile ? "text-4xl mb-4" : "text-6xl mb-6"}`}>
-          SOBRE NÓS
+          TERAPEUTAS
         </h1>
 
         {/* viewport: área fixa que mostra exatamente 1 slide */}

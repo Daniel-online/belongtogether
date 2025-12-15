@@ -1,58 +1,44 @@
-// TextBreaker.jsx
 import PropTypes from "prop-types";
 
-const defaultSentenceSplitter = (text) => {
-  // try to preserve existing paragraphs first
-  const explicitParas = text.split(/\n\s*\n/).map(p => p.trim()).filter(Boolean);
-  if (explicitParas.length > 1) return explicitParas;
+const TextBreaker = ({ text = "", style = "" }) => {
+  if (!text || !String(text).trim()) return null;
 
-  // otherwise split into sentences (keeps punctuation)
-  // regex: split after ., ?, ! followed by whitespace
-  const sentences = text
-    .replace(/\s+/g, " ") // normalize whitespace
-    .split(/(?<=[.?!])\s+/)
-    .map(s => s.trim())
+  const paragraphs = String(text)
+    .split(/\n+/)
+    .map(p => p.trim())
     .filter(Boolean);
 
-  return sentences;
-};
-
-const TextBreaker = ({ text = "", sentencesPerParagraph = 3, style = "" }) => {
-  if (!text) return null;
-
-  const pieces = defaultSentenceSplitter(text);
-
-  // if pieces were explicit paragraphs, return them directly
-  const looksLikeExplicitParas = text.includes("\n\n");
-  let paragraphs = [];
-
-  if (looksLikeExplicitParas) {
-    paragraphs = pieces;
-  } else {
-    // pieces are sentences — group them into paragraphs
-    for (let i = 0; i < pieces.length; i += sentencesPerParagraph) {
-      const chunk = pieces.slice(i, i + sentencesPerParagraph).join(" ");
-      paragraphs.push(chunk);
-    }
-  }
-
   return (
-    <div className={style}>
-      {paragraphs.map((paragraph, idx) => (
+    <>
+      {paragraphs.map((p, i) => (
         <p
-          key={idx}
-          className="mb-3 text-justify leading-relaxed break-words whitespace-normal"
+          key={i}
+          className={`
+            ${style}
+            text-justify
+            leading-relaxed
+            tracking-wide
+            text-sm
+            sm:text-base
+            mb-3
+          `}
+          style={{
+            textAlign: "justify",
+            textJustify: "inter-word",
+            hyphens: "auto",
+            WebkitHyphens: "auto",
+            MozHyphens: "auto",
+          }}
         >
-          {paragraph}
+          {p}
         </p>
       ))}
-    </div>
+    </>
   );
 };
 
 TextBreaker.propTypes = {
   text: PropTypes.string,
-  sentencesPerParagraph: PropTypes.number,
   style: PropTypes.string,
 };
 

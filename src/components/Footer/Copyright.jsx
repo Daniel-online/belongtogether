@@ -10,7 +10,7 @@ const Copyright = () => {
       />
 
       <div className="flex flex-col leading-tight">
-        <span>Belong Together LTDA</span>
+        <span>We Belong Together LTDA</span>
         <span>Sao Paulo - Brasil</span>
         <span>
           Created by{""}

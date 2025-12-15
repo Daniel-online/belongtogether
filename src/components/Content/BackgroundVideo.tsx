@@ -1,5 +1,5 @@
 import React, { useState, useEffect, useRef } from 'react';
-import srcMobile from './../../assets/videos/mobile_vid.mp4';
+import srcMobile from './../../assets/videos/mobile_vs.mp4';
 import srcDesktop from './../../assets/videos/new-dsktp-bg.mp4';
 
 const BackgroundVideo = () => {
@@ -78,13 +78,13 @@ const BackgroundVideo = () => {
 
       {/* Content Container */}
       <div className="relative z-10 h-full flex flex-col justify-center items-center text-center text-white px-4 sm:px-6 lg:px-8">
-        <h1 className="text-3xl sm:text-4xl md:text-5xl font-bold mb-4 sm:mb-6 drop-shadow-2xl text-4xl font-bold 
+        <h1 className="text-2xl sm:text-4xl md:text-5xl font-bold mb-4 sm:mb-6 drop-shadow-2xl text-4xl font-bold 
       bg-gradient-to-r from-red-700 via-pink-600 to-red-600
       bg-clip-text text-transparent 
       animate-gradient-text">
         Estou aqui para te proporcionar uma EXPERIÊNCIA
         </h1>
-        <p className="text-lg sm:text-xl md:text-2xl mb-6 sm:mb-8 max-w-2xl drop-shadow-lg leading-relaxed font-bold  text-white
+        <p className="text-sm sm:text-xs md:text-2xl mb-6 sm:mb-8 max-w-2xl drop-shadow-lg leading-relaxed font-bold  text-white
       ">
           Você merece o <span className="italic bg-gradient-to-r from-red-700 via-pink-600 to-red-600
       bg-clip-text text-transparent animate-gradient-text">MELHOR.</span>

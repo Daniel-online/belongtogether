@@ -18,10 +18,10 @@ const Cards = ({
       {cardData.map((card, index) => (
         <div
           key={index}
-          className={`${style} transform hover:scale-105 drop-shadow-md transition delay-100 hover:drop-shadow-2xl rounded-xl flex flex-col h-full`}
+          className={`${style} transform hover:scale-105 drop-shadow-md transition delay-100 hover:drop-shadow-2xl rounded-xl flex flex-col `}
         >
-          {/* 👇 Fixed proportional image container */}
-          <div className="relative w-full aspect-[4/3] overflow-hidden rounded-t-xl">
+          {/* Container de imagem proporcional */}
+          <div className="relative w-full aspect-[4/3] overflow-hidden rounded-t-xl ">
             <img
               className={`${imageStyle} absolute top-0 left-0 w-full h-full object-cover`}
               src={card.image}
@@ -31,11 +31,14 @@ const Cards = ({
           </div>
 
           <div className="p-4 flex flex-col flex-grow">
-            <h3 className="font-bold text-lg sm:text-xl font-extrabold text-red-600 mb-1">{card.title}</h3>
-            <h5 className="font-semibold mb-4 justify-center">{card.subTitle}</h5>
+            <h3 className="font-bold text-lg sm:text-xl font-extrabold text-red-600 mb-1 text-center">
+              {card.title}
+            </h3>
+            <h5 className="font-semibold mb-4 text-center">{card.subTitle}</h5>
 
-            {/* Scrollable text area */}
+            {/* Área de texto com scroll se necessário */}
             <div className="flex-grow mb-4 overflow-y-auto max-h-48 pr-2 scrollbar-thin scrollbar-thumb-red-500 scrollbar-track-transparent scrollable">
+              {/* descrição — TextBreaker cuida da justificação/estilização do texto */}
               <TextBreaker
                 text={card.description}
                 wordsPerParagraph={50}
@@ -55,7 +58,7 @@ const Cards = ({
                 style={actionStyle}
                 buttonStyle={buttonStyle}
                 bgImage={buttonImage}
-                href={buttonRef[index].link}
+                href={buttonRef[index]?.link || "#"}
               />
             </div>
           </div>
