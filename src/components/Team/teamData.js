@@ -19,7 +19,7 @@ const teamData = [
 
     {
         "title": "MASSAGEM NURU",
-        "subTitle": " Relaxante + Sensitive",
+        "subTitle": " RELAXANTE + SENSITIVE",
         "image": massagemNuru,
         "alt": "Massagem Nuru treatment",
         "description": "",
@@ -32,7 +32,7 @@ const teamData = [
         "image": massagemTantrica,
         "alt": "Massagem Tântrica treatment",
         "description": "",
-        "benefits": "Trabalha toda a musculatura, proporcionando alívio de tensões e relaxamento profundo. Técnicas de fricção, amassamento, shiatsu, reflexologia podal e alongamentos promovem o fluxo de energia pelo corpo, cuidando da sua saúde física e emocional. Uma experiência essencial para restaurar o bem-estar completo e renovar suas energias."
+        "benefits": " Descubra a Massagem Relaxante elevada a uma nova arte: um encontro de profundo bem-estar e despertar sensual, guiado por **mãos profissionais** e experientes. \n Nossa  técnica é a soma de anos de prática e aprimoramento, integrando o melhor das massagens clássicas com o toque sutil e consciente que evoca o erotismo e o prazer. Cada movimento é executado com precisão e sensibilidade, visando não apenas o alívio das tensões musculares, mas a expansão de todas as suas sensações. \n Permita-se entregar a este ritual onde o cuidado profissional se une ao despertar do erotismo. É o momento ideal para desligar a mente, relaxar profundamente e redescobrir a beleza e a sensualidade do seu próprio corpo, através de um toque que é técnico, respeitoso e inesquecível."
     },
 
     {
@@ -41,7 +41,7 @@ const teamData = [
         "image": massagemRelaxante,
         "alt": "Massagem Relaxante",
         "description": "",
-        "benefits": "Descubra a Massagem Relaxante elevada a uma nova arte: um encontro de profundo bem-estar e despertar sensual, guiado por mãos profissionais e experientes. Nossa  técnica é a soma de anos de prática e aprimoramento, integrando o melhor das massagens clássicas com o toque sutil e consciente que evoca o erotismo e o prazer. Cada movimento é executado com precisão e sensibilidade, visando não apenas o alívio das tensões musculares, mas a expansão de todas as suas sensações. Permita-se entregar a este ritual onde o cuidado profissional se une ao despertar do erotismo. É o momento ideal para desligar a mente, relaxar profundamente e redescobrir a beleza e a sensualidade do seu próprio corpo, através de um toque que é técnico, respeitoso e inesquecível."
+        "benefits": "Trabalha toda a musculatura, proporcionando alívio de tensões e relaxamento profundo. Técnicas de fricção, amassamento, shiatsu, reflexologia podal e alongamentos promovem o fluxo de energia pelo corpo, cuidando da sua saúde física e emocional. \n Uma experiência essencial para restaurar o bem-estar completo e renovar suas energias."
     },
     {
         "title": "MASSAGEM COM PEDRAS QUENTES",
