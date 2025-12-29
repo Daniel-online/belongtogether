@@ -6,14 +6,14 @@ const Thumb = () => (
         <span className="font-bold hover:text-red-500 text-center">R. LÍBERO BADARÓ, 496- SAO PAULO - SP</span>
 
         <a
-            href={`https://wa.me/?text=Olá! Eu tenho interesse nas suas experiências de massoterapia.`}
+            href={`https://wa.me/+553191526244?text=Olá! Eu tenho interesse nas suas experiências de massoterapia.`}
             className="font-semibold text-green-500 hover:text-red-500 transition-colors text-center"
             target="_blank"
             rel="noopener noreferrer"
         >
             <span className="flex items-center space-x-2">
                 <FaWhatsapp className="text-green-500" />
-                <span>+5521999462860</span>
+                <span>+55 31 9152-6244</span>
             </span>
         </a>
         <span className="font-semibold hover:text-red-500 text-center">SEGUNDA A SEXTA: 9h ÀS 19h; SÁBADO: 9h ÀS 14h</span>
