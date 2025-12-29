@@ -8,7 +8,7 @@
   background: #EF4444; /* red-700 */
   overflow: hidden;
   gap: 2rem;
-  padding: 3rem 0; /* a bit more vertical padding */
+  /* padding: 3rem 0; */
 }
 
 /* Each scroller row */
@@ -18,9 +18,9 @@
   position: relative;
   display: flex;
   justify-content: center;
-
+  
   /* Give breathing space per row */
-  padding: 1rem 0;
+  padding: 0.5rem 0;
   margin: 0;
   height: clamp(120px, 25vw, 200px); /* dynamic height */
 }
@@ -85,7 +85,7 @@
 @media (max-width: 768px) {
   .scroller-wrapper {
     gap: 1.5rem;
-    padding: 1rem 0;
+    /* padding: 1rem 0; */
   }
 
   .scroller {

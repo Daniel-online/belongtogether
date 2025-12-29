@@ -1,29 +1,30 @@
 import { FaWhatsapp } from "react-icons/fa";
-import PropTypes from "prop-types";
-import Button from "./Button"
+import Button from "./Button";
 
-const openChat = ({
-  url
-}) => {
-  window.location.replace(url);
-}
 
-const whatsappClass = " z-10 flex bottom-5 right-5 justify-center items-center fixed bg-green-500 text-white w-12 h-12 px-2 py-2 rounded-full";
-const WhatsappButton = ({url}) => {
+const WhatsappButton = ({style}) => {
+  const openChat = () => {
+    window.open(
+      "https://wa.me/5521999462860?text=Olá! Eu tenho interesse nas suas experiências de massoterapia.",
+      "_blank",
+      "noopener,noreferrer"
+    );
+  };
+
   return (
     <Button
-      className={whatsappClass}
-      onClick={openChat(url)}
+      className={style}
+      onClick={openChat}
       disabled={false}
-      icon={<FaWhatsapp style={{
-        fontSize: '30px'
-      }} />}
-    >
-    </Button>
-  )
-}
-WhatsappButton.propTypes={
-  url: PropTypes.string
-}
+      icon={<FaWhatsapp size={50} />}
+    />
+  );
+};
 
-export default WhatsappButton
+import PropTypes from "prop-types";
+
+WhatsappButton.propTypes = {
+  style: PropTypes.string
+};
+
+export default WhatsappButton;

@@ -1,9 +1,9 @@
 // import Logo from "/BeKlube logo - 3031x1130.png";
-import logo from "./../../../src/assets/logo.svg";
+import logo from "./../../../src/assets/BT_logo.png";
 
 const Logo = () => {
   return (
-    <div className=" relative w-[200px] md:w-[250px] lg:w-[300px] xl:w-[350px] h-full">
+    <div className=" relative w-[180px] md:w-[220px] lg:w-[260px] xl:w-[300px] h-full">
       <a href="/" className="block h-full">
         {/* Base Logo */}
         <img

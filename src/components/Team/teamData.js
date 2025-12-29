@@ -2,10 +2,10 @@
 import Bambuterapia from '@assets/Bambuterapia.jpg';
 import Ventosaterapia from '@assets/Ventosoterapia.jpg';
 import PedrasQuentes from '@assets/PedrasQuentes.jpg';
-import massagemNuru from '@assets/nuruMassage.jpg';
+import massagemNuru from '@assets/profiles/nuru-hq.jpg';
 import massagemSecreta from '@assets/massagemSecreta_card.jpg';
-import massagemRelaxante from '@assets/Relaxante_card.jpg';
-import massagemTantrica from '@assets/tantrica_card.jpg';
+import massagemRelaxante from '@assets/profiles/relaxante-hq.jpg';
+import massagemTantrica from '@assets/profiles/tantrica-hq.jpg';
 import Depilacao from '@assets/depilacao.jpg';
 const teamData = [
     {

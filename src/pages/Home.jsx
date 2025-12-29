@@ -13,9 +13,9 @@ import ventosoterapia from "@assets/Ventosoterapia.jpg";
 import pedrasQuentes from "@assets/PedrasQuentes.jpg";
 import depoimentos from "@assets/depoimentos/depoimentos_wide.png";
 import Depilacao from "@assets/depilacao.jpg";
-import tantrica from "@assets/tantrica.jpg";
-import nuru from "@assets/nuruMassage.jpg";
-import relaxante from "@assets/Relaxante.jpg";
+import tantrica from "@assets/profiles/tantrica-hq.jpg";
+import nuru from "@assets/profiles/nuru-hq.jpg";
+import relaxante from "@assets/profiles/relaxante-hq.jpg";
 import secreta from "@assets/massagemSecreta.jpg";
 // import notebook from "./../../src/assets/src/assets/Comercial/other/notebook.jpg"
 import teamData from "./../components/Team/teamData.js";
@@ -26,6 +26,7 @@ import AboutUs from "./AboutUs.jsx";
 import Team from "../components/Team/Team.tsx";
 import BackgroundVideo from "../components/Content/BackgroundVideo.tsx";
 import Scroller from "../components/Animated/Scroller.jsx";
+import WhatsappButton from "../components/Buttons/WhatsappButton.jsx";
 // import 
 
 const Home = () => {
@@ -35,6 +36,9 @@ const Home = () => {
     return (
 
         <div className="overflow-x-hidden">
+            <WhatsappButton
+                style="z-50 fixed bottom-5 right-5 flex items-center justify-center bg-green-500 text-white w-20 h-20 rounded-full"
+            />
             <Navbar
                 data={navbarData}
             />
@@ -114,7 +118,7 @@ Durante o processo, também pode ser incorporada a Lingam ou Yoni Massagem, elev
                 imageStyle={"w-full h-auto rounded-l-full"}
                 referralLink={whatsappRef[5].link}
             />
-     <SideView
+            <SideView
                 id="terapia5"
                 sectionTitle={"MASSAGEM TÂNTRICA | RELAXANTE + SENSITIVE"}
                 sectionStyle={"bg-black"}
@@ -161,7 +165,7 @@ Uma experiência essencial para restaurar o bem-estar completo e renovar suas en
             />
 
 
-       
+
 
             <SideView
                 id="terapia3"
