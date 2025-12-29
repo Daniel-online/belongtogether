@@ -61,7 +61,7 @@ const Navbar = ({ data }) => {
 
           <div className="flex items-center gap-6">
             <a href={instagramUrl}>
-              <FaInstagram className="text-white text-2xl hover:text-red-500" />
+              <FaInstagram className="text-red-600 text-2xl" />
             </a>
             <a href={onlyFansUrl}>
               <img src={onlyfansLogo} alt="OnlyFans Logo" className="w-auto h-6" />

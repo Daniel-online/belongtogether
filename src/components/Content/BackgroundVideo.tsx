@@ -82,7 +82,7 @@ const BackgroundVideo = () => {
       bg-gradient-to-r from-red-700 via-pink-600 to-red-600
       bg-clip-text text-transparent 
       animate-gradient-text">
-        Estou aqui para te proporcionar uma EXPERIÊNCIA
+          Estou aqui para te proporcionar uma EXPERIÊNCIA
         </h1>
         <p className="text-sm sm:text-xs md:text-2xl mb-6 sm:mb-8 max-w-2xl drop-shadow-lg leading-relaxed font-bold  text-white
       ">

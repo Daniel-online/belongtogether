@@ -24,7 +24,7 @@ import { IoLogoWhatsapp } from "react-icons/io";
 import SideView from "../components/Content/SideView.jsx";
 import AboutUs from "./AboutUs.jsx";
 import Team from "../components/Team/Team.tsx";
-import BackgroundVideo from "../components/Content/BackgroundVideo.tsx";
+import SideBackgroundVideo from "../components/Content/SideBackgroundVideo.jsx";
 import Scroller from "../components/Animated/Scroller.jsx";
 import WhatsappButton from "../components/Buttons/WhatsappButton.jsx";
 // import 
@@ -42,8 +42,22 @@ const Home = () => {
             <Navbar
                 data={navbarData}
             />
-            <BackgroundVideo
-            />
+<SideBackgroundVideo
+  title="Estou aqui para te proporcionar uma EXPERIÊNCIA"
+  text={
+    <>
+      Você merece o{" "}
+      <span className="italic bg-gradient-to-r  from-yellow-400 via-white to-yellow-300 bg-clip-text text-transparent">
+        MELHOR
+      </span>
+      .<br /><br />
+      Massagem profissional, cuidado real e resultados imediatos, além de serviços exclusivos para elevar seu autocuidado ao nível que você merece.
+    </>
+  }
+  actionLabel="CONHECER MAIS"
+  actionHref="#sobre"
+  sideDirection={false} // direita
+/>
             {/* Apresentacao Inicial ; Possivelmente tertei que escrever um componente novo*/}
 
             {/* Introducao do Massagista */}
