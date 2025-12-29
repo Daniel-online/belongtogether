@@ -5,7 +5,7 @@ import Hero from "./../components/Content/Hero";
 import Paragraph from "../components/Content/Paragraph";
 import profilesData from "../Data/aboutus.js";
 import { FaChevronLeft, FaChevronRight } from "react-icons/fa";
-import imgDesktop from "./../../src/assets/Sobre_mim.png";
+import imgDesktop from "./../../src/assets/sobre_nos.png";
 import imgMobile from "./../../src/assets/Sobre_mim_mobile.png";
 
 /**
