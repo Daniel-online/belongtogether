@@ -28,6 +28,7 @@ import SideBackgroundVideo from "../components/Content/SideBackgroundVideo.jsx";
 import Scroller from "../components/Animated/Scroller.jsx";
 import WhatsappButton from "../components/Buttons/WhatsappButton.jsx";
 // import 
+const neonEffect = "bold-2xl bg-gradient-to-r from-yellow-600 via-yellow-200 to-yellow-700 bg-clip-text text-transparent  animate-gradient-x [background-size:100%_300%]";
 
 const Home = () => {
     useEffect(() => {
@@ -37,7 +38,7 @@ const Home = () => {
 
         <div className="overflow-x-hidden">
             <WhatsappButton
-                style="z-50 fixed bottom-5 right-5 flex items-center justify-center bg-green-500 text-white w-20 h-20 rounded-full"
+                style="z-50 animate-bounce fixed bottom-5 right-5 flex items-center justify-center bg-green-500 text-white w-20 h-20 rounded-full"
             />
             <Navbar
                 data={navbarData}
@@ -47,7 +48,7 @@ const Home = () => {
   text={
     <>
       Você merece o{" "}
-      <span className="italic bg-gradient-to-r  from-yellow-400 via-white to-yellow-300 bg-clip-text text-transparent">
+       <span className={`italic text-bold ${neonEffect}`}>
         MELHOR
       </span>
       .<br /><br />
