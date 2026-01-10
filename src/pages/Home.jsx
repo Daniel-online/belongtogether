@@ -28,7 +28,7 @@ import SideBackgroundVideo from "../components/Content/SideBackgroundVideo.jsx";
 import Scroller from "../components/Animated/Scroller.jsx";
 import WhatsappButton from "../components/Buttons/WhatsappButton.jsx";
 // import 
-const neonEffect = "bold-2xl bg-gradient-to-r from-yellow-600 via-yellow-200 to-yellow-700 bg-clip-text text-transparent  animate-gradient-x [background-size:100%_300%]";
+const neonEffect = "font-bold text-2xl bg-gradient-to-r from-yellow-600 via-yellow-200 to-yellow-700 bg-clip-text text-transparent  animate-gradient-x [background-size:500%_500%]";
 
 const Home = () => {
     useEffect(() => {
@@ -44,7 +44,7 @@ const Home = () => {
                 data={navbarData}
             />
 <SideBackgroundVideo
-  title="Estou aqui para te proporcionar uma EXPERIÊNCIA"
+  title=""
   text={
     <>
       Você merece o{" "}
