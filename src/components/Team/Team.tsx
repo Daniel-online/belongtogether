@@ -39,12 +39,12 @@ const Team = ({ data, title, titleStyle = "", style = "", id }: TeamProps) => {
           alt="Massagem Secreta"
           style="bg-black border-red-500 border-4 text-slate-200  bg-opacity-80 hover:bg-opacity-100 w-fit mx-2"
           imageStyle="border-b-2 border-red-500 rounded-md size-32 object-cover w-full h-auto"
-          id="cards"
+          id="card7"
           buttonTitle="CONHECER MAIS"
           buttonStyle="bg-red-500  backdrop-blur-sm border border-white border-opacity-50 text-white-500 font-bold px-6 py-3 sm:px-8 sm:py-3 rounded-full text-base sm:text-lg hover:bg-white hover:text-red-500 transition-all duration-300 hover:scale-105 active:scale-95 shadow-lg"
           actionStyle="flex justify-center"
           buttonImage=""
-          buttonRef="#"
+          buttonRef="#terapia7"
         />
         <Card
           title="MASSAGEM NURU"
@@ -54,12 +54,12 @@ const Team = ({ data, title, titleStyle = "", style = "", id }: TeamProps) => {
           alt="Imagem de exemplo"
           style="bg-black border-red-500 border-4 text-slate-200  bg-opacity-80 hover:bg-opacity-100 w-fit mx-2"
           imageStyle="border-b-2 border-red-500 rounded-md size-32 object-cover w-full h-auto"
-          id="cards"
+          id="card6"
           buttonTitle="CONHECER MAIS"
           buttonStyle="bg-red-500  backdrop-blur-sm border border-white border-opacity-50 text-white-500 font-bold px-6 py-3 sm:px-8 sm:py-3 rounded-full text-base sm:text-lg hover:bg-white hover:text-red-500 transition-all duration-300 hover:scale-105 active:scale-95 shadow-lg"
           actionStyle="flex justify-center"
           buttonImage=""
-          buttonRef="#"
+          buttonRef="#terapia6"
         />
         <Card
           title="MASSAGEM TÂNTRICA"
@@ -69,12 +69,12 @@ const Team = ({ data, title, titleStyle = "", style = "", id }: TeamProps) => {
           alt="Massagem Tantrica"
           style="bg-black border-red-500 border-4 text-slate-200  bg-opacity-80 hover:bg-opacity-100 w-fit mx-2"
           imageStyle="border-b-2 border-red-500 rounded-md size-32 object-cover w-full h-auto"
-          id="cards"
+          id="card5"
           buttonTitle="CONHECER MAIS"
           buttonStyle="bg-red-500  backdrop-blur-sm border border-white border-opacity-50 text-white-500 font-bold px-6 py-3 sm:px-8 sm:py-3 rounded-full text-base sm:text-lg hover:bg-white hover:text-red-500 transition-all duration-300 hover:scale-105 active:scale-95 shadow-lg"
           actionStyle="flex justify-center"
           buttonImage=""
-          buttonRef="#"
+          buttonRef="#terapia5"
         />
         <Card
           title="MASSAGEM RELAXANTE"
@@ -84,12 +84,12 @@ const Team = ({ data, title, titleStyle = "", style = "", id }: TeamProps) => {
           alt="Massagem Relaxante"
           style="bg-black border-red-500 border-4 text-slate-200  bg-opacity-80 hover:bg-opacity-100 w-fit mx-2"
           imageStyle="border-b-2 border-red-500 rounded-md size-32 object-cover w-full h-auto"
-          id="cards"
+          id="card4"
           buttonTitle="CONHECER MAIS"
           buttonStyle="bg-red-500  backdrop-blur-sm border border-white border-opacity-50 text-white-500 font-bold px-6 py-3 sm:px-8 sm:py-3 rounded-full text-base sm:text-lg hover:bg-white hover:text-red-500 transition-all duration-300 hover:scale-105 active:scale-95 shadow-lg"
           actionStyle="flex justify-center"
           buttonImage=""
-          buttonRef="#"
+          buttonRef="#terapia4"
         />
         <Card
           title="MASSAGEM COM PEDRAS QUENTES"
@@ -99,12 +99,12 @@ const Team = ({ data, title, titleStyle = "", style = "", id }: TeamProps) => {
           alt="Massagem com Pedras Quentes"
           style="bg-black border-red-500 border-4 text-slate-200  bg-opacity-80 hover:bg-opacity-100 w-fit mx-2"
           imageStyle="border-b-2 border-red-500 rounded-md size-32 object-cover w-full h-auto"
-          id="cards"
+          id="card3"
           buttonTitle="CONHECER MAIS"
           buttonStyle="bg-red-500  backdrop-blur-sm border border-white border-opacity-50 text-white-500 font-bold px-6 py-3 sm:px-8 sm:py-3 rounded-full text-base sm:text-lg hover:bg-white hover:text-red-500 transition-all duration-300 hover:scale-105 active:scale-95 shadow-lg"
           actionStyle="flex justify-center"
           buttonImage=""
-          buttonRef="#"
+          buttonRef="#terapia3"
         />
         <Card
           title="VENTOSA TERAPIA"
@@ -114,12 +114,12 @@ const Team = ({ data, title, titleStyle = "", style = "", id }: TeamProps) => {
           alt="Ventosa Terapia"
           style="bg-black border-red-500 border-4 text-slate-200  bg-opacity-80 hover:bg-opacity-100 w-fit mx-2"
           imageStyle="border-b-2 border-red-500 rounded-md size-32 object-cover w-full h-auto"
-          id="cards"
+          id="card2"
           buttonTitle="CONHECER MAIS"
           buttonStyle="bg-red-500  backdrop-blur-sm border border-white border-opacity-50 text-white-500 font-bold px-6 py-3 sm:px-8 sm:py-3 rounded-full text-base sm:text-lg hover:bg-white hover:text-red-500 transition-all duration-300 hover:scale-105 active:scale-95 shadow-lg"
           actionStyle="flex justify-center"
           buttonImage=""
-          buttonRef="#"
+          buttonRef="#terapia2"
         />
         <Card
           title="BAMBUTERAPIA"
@@ -129,12 +129,12 @@ const Team = ({ data, title, titleStyle = "", style = "", id }: TeamProps) => {
           alt="Bambuterapia"
           style="bg-black border-red-500 border-4 text-slate-200  bg-opacity-80 hover:bg-opacity-100 w-fit mx-2"
           imageStyle="border-b-2 border-red-500 rounded-md size-32 object-cover w-full h-auto"
-          id="cards"
+          id="card1"
           buttonTitle="CONHECER MAIS"
           buttonStyle="bg-red-500  backdrop-blur-sm border border-white border-opacity-50 text-white-500 font-bold px-6 py-3 sm:px-8 sm:py-3 rounded-full text-base sm:text-lg hover:bg-white hover:text-red-500 transition-all duration-300 hover:scale-105 active:scale-95 shadow-lg"
           actionStyle="flex justify-center"
           buttonImage=""
-          buttonRef="#"
+          buttonRef="#terapia1"
         />
         <Card
           title="DEPILAÇÃO À MÁQUINA"
@@ -144,12 +144,12 @@ const Team = ({ data, title, titleStyle = "", style = "", id }: TeamProps) => {
           alt="Depilação à Máquina"
           style="bg-black border-red-500 border-4 text-slate-200  bg-opacity-80 hover:bg-opacity-100 w-fit mx-2"
           imageStyle="border-b-2 border-red-500 rounded-md size-32 object-cover w-full h-auto"
-          id="cards"
+          id="card0"
           buttonTitle="CONHECER MAIS"
           buttonStyle="bg-red-500  backdrop-blur-sm border border-white border-opacity-50 text-white-500 font-bold px-6 py-3 sm:px-8 sm:py-3 rounded-full text-base sm:text-lg hover:bg-white hover:text-red-500 transition-all duration-300 hover:scale-105 active:scale-95 shadow-lg"
           actionStyle="flex justify-center"
           buttonImage=""
-          buttonRef="#"
+          buttonRef="#terapia0"
         />
       </div>
 
