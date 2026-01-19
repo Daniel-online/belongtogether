@@ -23,7 +23,7 @@ import { useEffect } from "react";
 import { IoLogoWhatsapp } from "react-icons/io";
 import SideView from "../components/Content/SideView.jsx";
 import AboutUs from "./AboutUs.jsx";
-import Team from "../components/Team/Team.tsx";
+import Team from "../components/Team/Team.jsx";
 import SideBackgroundVideo from "../components/Content/SideBackgroundVideo.jsx";
 import Scroller from "../components/Animated/Scroller.jsx";
 import WhatsappButton from "../components/Buttons/WhatsappButton.jsx";

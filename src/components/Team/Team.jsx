@@ -1,7 +1,8 @@
 import { IoLogoWhatsapp } from "react-icons/io";
+import PropTypes from "prop-types";
 import Action from "../Buttons/Action";
 import Card from "../Content/Card";
-import buttonRef from "./../../Data/buttonRef.json";
+import buttonRef from "../../Data/buttonRef.json";
 import Bambuterapia from '@assets/bambuterapia.jpg';
 import Ventosaterapia from '@assets/ventosoterapia.jpg';
 import PedrasQuentes from '@assets/pedras-quentes.jpg';
@@ -11,15 +12,8 @@ import massagemRelaxante from '@assets/profiles/relaxante-hq.jpg';
 import massagemTantrica from '@assets/profiles/tantrica-hq.jpg';
 import Depilacao from '@assets/depilacao.jpg';
 
-interface TeamProps {
-  id: string;
-  data: Array<Record<string, any>>;
-  title: string;
-  titleStyle?: string;
-  style?: string;
-}
 
-const Team = ({ data, title, titleStyle = "", style = "", id }: TeamProps) => {
+const Team = ({ data, title, titleStyle = "", style = "", id }) => {
   console.log("Action clicked:", buttonRef);
 
   return (
@@ -173,5 +167,13 @@ const Team = ({ data, title, titleStyle = "", style = "", id }: TeamProps) => {
     </div>
   );
 };
+Team.propTypes = {
+    id: PropTypes.string,
+  data: PropTypes.array,
+  title: PropTypes.string,
+  titleStyle: PropTypes.string,
+  style: PropTypes.string,
+};
+
 
 export default Team;
