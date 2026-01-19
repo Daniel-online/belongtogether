@@ -9,8 +9,8 @@ import whatsappRef from "./../Data/whatsappRef.json";
 
 // Use proper paths - adjust based on where Home.jsx is located
 import bambuterapia from "@assets/bambuterapia.jpg";
-import ventosoterapia from "@assets/pedras-quentes.jpg";
-import pedrasQuentes from "@assets/ventosoterapia.jpg";
+import ventosoterapia from "@assets/hd/ventosoterapia.jpg";
+import pedrasQuentes from "@assets/hd/pedras-quentes.jpg";
 import depoimentos from "@assets/depoimentos/depoimentos_wide.png";
 import Depilacao from "@assets/depilacao.jpg";
 import tantrica from "@assets/profiles/tantrica-hq.jpg";
