@@ -3,12 +3,13 @@ import logo from "./../../../src/assets/BT_logo.png";
 
 const Logo = () => {
   return (
-    <div className=" relative w-[180px] md:w-[220px] lg:w-[260px] xl:w-[300px] h-full">
+    <div className="
+     relative w-[180px] md:w-[220px] lg:w-[260px] xl:w-[300px] h-full">
       <a href="/" className="block h-full">
         {/* Base Logo */}
         <img
           src={logo}
-          className=" w-full h-auto object-contain absolute inset-0 transition-opacity duration-300 max-h-full"
+          className=" w-1/2u h-auto object-contain absolute inset-0 transition-opacity duration-300 max-h-full"
           alt="Home"
         />
         
