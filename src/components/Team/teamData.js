@@ -1,7 +1,7 @@
 // teamData.js
-import Bambuterapia from '@assets/bambuterapia.jpg';
-import Ventosaterapia from '@assets/ventosoterapia.jpg';
-import PedrasQuentes from '@assets/pedras-quentes.jpg';
+import Bambuterapia from '@assets/hd/bambuterapia.jpg';
+import Ventosaterapia from '@assets/hd/ventosoterapia.jpg';
+import PedrasQuentes from '@assets/hd/pedras-quentes.jpg';
 import massagemNuru from '@assets/profiles/nuru-hq.jpg';
 import massagemSecreta from '@assets/massagemSecreta_card.jpg';
 import massagemRelaxante from '@assets/profiles/relaxante-hq.jpg';
