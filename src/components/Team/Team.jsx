@@ -13,7 +13,7 @@ import massagemTantrica from '@assets/profiles/tantrica-hq.jpg';
 import Depilacao from '@assets/depilacao.jpg';
 
 
-const Team = ({ data, title, titleStyle = "", style = "", id }) => {
+const Team = ({  title, titleStyle = "", style = "", id }) => {
   console.log("Action clicked:", buttonRef);
 
   return (
@@ -169,7 +169,6 @@ const Team = ({ data, title, titleStyle = "", style = "", id }) => {
 };
 Team.propTypes = {
     id: PropTypes.string,
-  data: PropTypes.array,
   title: PropTypes.string,
   titleStyle: PropTypes.string,
   style: PropTypes.string,
