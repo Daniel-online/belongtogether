@@ -8,9 +8,9 @@ import navbarData from "./../Data/navbarData.json"
 import whatsappRef from "./../Data/whatsappRef.json";
 
 // Use proper paths - adjust based on where Home.jsx is located
-import bambuterapia from "@assets/Bambuterapia.jpg";
-import ventosoterapia from "@assets/Ventosoterapia.jpg";
-import pedrasQuentes from "@assets/PedrasQuentes.jpg";
+import bambuterapia from "@assets/bambuterapia.jpg";
+import ventosoterapia from "@assets/pedras-quentes.jpg";
+import pedrasQuentes from "@assets/ventosoterapia.jpg";
 import depoimentos from "@assets/depoimentos/depoimentos_wide.png";
 import Depilacao from "@assets/depilacao.jpg";
 import tantrica from "@assets/profiles/tantrica-hq.jpg";
@@ -43,22 +43,22 @@ const Home = () => {
             <Navbar
                 data={navbarData}
             />
-<SideBackgroundVideo
-  title=""
-  text={
-    <>
-      Você merece o{" "}
-       <span className={`italic text-bold ${neonEffect}`}>
-        MELHOR
-      </span>
-      .<br /><br />
-      Massagem profissional, cuidado real e resultados imediatos, além de serviços exclusivos para elevar seu autocuidado ao nível que você merece.
-    </>
-  }
-  actionLabel="CONHECER MAIS"
-  actionHref="#sobre"
-  sideDirection={false} // direita
-/>
+            <SideBackgroundVideo
+                title=""
+                text={
+                    <>
+                        Você merece o{" "}
+                        <span className={`inline-block italic px-2 text-bold ${neonEffect}`}>
+                            MELHOR!
+                        </span>
+                        <br /> <br />
+                        Massagem profissional, cuidado real e resultados imediatos, além de serviços exclusivos para elevar seu autocuidado ao nível que você merece.
+                    </>
+                }
+                actionLabel="CONHECER MAIS"
+                actionHref="#sobre"
+                sideDirection={false} // direita
+            />
             {/* Apresentacao Inicial ; Possivelmente tertei que escrever um componente novo*/}
 
             {/* Introducao do Massagista */}
