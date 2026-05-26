@@ -52,7 +52,7 @@ const Navbar = ({ data }) => {
               rel="noopener noreferrer"
             >
               <FaWhatsapp className="text-green-500 text-lg" />
-              <span className="text-sm whitespace-nowrap">+55 31 9152-6244</span>
+              <span className="text-sm whitespace-nowrap">+55 31 99152-6244</span>
             </a>
           </div>
 
