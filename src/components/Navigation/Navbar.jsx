@@ -46,7 +46,7 @@ const Navbar = ({ data }) => {
           {/* Mobile WhatsApp Button - Centered */}
           <div className="md:hidden flex-1 flex justify-center absolute left-1/2 transform -translate-x-1/2">
             <a
-              href="https://wa.me/+553191526244?text=Olá! Eu tenho interesse nas suas experiências de massoterapia."
+              href="https://wa.me/+5531991526244?text=Olá! Eu tenho interesse nas suas experiências de massoterapia."
               className="font-semibold text-green-500 hover:text-red-500 transition-colors flex items-center space-x-2 bg-black bg-opacity-90 px-3 py-1 rounded-lg"
               target="_blank"
               rel="noopener noreferrer"
