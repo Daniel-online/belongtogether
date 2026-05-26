@@ -268,7 +268,7 @@ Técnica profissional que garante remoção de pelos de forma eficaz, deixando a
     hover:bg-white hover:text-red-600 hover:scale-105
     active:scale-95 transition-all duration-300 ease-in-out
   `}
-                    href="https://wa.me/5521999462860?text=Olá! Eu não encontrei todas as informações que precisava no site e gostaria de saber mais sobre os serviços oferecidos."
+                    href="https://wa.me/+5531991526244?text=Olá! Eu não encontrei todas as informações que precisava no site e gostaria de saber mais sobre os serviços oferecidos."
                 />
 
             </div>

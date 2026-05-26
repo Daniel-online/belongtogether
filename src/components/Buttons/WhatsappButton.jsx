@@ -5,7 +5,7 @@ import Button from "./Button";
 const WhatsappButton = ({style}) => {
   const openChat = () => {
     window.open(
-      "https://wa.me/+553191526244?text=Olá! Eu tenho interesse nas suas experiências de massoterapia.",
+      "https://wa.me/+5531991526244?text=Olá! Eu tenho interesse nas suas experiências de massoterapia.",
       "_blank",
       "noopener,noreferrer"
     );
